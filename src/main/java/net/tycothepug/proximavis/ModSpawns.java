@@ -1,0 +1,74 @@
+package net.tycothepug.proximavis;
+
+import com.github.alexmodguy.alexscaves.server.entity.ACEntityRegistry;
+import codyhuh.unusualfishmod.core.registry.UFEntities;
+import com.barlinc.unusual_prehistory.registry.UP2Entities;
+import net.minecraft.core.Direction;
+import net.minecraft.tags.FluidTags;
+import net.minecraft.world.entity.EntityType;
+import net.minecraft.world.entity.SpawnPlacements;
+import net.minecraft.world.level.block.state.BlockState;
+import net.minecraft.world.level.levelgen.Heightmap;
+import net.minecraftforge.event.entity.SpawnPlacementRegisterEvent;
+import net.minecraftforge.eventbus.api.SubscribeEvent;
+import net.minecraftforge.fml.common.Mod;
+
+public class ModSpawns {
+
+    @Mod.EventBusSubscriber(modid = "proximavis", bus = Mod.EventBusSubscriber.Bus.MOD)
+    public static class ModBusEvents {
+
+        @SubscribeEvent
+        public static void onSpawnPlacementRegister(SpawnPlacementRegisterEvent event) {
+            registerAquatic(event, ACEntityRegistry.LANTERNFISH.get(), Heightmap.Types.MOTION_BLOCKING_NO_LEAVES, 50, 1);
+            registerAquatic(event, ACEntityRegistry.GOSSAMER_WORM.get(), Heightmap.Types.MOTION_BLOCKING_NO_LEAVES, 50, 1);
+            registerAquatic(event, UFEntities.WIZARD_JELLY.get(), Heightmap.Types.MOTION_BLOCKING_NO_LEAVES, 50, 1);
+            registerAquatic(event, UFEntities.SNEEPSNORP.get(), Heightmap.Types.MOTION_BLOCKING_NO_LEAVES, 50, 1);
+            registerAquatic(event, ACEntityRegistry.TRIPODFISH.get(), Heightmap.Types.OCEAN_FLOOR, 50, 1);
+            registerAquatic(event, UFEntities.SEA_SPIDER.get(), Heightmap.Types.OCEAN_FLOOR, 50, 1);
+            registerAquatic(event, UFEntities.SHOCKCAT.get(), Heightmap.Types.MOTION_BLOCKING_NO_LEAVES, 50, 1);
+            registerAquatic(event, UFEntities.GNASHER.get(), Heightmap.Types.MOTION_BLOCKING_NO_LEAVES, 50, 1);
+            registerAquatic(event, UP2Entities.AEGIROCASSIS.get(), Heightmap.Types.MOTION_BLOCKING_NO_LEAVES, 50, 1);
+
+            registerAquatic(event, UFEntities.PICKLEFISH.get(), Heightmap.Types.MOTION_BLOCKING_NO_LEAVES, 50, 0);
+        }
+
+        private static void registerAquatic(SpawnPlacementRegisterEvent event, EntityType<?> type, Heightmap.Types heightmapType, int depthOffset, int rarity) {
+            event.register(
+                    type,
+                    SpawnPlacements.Type.IN_WATER,
+                    heightmapType,
+                    (entityType, level, spawnType, pos, randomSource) -> {
+                        int seaLevel = level.getLevel().dimension().location().toString().equals("tyco:glugg") ? 192 : level.getSeaLevel();
+
+                        if (pos.getY() >= (seaLevel - depthOffset)) {
+                            return false;
+                        }
+
+                        if (!level.getFluidState(pos).is(FluidTags.WATER)) {
+                            return false;
+                        }
+
+                        if (heightmapType == Heightmap.Types.OCEAN_FLOOR) {
+                            int floorY = level.getHeight(Heightmap.Types.OCEAN_FLOOR, pos.getX(), pos.getZ());
+
+                            if (pos.getY() != floorY + 1) {
+                                return false;
+                            }
+                            BlockState blockBelow = level.getBlockState(pos.below());
+                            if (!blockBelow.isFaceSturdy(level, pos.below(), Direction.UP)) {
+                                return false;
+                            }
+                        }
+
+                        if (rarity == 0) {
+                            return true;
+                        }
+
+                        return randomSource.nextInt(rarity) == 0;
+                    },
+                    SpawnPlacementRegisterEvent.Operation.REPLACE
+            );
+        }
+    }
+}
