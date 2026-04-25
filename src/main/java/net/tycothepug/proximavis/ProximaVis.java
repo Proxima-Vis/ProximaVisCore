@@ -27,8 +27,8 @@ public class ProximaVis {
         MinecraftForge.EVENT_BUS.register(this);
     }
 
-    public static final MobCategory GLUGG_AMBIENT = MobCategory.create("GLUGG_AMBIENT", "glugg_ambient", 30, true, false, 128);
-    public static final MobCategory GLUGG_CREATURE = MobCategory.create("GLUGG_CREATURE", "glugg_creature", 20, true, false, 128);
+    public static final MobCategory GLUGG_AMBIENT = MobCategory.create("GLUGG_AMBIENT", "glugg_ambient", 20, true, false, 64);
+    public static final MobCategory GLUGG_CREATURE = MobCategory.create("GLUGG_CREATURE", "glugg_creature", 10, true, false, 96);
     public static final MobCategory GLUGG_LEVIATHAN = MobCategory.create("GLUGG_LEVIATHAN", "glugg_leviathan", 5, true, false, 128);
 
     public static final Map<ResourceLocation, MobCategory> GLUGG_CATEGORY_MAP = new HashMap<>();
@@ -38,11 +38,13 @@ public class ProximaVis {
                 "copperflame", "coral_skrimp", "deep_crawler", "demon_herring", "drooping_gourami",
                 "duality_damselfish", "eyelash", "forkfish", "freshwater_mantis", "hatchet_fish",
                 "picklefish", "porcupine_lobsta", "sailor_barb", "sea_mosquito", "sea_spider",
-                "sneep_snorp", "spindlefish", "squoddle", "tribble", "triple_twirl_pleco", "wizard_jelly", "copperflame", "picklefish"), GLUGG_AMBIENT);
+                "sneep_snorp", "spindlefish", "squoddle", "tribble", "triple_twirl_pleco", "wizard_jelly"), GLUGG_AMBIENT);
         registerEntities("alexscaves", Set.of("lanternfish", "tripodfish"), GLUGG_AMBIENT);
+        registerEntities("unusual_prehistory", Set.of("jawless_fish"), GLUGG_AMBIENT);
 
-        registerEntities("unusualfishmod", Set.of("gnasher", "shockcat"), GLUGG_CREATURE);
+        registerEntities("unusualfishmod", Set.of("gnasher", "shockcat", "celestial", "jungleshark", "rhino_tetra", "roughback_guitarfish", "spoon_shark", "zebra_cornetfish", "volt_angler"), GLUGG_CREATURE);
         registerEntities("alexscaves", Set.of("gossamer_worm"), GLUGG_CREATURE);
+        registerEntities("unusual_prehistory", Set.of("lobe_finned_fish"), GLUGG_CREATURE);
 
         registerEntities("unusual_prehistory", Set.of("aegirocassis"), GLUGG_LEVIATHAN);
     }

@@ -21,16 +21,28 @@ public class ModSpawns {
         @SubscribeEvent
         public static void onSpawnPlacementRegister(SpawnPlacementRegisterEvent event) {
             registerAquatic(event, ACEntityRegistry.LANTERNFISH.get(), Heightmap.Types.MOTION_BLOCKING_NO_LEAVES, 50, 1);
-            registerAquatic(event, ACEntityRegistry.GOSSAMER_WORM.get(), Heightmap.Types.MOTION_BLOCKING_NO_LEAVES, 50, 1);
+            registerAquatic(event, ACEntityRegistry.GOSSAMER_WORM.get(), Heightmap.Types.MOTION_BLOCKING_NO_LEAVES, 50, 0);
             registerAquatic(event, UFEntities.WIZARD_JELLY.get(), Heightmap.Types.MOTION_BLOCKING_NO_LEAVES, 50, 1);
             registerAquatic(event, UFEntities.SNEEPSNORP.get(), Heightmap.Types.MOTION_BLOCKING_NO_LEAVES, 50, 1);
-            registerAquatic(event, ACEntityRegistry.TRIPODFISH.get(), Heightmap.Types.OCEAN_FLOOR, 50, 1);
+            registerAquatic(event, ACEntityRegistry.TRIPODFISH.get(), Heightmap.Types.OCEAN_FLOOR, 50, 0);
             registerAquatic(event, UFEntities.SEA_SPIDER.get(), Heightmap.Types.OCEAN_FLOOR, 50, 1);
             registerAquatic(event, UFEntities.SHOCKCAT.get(), Heightmap.Types.MOTION_BLOCKING_NO_LEAVES, 50, 1);
             registerAquatic(event, UFEntities.GNASHER.get(), Heightmap.Types.MOTION_BLOCKING_NO_LEAVES, 50, 1);
             registerAquatic(event, UP2Entities.AEGIROCASSIS.get(), Heightmap.Types.MOTION_BLOCKING_NO_LEAVES, 50, 1);
 
             registerAquatic(event, UFEntities.PICKLEFISH.get(), Heightmap.Types.MOTION_BLOCKING_NO_LEAVES, 50, 0);
+            registerAquatic(event, UFEntities.VOLT_ANGLER.get(), Heightmap.Types.MOTION_BLOCKING_NO_LEAVES, 50, 0);
+
+            registerAquatic(event, UFEntities.CIRCUS_FISH.get(), Heightmap.Types.MOTION_BLOCKING_NO_LEAVES, 50, 0);
+            registerAquatic(event, UFEntities.SPINDLEFISH.get(), Heightmap.Types.MOTION_BLOCKING_NO_LEAVES, 50, 0);
+            registerAquatic(event, UFEntities.CELESTIAL_FISH.get(), Heightmap.Types.MOTION_BLOCKING_NO_LEAVES, 50, 0);
+            registerAquatic(event, UFEntities.TIGER_JUNGLE_SHARK.get(), Heightmap.Types.MOTION_BLOCKING_NO_LEAVES, 50, 0);
+            registerAquatic(event, UFEntities.RHINO_TETRA.get(), Heightmap.Types.MOTION_BLOCKING_NO_LEAVES, 50, 0);
+            registerAquatic(event, UFEntities.ROUGHBACK.get(), Heightmap.Types.MOTION_BLOCKING_NO_LEAVES, 50, 0);
+            registerAquatic(event, UFEntities.SPOON_SHARK.get(), Heightmap.Types.MOTION_BLOCKING_NO_LEAVES, 50, 0);
+            registerAquatic(event, UFEntities.ZEBRA_CORNETFISH.get(), Heightmap.Types.MOTION_BLOCKING_NO_LEAVES, 50, 0);
+            registerAquatic(event, UP2Entities.JAWLESS_FISH.get(), Heightmap.Types.MOTION_BLOCKING_NO_LEAVES, 50, 0);
+            registerAquatic(event, UP2Entities.LOBE_FINNED_FISH.get(), Heightmap.Types.MOTION_BLOCKING_NO_LEAVES, 50, 0);
         }
 
         private static void registerAquatic(SpawnPlacementRegisterEvent event, EntityType<?> type, Heightmap.Types heightmapType, int depthOffset, int rarity) {
