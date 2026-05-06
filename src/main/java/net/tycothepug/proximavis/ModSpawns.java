@@ -20,29 +20,29 @@ public class ModSpawns {
 
         @SubscribeEvent
         public static void onSpawnPlacementRegister(SpawnPlacementRegisterEvent event) {
-            registerAquatic(event, ACEntityRegistry.LANTERNFISH.get(), Heightmap.Types.MOTION_BLOCKING_NO_LEAVES, 50, 1);
-            registerAquatic(event, ACEntityRegistry.GOSSAMER_WORM.get(), Heightmap.Types.MOTION_BLOCKING_NO_LEAVES, 50, 0);
-            registerAquatic(event, UFEntities.WIZARD_JELLY.get(), Heightmap.Types.MOTION_BLOCKING_NO_LEAVES, 50, 1);
-            registerAquatic(event, UFEntities.SNEEPSNORP.get(), Heightmap.Types.MOTION_BLOCKING_NO_LEAVES, 50, 1);
-            registerAquatic(event, ACEntityRegistry.TRIPODFISH.get(), Heightmap.Types.OCEAN_FLOOR, 50, 0);
-            registerAquatic(event, UFEntities.SEA_SPIDER.get(), Heightmap.Types.OCEAN_FLOOR, 50, 1);
-            registerAquatic(event, UFEntities.SHOCKCAT.get(), Heightmap.Types.MOTION_BLOCKING_NO_LEAVES, 50, 1);
-            registerAquatic(event, UFEntities.GNASHER.get(), Heightmap.Types.MOTION_BLOCKING_NO_LEAVES, 50, 1);
-            registerAquatic(event, UP2Entities.AEGIROCASSIS.get(), Heightmap.Types.MOTION_BLOCKING_NO_LEAVES, 50, 1);
+            registerAquatic(event, ACEntityRegistry.LANTERNFISH.get(), Heightmap.Types.MOTION_BLOCKING_NO_LEAVES, 10, 1);
+            registerAquatic(event, ACEntityRegistry.GOSSAMER_WORM.get(), Heightmap.Types.MOTION_BLOCKING_NO_LEAVES, 10, 0);
+            registerAquatic(event, UFEntities.WIZARD_JELLY.get(), Heightmap.Types.MOTION_BLOCKING_NO_LEAVES, 10, 1);
+            registerAquatic(event, UFEntities.SNEEPSNORP.get(), Heightmap.Types.MOTION_BLOCKING_NO_LEAVES, 10, 1);
+            registerAquatic(event, ACEntityRegistry.TRIPODFISH.get(), Heightmap.Types.MOTION_BLOCKING_NO_LEAVES, 5, 0);
+            registerAquatic(event, UFEntities.SEA_SPIDER.get(), Heightmap.Types.MOTION_BLOCKING_NO_LEAVES, 5, 0);
+            registerAquatic(event, UFEntities.SHOCKCAT.get(), Heightmap.Types.MOTION_BLOCKING_NO_LEAVES, 10, 1);
+            registerAquatic(event, UFEntities.GNASHER.get(), Heightmap.Types.MOTION_BLOCKING_NO_LEAVES, 10, 1);
+            registerAquatic(event, UP2Entities.AEGIROCASSIS.get(), Heightmap.Types.MOTION_BLOCKING_NO_LEAVES, 10, 1);
 
-            registerAquatic(event, UFEntities.PICKLEFISH.get(), Heightmap.Types.MOTION_BLOCKING_NO_LEAVES, 50, 0);
-            registerAquatic(event, UFEntities.VOLT_ANGLER.get(), Heightmap.Types.MOTION_BLOCKING_NO_LEAVES, 50, 0);
+            registerAquatic(event, UFEntities.PICKLEFISH.get(), Heightmap.Types.MOTION_BLOCKING_NO_LEAVES, 20, 0);
+            registerAquatic(event, UFEntities.VOLT_ANGLER.get(), Heightmap.Types.MOTION_BLOCKING_NO_LEAVES, 20, 0);
 
-            registerAquatic(event, UFEntities.CIRCUS_FISH.get(), Heightmap.Types.MOTION_BLOCKING_NO_LEAVES, 50, 0);
-            registerAquatic(event, UFEntities.SPINDLEFISH.get(), Heightmap.Types.MOTION_BLOCKING_NO_LEAVES, 50, 0);
-            registerAquatic(event, UFEntities.CELESTIAL_FISH.get(), Heightmap.Types.MOTION_BLOCKING_NO_LEAVES, 50, 0);
-            registerAquatic(event, UFEntities.TIGER_JUNGLE_SHARK.get(), Heightmap.Types.MOTION_BLOCKING_NO_LEAVES, 50, 0);
-            registerAquatic(event, UFEntities.RHINO_TETRA.get(), Heightmap.Types.MOTION_BLOCKING_NO_LEAVES, 50, 0);
-            registerAquatic(event, UFEntities.ROUGHBACK.get(), Heightmap.Types.MOTION_BLOCKING_NO_LEAVES, 50, 0);
-            registerAquatic(event, UFEntities.SPOON_SHARK.get(), Heightmap.Types.MOTION_BLOCKING_NO_LEAVES, 50, 0);
-            registerAquatic(event, UFEntities.ZEBRA_CORNETFISH.get(), Heightmap.Types.MOTION_BLOCKING_NO_LEAVES, 50, 0);
-            registerAquatic(event, UP2Entities.JAWLESS_FISH.get(), Heightmap.Types.MOTION_BLOCKING_NO_LEAVES, 50, 0);
-            registerAquatic(event, UP2Entities.LOBE_FINNED_FISH.get(), Heightmap.Types.MOTION_BLOCKING_NO_LEAVES, 50, 0);
+            registerAquatic(event, UFEntities.CIRCUS_FISH.get(), Heightmap.Types.MOTION_BLOCKING_NO_LEAVES, 10, 0);
+            registerAquatic(event, UFEntities.SPINDLEFISH.get(), Heightmap.Types.MOTION_BLOCKING_NO_LEAVES, 10, 0);
+            registerAquatic(event, UFEntities.CELESTIAL_FISH.get(), Heightmap.Types.MOTION_BLOCKING_NO_LEAVES, 10, 0);
+            registerAquatic(event, UFEntities.TIGER_JUNGLE_SHARK.get(), Heightmap.Types.MOTION_BLOCKING_NO_LEAVES, 10, 0);
+            registerAquatic(event, UFEntities.RHINO_TETRA.get(), Heightmap.Types.MOTION_BLOCKING_NO_LEAVES, 10, 0);
+            registerAquatic(event, UFEntities.ROUGHBACK.get(), Heightmap.Types.MOTION_BLOCKING_NO_LEAVES, 5, 0);
+            registerAquatic(event, UFEntities.SPOON_SHARK.get(), Heightmap.Types.MOTION_BLOCKING_NO_LEAVES, 10, 0);
+            registerAquatic(event, UFEntities.ZEBRA_CORNETFISH.get(), Heightmap.Types.MOTION_BLOCKING_NO_LEAVES, 10, 0);
+            registerAquatic(event, UP2Entities.JAWLESS_FISH.get(), Heightmap.Types.MOTION_BLOCKING_NO_LEAVES, 10, 0);
+            registerAquatic(event, UP2Entities.LOBE_FINNED_FISH.get(), Heightmap.Types.MOTION_BLOCKING_NO_LEAVES, 10, 0);
         }
 
         private static void registerAquatic(SpawnPlacementRegisterEvent event, EntityType<?> type, Heightmap.Types heightmapType, int depthOffset, int rarity) {
@@ -51,19 +51,17 @@ public class ModSpawns {
                     SpawnPlacements.Type.IN_WATER,
                     heightmapType,
                     (entityType, level, spawnType, pos, randomSource) -> {
-                        int seaLevel = level.getLevel().dimension().location().toString().equals("tyco:glugg") ? 192 : level.getSeaLevel();
-
-                        if (pos.getY() >= (seaLevel - depthOffset)) {
+                        if (rarity > 1 && randomSource.nextInt(rarity) != 0) {
                             return false;
                         }
 
-                        if (!level.getFluidState(pos).is(FluidTags.WATER)) {
+                        int floorY = level.getHeight(Heightmap.Types.OCEAN_FLOOR, pos.getX(), pos.getZ());
+
+                        if (pos.getY() > floorY + depthOffset) {
                             return false;
                         }
 
                         if (heightmapType == Heightmap.Types.OCEAN_FLOOR) {
-                            int floorY = level.getHeight(Heightmap.Types.OCEAN_FLOOR, pos.getX(), pos.getZ());
-
                             if (pos.getY() != floorY + 1) {
                                 return false;
                             }
@@ -73,11 +71,7 @@ public class ModSpawns {
                             }
                         }
 
-                        if (rarity == 0) {
-                            return true;
-                        }
-
-                        return randomSource.nextInt(rarity) == 0;
+                        return level.getFluidState(pos).is(FluidTags.WATER);
                     },
                     SpawnPlacementRegisterEvent.Operation.REPLACE
             );
