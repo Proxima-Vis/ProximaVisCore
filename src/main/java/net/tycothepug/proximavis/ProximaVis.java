@@ -3,28 +3,44 @@ package net.tycothepug.proximavis;
 import com.mojang.logging.LogUtils;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.entity.MobCategory;
+import net.minecraftforge.common.ForgeConfig;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.eventbus.api.IEventBus;
+import net.minecraftforge.fml.DistExecutor;
 import net.minecraftforge.fml.common.Mod;
+import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
+import net.tycothepug.proximavis.client.ClientProxy;
+import net.tycothepug.proximavis.server.CommonProxy;
+import net.tycothepug.proximavis.server.block.PVBlockRegistry;
+import net.tycothepug.proximavis.server.block.fluid.PVFluidRegistry;
+import net.tycothepug.proximavis.server.item.PVItemRegistry;
 import org.slf4j.Logger;
 
 import java.util.HashMap;
 import java.util.Map;
 import java.util.Set;
 
-// The value here should match an entry in the META-INF/mods.toml file
 @Mod(ProximaVis.MOD_ID)
 public class ProximaVis {
-    // Define mod id in a common place for everything to reference
     public static final String MOD_ID = "proximavis";
-    // Directly reference a slf4j logger
     private static final Logger LOGGER = LogUtils.getLogger();
+    public static CommonProxy PROXY = DistExecutor.runForDist(() -> ClientProxy::new, () -> CommonProxy::new);
 
-    public ProximaVis(FMLJavaModLoadingContext context) {
-        IEventBus modEventBus = context.getModEventBus();
+    public ProximaVis() {
+        IEventBus bus = FMLJavaModLoadingContext.get().getModEventBus();
+        bus.addListener(this::clientSetup);
+        bus.register(this);
 
-        MinecraftForge.EVENT_BUS.register(this);
+        PVBlockRegistry.BLOCKS.register(bus);
+        PVItemRegistry.ITEMS.register(bus);
+        PVFluidRegistry.FLUID_DEF_REG.register(bus);
+        PVFluidRegistry.FLUID_TYPE_DEF_REG.register(bus);
+        PROXY.commonInit();
+    }
+
+    private void clientSetup(final FMLClientSetupEvent event) {
+        event.enqueueWork(() -> PROXY.clientInit());
     }
 
     public static final MobCategory GLUGG_AMBIENT = MobCategory.create("GLUGG_AMBIENT", "glugg_ambient", 20, true, false, 64);
@@ -48,6 +64,7 @@ public class ProximaVis {
 
         registerEntities("unusual_prehistory", Set.of("aegirocassis"), GLUGG_LEVIATHAN);
     }
+
 
     private static void registerEntities(String modid, Set<String> names, MobCategory category) {
         for (String name : names) {
