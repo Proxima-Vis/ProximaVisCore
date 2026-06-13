@@ -15,6 +15,7 @@ import net.tycothepug.proximavis.server.CommonProxy;
 import net.tycothepug.proximavis.server.block.PVBlockRegistry;
 import net.tycothepug.proximavis.server.block.fluid.PVFluidRegistry;
 import net.tycothepug.proximavis.server.item.PVItemRegistry;
+import net.tycothepug.proximavis.server.level.feature.PVFeatureRegistry;
 import org.slf4j.Logger;
 
 import java.util.HashMap;
@@ -36,6 +37,7 @@ public class ProximaVis {
         PVItemRegistry.ITEMS.register(bus);
         PVFluidRegistry.FLUID_DEF_REG.register(bus);
         PVFluidRegistry.FLUID_TYPE_DEF_REG.register(bus);
+        PVFeatureRegistry.DEF_REG.register(bus);
         PROXY.commonInit();
     }
 
