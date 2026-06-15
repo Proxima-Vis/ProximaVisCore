@@ -28,6 +28,7 @@ public class Guangdedendron extends Feature<GuangdedendronConfiguration> {
         WorldGenLevel level = context.level();
         RandomSource random = context.random();
         GuangdedendronConfiguration config = context.config();
+        int height = config.height.sample(random);
         BambooLeaves leaves = BambooLeaves.NONE;
 
         BlockState guangdedendronNone = UP2Blocks.GUANGDEDENDRON.get().defaultBlockState().setValue(LEAVES, BambooLeaves.NONE);
@@ -36,7 +37,7 @@ public class Guangdedendron extends Feature<GuangdedendronConfiguration> {
 
         boolean placed = false;
 
-        for (int y = 0; y <= config.height; y++) {
+        for (int y = 0; y <= height; y++) {
             BlockPos targetPos = pos.offset(0, y, 0);
 
             if (level.getBlockState(targetPos).canBeReplaced()) {
@@ -44,7 +45,7 @@ public class Guangdedendron extends Feature<GuangdedendronConfiguration> {
                 placed = true;
             }
         }
-        BlockPos targetPos = pos.offset(0, config.height, 0);
+        BlockPos targetPos = pos.offset(0, height, 0);
         if (level.getBlockState(targetPos).is(UP2Blocks.GUANGDEDENDRON.get())) {
             level.setBlock(targetPos, guangdedendronLarge, 3);
             if (level.getBlockState(targetPos.below(2)).is(UP2Blocks.GUANGDEDENDRON.get())) {
