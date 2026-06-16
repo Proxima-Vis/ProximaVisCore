@@ -1,0 +1,71 @@
+{
+  "type": "minecraft:flower",
+  "config": {
+    "feature": {
+      "feature": {
+        "type": "minecraft:simple_block",
+        "config": {
+          "to_place": {
+            "type": "minecraft:weighted_state_provider",
+            "entries": [
+              {
+                "data": {
+                  "Name": "fossil:sarracenia"
+                },
+                "weight": 1
+              },
+              {
+                "data": {
+                  "Name": "unusual_prehistory:cooksonia"
+                },
+                "weight": 3
+              },
+              {
+                "weight": 2,
+                "data": {
+                  "Name": "fossil:welwitschia"
+                }
+              },
+              {
+                "weight": 1,
+                "data": {
+                  "Name": "unusual_prehistory:aethophyllum"
+                }
+              },
+              {
+                "weight": 2,
+                "data": {
+                  "Name": "unusual_prehistory:delitzschala_stalk"
+                }
+              }
+            ]
+          }
+        }
+      },
+      "placement": [
+        {
+          "type": "minecraft:block_predicate_filter",
+          "predicate": {
+            "type": "minecraft:matching_blocks",
+            "blocks": "minecraft:air"
+          }
+        },
+        {
+          "type": "minecraft:block_predicate_filter",
+          "predicate": {
+            "type": "minecraft:matching_blocks",
+            "offset": [
+              0,
+              -1,
+              0
+            ],
+            "blocks": "unusual_prehistory:mossy_dirt"
+          }
+        }
+      ]
+    },
+    "tries": 64,
+    "xz_spread": 7,
+    "y_spread": 3
+  }
+}

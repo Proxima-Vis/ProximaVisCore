@@ -1,0 +1,112 @@
+{
+  "carvers": {
+    "air": []
+  },
+  "downfall": 0.5,
+  "effects": {
+    "ambient_sound": "alexscaves:abyssal_chasm_ambience",
+    "additions_sound": {
+      "sound": "alexscaves:abyssal_chasm_ambience_additions",
+      "tick_chance": 0.01
+    },
+    "mood_sound": {
+      "block_search_extent": 8,
+      "offset": 2.0,
+      "sound": "alexscaves:abyssal_chasm_ambience_mood",
+      "tick_delay": 6000
+    },
+    "fog_color": 12638463,
+    "sky_color": 8103167,
+    "water_color": 74615,
+    "water_fog_color": 203847
+  },
+  "features": [
+    [],
+    [],
+    [
+      "proximavis:glugg/tuff_rock"
+    ],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [
+      "proximavis:glugg/muck_lake",
+      "proximavis:glugg/mussel",
+      "proximavis:glugg/deep_coral_tube",
+      "proximavis:glugg/midnight_anemone"
+    ],
+    [
+      "minecraft:freeze_top_layer"
+    ]
+  ],
+  "has_precipitation": true,
+  "spawn_costs": {},
+  "spawners": {
+    "ambient": [],
+    "axolotls": [],
+    "creature": [],
+    "misc": [],
+    "monster": [],
+    "underground_water_creature": [],
+    "water_ambient": [],
+    "water_creature": [],
+    "glugg_ambient": [
+      {
+        "type": "unusualfishmod:sea_spider",
+        "weight": 20,
+        "minCount": 1,
+        "maxCount": 3
+      },
+      {
+        "type": "unusualfishmod:sneep_snorp",
+        "weight": 10,
+        "minCount": 2,
+        "maxCount": 4
+      },
+      {
+        "type": "unusualfishmod:wizard_jelly",
+        "weight": 30,
+        "minCount": 5,
+        "maxCount": 10
+      },
+      {
+        "type": "alexscaves:lanternfish",
+        "weight": 40,
+        "minCount": 10,
+        "maxCount": 15
+      },
+      {
+        "type": "alexscaves:tripodfish",
+        "weight": 20,
+        "minCount": 2,
+        "maxCount": 3
+      }
+    ],
+    "glugg_creature": [
+      {
+        "type": "unusualfishmod:gnasher",
+        "weight": 10,
+        "minCount": 1,
+        "maxCount": 1
+      },
+      {
+        "type": "unusualfishmod:shockcat",
+        "weight": 30,
+        "minCount": 2,
+        "maxCount": 3
+      },
+      {
+        "type": "alexscaves:gossamer_worm",
+        "weight": 60,
+        "minCount": 1,
+        "maxCount": 1
+      }
+    ],
+    "glugg_leviathan": [
+    ]
+  },
+  "temperature": 0.5
+}

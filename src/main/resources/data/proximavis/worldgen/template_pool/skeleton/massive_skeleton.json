@@ -1,0 +1,15 @@
+{
+  "name": "proximavis:skeleton/massive_skeleton",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "proximavis:skeleton/massive_front",
+        "processors": "minecraft:fossil_rot"
+      }
+    }
+  ]
+}

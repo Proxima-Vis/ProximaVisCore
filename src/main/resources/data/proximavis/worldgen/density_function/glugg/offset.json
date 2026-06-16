@@ -1,0 +1,849 @@
+{
+  "type": "minecraft:flat_cache",
+  "argument": {
+    "type": "minecraft:cache_2d",
+    "argument": {
+      "type": "minecraft:add",
+      "argument1": -0.5037500262260437,
+      "argument2": {
+        "type": "minecraft:spline",
+        "spline": {
+          "coordinate": "proximavis:glugg/continents",
+          "points": [
+            {
+              "derivative": 0,
+              "location": -1,
+              "value": -1.2
+            },
+            {
+              "location": 0.8,
+              "derivative": 0,
+              "value": -0.8
+            },
+            {
+              "location": 0.9,
+              "derivative": 0,
+              "value": {
+                "coordinate": "proximavis:glugg/erosion",
+                "points": [
+                  {
+                    "location": -2,
+                    "derivative": 0,
+                    "value": {
+                      "coordinate": "proximavis:glugg/detail",
+                      "points": [
+                        {
+                          "location": -1,
+                          "derivative": 0,
+                          "value": -0.6
+                        },
+                        {
+                          "location": 1,
+                          "derivative": 0,
+                          "value": -0.4
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "location": -1.9,
+                    "derivative": 0,
+                    "value": -0.2
+                  },
+                  {
+                    "location": -0.3,
+                    "derivative": 0,
+                    "value": {
+                      "coordinate": "proximavis:glugg/ridges",
+                      "points": [
+                        {
+                          "location": -0.3,
+                          "derivative": 0,
+                          "value": {
+                            "coordinate": "proximavis:glugg/dune",
+                            "points": [
+                              {
+                                "location": -1,
+                                "derivative": 0,
+                                "value": {
+                                  "coordinate": "proximavis:glugg/detail",
+                                  "points": [
+                                    {
+                                      "location": -1,
+                                      "derivative": 0,
+                                      "value": -0.3
+                                    },
+                                    {
+                                      "location": 1,
+                                      "derivative": 0,
+                                      "value": 0
+                                    }
+                                  ]
+                                }
+                              },
+                              {
+                                "location": 1,
+                                "derivative": 0,
+                                "value": {
+                                  "coordinate": "proximavis:glugg/detail",
+                                  "points": [
+                                    {
+                                      "location": -1,
+                                      "derivative": 0,
+                                      "value": 0
+                                    },
+                                    {
+                                      "location": 1,
+                                      "derivative": 0,
+                                      "value": 0.1
+                                    }
+                                  ]
+                                }
+                              }
+                            ]
+                          }
+                        },
+                        {
+                          "location": -0.2,
+                          "derivative": 0,
+                          "value": {
+                            "coordinate": "proximavis:glugg/dune",
+                            "points": [
+                              {
+                                "location": -1,
+                                "derivative": 0,
+                                "value": {
+                                  "coordinate": "proximavis:glugg/detail",
+                                  "points": [
+                                    {
+                                      "location": -1,
+                                      "derivative": 0,
+                                      "value": -0.3
+                                    },
+                                    {
+                                      "location": 1,
+                                      "derivative": 0,
+                                      "value": 0
+                                    }
+                                  ]
+                                }
+                              },
+                              {
+                                "location": 1,
+                                "derivative": 0,
+                                "value": {
+                                  "coordinate": "proximavis:glugg/detail",
+                                  "points": [
+                                    {
+                                      "location": -1,
+                                      "derivative": 0,
+                                      "value": 0
+                                    },
+                                    {
+                                      "location": 1,
+                                      "derivative": 0,
+                                      "value": 0.1
+                                    }
+                                  ]
+                                }
+                              }
+                            ]
+                          }
+                        },
+                        {
+                          "location": 0.2,
+                          "derivative": 0,
+                          "value": {
+                            "coordinate": "proximavis:glugg/dune",
+                            "points": [
+                              {
+                                "location": -1,
+                                "derivative": 0,
+                                "value": {
+                                  "coordinate": "proximavis:glugg/detail",
+                                  "points": [
+                                    {
+                                      "location": -1,
+                                      "derivative": 0,
+                                      "value": -0.3
+                                    },
+                                    {
+                                      "location": 1,
+                                      "derivative": 0,
+                                      "value": 0
+                                    }
+                                  ]
+                                }
+                              },
+                              {
+                                "location": 1,
+                                "derivative": 0,
+                                "value": {
+                                  "coordinate": "proximavis:glugg/detail",
+                                  "points": [
+                                    {
+                                      "location": -1,
+                                      "derivative": 0,
+                                      "value": 0
+                                    },
+                                    {
+                                      "location": 1,
+                                      "derivative": 0,
+                                      "value": 0.1
+                                    }
+                                  ]
+                                }
+                              }
+                            ]
+                          }
+                        },
+                        {
+                          "location": 0.3,
+                          "derivative": 0,
+                          "value": {
+                            "coordinate": "proximavis:glugg/dune",
+                            "points": [
+                              {
+                                "location": -1,
+                                "derivative": 0,
+                                "value": {
+                                  "coordinate": "proximavis:glugg/detail",
+                                  "points": [
+                                    {
+                                      "location": -1,
+                                      "derivative": 0,
+                                      "value": -0.3
+                                    },
+                                    {
+                                      "location": 1,
+                                      "derivative": 0,
+                                      "value": -0.1
+                                    }
+                                  ]
+                                }
+                              },
+                              {
+                                "location": 1,
+                                "derivative": 0,
+                                "value": {
+                                  "coordinate": "proximavis:glugg/detail",
+                                  "points": [
+                                    {
+                                      "location": -1,
+                                      "derivative": 0,
+                                      "value": 0.1
+                                    },
+                                    {
+                                      "location": 1,
+                                      "derivative": 0,
+                                      "value": 0.3
+                                    }
+                                  ]
+                                }
+                              }
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "location": -0.2,
+                    "derivative": 0,
+                    "value": {
+                      "coordinate": "proximavis:glugg/ridges",
+                      "points": [
+                        {
+                          "location": -0.3,
+                          "derivative": 0,
+                          "value": {
+                            "coordinate": "proximavis:glugg/dune",
+                            "points": [
+                              {
+                                "location": -1,
+                                "derivative": 0,
+                                "value": {
+                                  "coordinate": "proximavis:glugg/detail",
+                                  "points": [
+                                    {
+                                      "location": -1,
+                                      "derivative": 0,
+                                      "value": 0.1
+                                    },
+                                    {
+                                      "location": 1,
+                                      "derivative": 0,
+                                      "value": 0.4
+                                    }
+                                  ]
+                                }
+                              },
+                              {
+                                "location": 1,
+                                "derivative": 0,
+                                "value": {
+                                  "coordinate": "proximavis:glugg/detail",
+                                  "points": [
+                                    {
+                                      "location": -1,
+                                      "derivative": 0,
+                                      "value": 0.4
+                                    },
+                                    {
+                                      "location": 1,
+                                      "derivative": 0,
+                                      "value": 0.5
+                                    }
+                                  ]
+                                }
+                              }
+                            ]
+                          }
+                        },
+                        {
+                          "location": -0.2,
+                          "derivative": 0,
+                          "value": {
+                            "coordinate": "proximavis:glugg/dune",
+                            "points": [
+                              {
+                                "location": -1,
+                                "derivative": 0,
+                                "value": {
+                                  "coordinate": "proximavis:glugg/detail",
+                                  "points": [
+                                    {
+                                      "location": -1,
+                                      "derivative": 0,
+                                      "value": 0.1
+                                    },
+                                    {
+                                      "location": 1,
+                                      "derivative": 0,
+                                      "value": 0.4
+                                    }
+                                  ]
+                                }
+                              },
+                              {
+                                "location": 1,
+                                "derivative": 0,
+                                "value": {
+                                  "coordinate": "proximavis:glugg/detail",
+                                  "points": [
+                                    {
+                                      "location": -1,
+                                      "derivative": 0,
+                                      "value": 0.4
+                                    },
+                                    {
+                                      "location": 1,
+                                      "derivative": 0,
+                                      "value": 0.5
+                                    }
+                                  ]
+                                }
+                              }
+                            ]
+                          }
+                        },
+                        {
+                          "location": 0.2,
+                          "derivative": 0,
+                          "value": {
+                            "coordinate": "proximavis:glugg/dune",
+                            "points": [
+                              {
+                                "location": -1,
+                                "derivative": 0,
+                                "value": {
+                                  "coordinate": "proximavis:glugg/detail",
+                                  "points": [
+                                    {
+                                      "location": -1,
+                                      "derivative": 0,
+                                      "value": 0.1
+                                    },
+                                    {
+                                      "location": 1,
+                                      "derivative": 0,
+                                      "value": 0.4
+                                    }
+                                  ]
+                                }
+                              },
+                              {
+                                "location": 1,
+                                "derivative": 0,
+                                "value": {
+                                  "coordinate": "proximavis:glugg/detail",
+                                  "points": [
+                                    {
+                                      "location": -1,
+                                      "derivative": 0,
+                                      "value": 0.4
+                                    },
+                                    {
+                                      "location": 1,
+                                      "derivative": 0,
+                                      "value": 0.5
+                                    }
+                                  ]
+                                }
+                              }
+                            ]
+                          }
+                        },
+                        {
+                          "location": 0.3,
+                          "derivative": 0,
+                          "value": {
+                            "coordinate": "proximavis:glugg/dune",
+                            "points": [
+                              {
+                                "location": -1,
+                                "derivative": 0,
+                                "value": {
+                                  "coordinate": "proximavis:glugg/detail",
+                                  "points": [
+                                    {
+                                      "location": -1,
+                                      "derivative": 0,
+                                      "value": 0.1
+                                    },
+                                    {
+                                      "location": 1,
+                                      "derivative": 0,
+                                      "value": 0.3
+                                    }
+                                  ]
+                                }
+                              },
+                              {
+                                "location": 1,
+                                "derivative": 0,
+                                "value": {
+                                  "coordinate": "proximavis:glugg/detail",
+                                  "points": [
+                                    {
+                                      "location": -1,
+                                      "derivative": 0,
+                                      "value": 0.5
+                                    },
+                                    {
+                                      "location": 1,
+                                      "derivative": 0,
+                                      "value": 0.7
+                                    }
+                                  ]
+                                }
+                              }
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "location": 0.2,
+                    "derivative": 0,
+                    "value": {
+                      "coordinate": "proximavis:glugg/ridges",
+                      "points": [
+                        {
+                          "location": -0.3,
+                          "derivative": 0,
+                          "value": {
+                            "coordinate": "proximavis:glugg/dune",
+                            "points": [
+                              {
+                                "location": -1,
+                                "derivative": 0,
+                                "value": {
+                                  "coordinate": "proximavis:glugg/detail",
+                                  "points": [
+                                    {
+                                      "location": -1,
+                                      "derivative": 0,
+                                      "value": 0.1
+                                    },
+                                    {
+                                      "location": 1,
+                                      "derivative": 0,
+                                      "value": 0.4
+                                    }
+                                  ]
+                                }
+                              },
+                              {
+                                "location": 1,
+                                "derivative": 0,
+                                "value": {
+                                  "coordinate": "proximavis:glugg/detail",
+                                  "points": [
+                                    {
+                                      "location": -1,
+                                      "derivative": 0,
+                                      "value": 0.4
+                                    },
+                                    {
+                                      "location": 1,
+                                      "derivative": 0,
+                                      "value": 0.5
+                                    }
+                                  ]
+                                }
+                              }
+                            ]
+                          }
+                        },
+                        {
+                          "location": -0.2,
+                          "derivative": 0,
+                          "value": {
+                            "coordinate": "proximavis:glugg/dune",
+                            "points": [
+                              {
+                                "location": -1,
+                                "derivative": 0,
+                                "value": {
+                                  "coordinate": "proximavis:glugg/detail",
+                                  "points": [
+                                    {
+                                      "location": -1,
+                                      "derivative": 0,
+                                      "value": 0.1
+                                    },
+                                    {
+                                      "location": 1,
+                                      "derivative": 0,
+                                      "value": 0.4
+                                    }
+                                  ]
+                                }
+                              },
+                              {
+                                "location": 1,
+                                "derivative": 0,
+                                "value": {
+                                  "coordinate": "proximavis:glugg/detail",
+                                  "points": [
+                                    {
+                                      "location": -1,
+                                      "derivative": 0,
+                                      "value": 0.4
+                                    },
+                                    {
+                                      "location": 1,
+                                      "derivative": 0,
+                                      "value": 0.5
+                                    }
+                                  ]
+                                }
+                              }
+                            ]
+                          }
+                        },
+                        {
+                          "location": 0.2,
+                          "derivative": 0,
+                          "value": {
+                            "coordinate": "proximavis:glugg/dune",
+                            "points": [
+                              {
+                                "location": -1,
+                                "derivative": 0,
+                                "value": {
+                                  "coordinate": "proximavis:glugg/detail",
+                                  "points": [
+                                    {
+                                      "location": -1,
+                                      "derivative": 0,
+                                      "value": 0.1
+                                    },
+                                    {
+                                      "location": 1,
+                                      "derivative": 0,
+                                      "value": 0.4
+                                    }
+                                  ]
+                                }
+                              },
+                              {
+                                "location": 1,
+                                "derivative": 0,
+                                "value": {
+                                  "coordinate": "proximavis:glugg/detail",
+                                  "points": [
+                                    {
+                                      "location": -1,
+                                      "derivative": 0,
+                                      "value": 0.4
+                                    },
+                                    {
+                                      "location": 1,
+                                      "derivative": 0,
+                                      "value": 0.5
+                                    }
+                                  ]
+                                }
+                              }
+                            ]
+                          }
+                        },
+                        {
+                          "location": 0.3,
+                          "derivative": 0,
+                          "value": {
+                            "coordinate": "proximavis:glugg/dune",
+                            "points": [
+                              {
+                                "location": -1,
+                                "derivative": 0,
+                                "value": {
+                                  "coordinate": "proximavis:glugg/detail",
+                                  "points": [
+                                    {
+                                      "location": -1,
+                                      "derivative": 0,
+                                      "value": 0.1
+                                    },
+                                    {
+                                      "location": 1,
+                                      "derivative": 0,
+                                      "value": 0.3
+                                    }
+                                  ]
+                                }
+                              },
+                              {
+                                "location": 1,
+                                "derivative": 0,
+                                "value": {
+                                  "coordinate": "proximavis:glugg/detail",
+                                  "points": [
+                                    {
+                                      "location": -1,
+                                      "derivative": 0,
+                                      "value": 0.5
+                                    },
+                                    {
+                                      "location": 1,
+                                      "derivative": 0,
+                                      "value": 0.7
+                                    }
+                                  ]
+                                }
+                              }
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "location": 0.3,
+                    "derivative": 0,
+                    "value": {
+                      "coordinate": "proximavis:glugg/ridges",
+                      "points": [
+                        {
+                          "location": -0.3,
+                          "derivative": 0,
+                          "value": {
+                            "coordinate": "proximavis:glugg/dune",
+                            "points": [
+                              {
+                                "location": -1,
+                                "derivative": 0,
+                                "value": {
+                                  "coordinate": "proximavis:glugg/detail",
+                                  "points": [
+                                    {
+                                      "location": -1,
+                                      "derivative": 0,
+                                      "value": 0.5
+                                    },
+                                    {
+                                      "location": 1,
+                                      "derivative": 0,
+                                      "value": 0.8
+                                    }
+                                  ]
+                                }
+                              },
+                              {
+                                "location": 1,
+                                "derivative": 0,
+                                "value": {
+                                  "coordinate": "proximavis:glugg/detail",
+                                  "points": [
+                                    {
+                                      "location": -1,
+                                      "derivative": 0,
+                                      "value": 0.8
+                                    },
+                                    {
+                                      "location": 1,
+                                      "derivative": 0,
+                                      "value": 0.9
+                                    }
+                                  ]
+                                }
+                              }
+                            ]
+                          }
+                        },
+                        {
+                          "location": -0.2,
+                          "derivative": 0,
+                          "value": {
+                            "coordinate": "proximavis:glugg/dune",
+                            "points": [
+                              {
+                                "location": -1,
+                                "derivative": 0,
+                                "value": {
+                                  "coordinate": "proximavis:glugg/detail",
+                                  "points": [
+                                    {
+                                      "location": -1,
+                                      "derivative": 0,
+                                      "value": 0.5
+                                    },
+                                    {
+                                      "location": 1,
+                                      "derivative": 0,
+                                      "value": 0.8
+                                    }
+                                  ]
+                                }
+                              },
+                              {
+                                "location": 1,
+                                "derivative": 0,
+                                "value": {
+                                  "coordinate": "proximavis:glugg/detail",
+                                  "points": [
+                                    {
+                                      "location": -1,
+                                      "derivative": 0,
+                                      "value": 0.8
+                                    },
+                                    {
+                                      "location": 1,
+                                      "derivative": 0,
+                                      "value": 0.9
+                                    }
+                                  ]
+                                }
+                              }
+                            ]
+                          }
+                        },
+                        {
+                          "location": 0.2,
+                          "derivative": 0,
+                          "value": {
+                            "coordinate": "proximavis:glugg/dune",
+                            "points": [
+                              {
+                                "location": -1,
+                                "derivative": 0,
+                                "value": {
+                                  "coordinate": "proximavis:glugg/detail",
+                                  "points": [
+                                    {
+                                      "location": -1,
+                                      "derivative": 0,
+                                      "value": 0.5
+                                    },
+                                    {
+                                      "location": 1,
+                                      "derivative": 0,
+                                      "value": 0.8
+                                    }
+                                  ]
+                                }
+                              },
+                              {
+                                "location": 1,
+                                "derivative": 0,
+                                "value": {
+                                  "coordinate": "proximavis:glugg/detail",
+                                  "points": [
+                                    {
+                                      "location": -1,
+                                      "derivative": 0,
+                                      "value": 0.8
+                                    },
+                                    {
+                                      "location": 1,
+                                      "derivative": 0,
+                                      "value": 0.9
+                                    }
+                                  ]
+                                }
+                              }
+                            ]
+                          }
+                        },
+                        {
+                          "location": 0.3,
+                          "derivative": 0,
+                          "value": {
+                            "coordinate": "proximavis:glugg/dune",
+                            "points": [
+                              {
+                                "location": -1,
+                                "derivative": 0,
+                                "value": {
+                                  "coordinate": "proximavis:glugg/detail",
+                                  "points": [
+                                    {
+                                      "location": -1,
+                                      "derivative": 0,
+                                      "value": 0.5
+                                    },
+                                    {
+                                      "location": 1,
+                                      "derivative": 0,
+                                      "value": 0.7
+                                    }
+                                  ]
+                                }
+                              },
+                              {
+                                "location": 1,
+                                "derivative": 0,
+                                "value": {
+                                  "coordinate": "proximavis:glugg/detail",
+                                  "points": [
+                                    {
+                                      "location": -1,
+                                      "derivative": 0,
+                                      "value": 0.9
+                                    },
+                                    {
+                                      "location": 1,
+                                      "derivative": 0,
+                                      "value": 1.1
+                                    }
+                                  ]
+                                }
+                              }
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      }
+    }
+  }
+}

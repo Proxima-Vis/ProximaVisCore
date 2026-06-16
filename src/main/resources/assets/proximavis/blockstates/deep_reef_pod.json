@@ -1,0 +1,18 @@
+{
+  "variants": {
+    "": [
+      {
+        "model": "proximavis:block/deep_reef_pod_1"
+      },
+      {
+        "model": "proximavis:block/deep_reef_pod_2"
+      },
+      {
+        "model": "proximavis:block/deep_reef_pod_3"
+      },
+      {
+        "model": "proximavis:block/deep_reef_pod_4"
+      }
+    ]
+  }
+}

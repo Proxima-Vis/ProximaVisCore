@@ -1,0 +1,11 @@
+{
+  "type": "proximavis:enger",
+  "generator": {
+    "type": "minecraft:noise",
+    "settings": "proximavis:orbit",
+    "biome_source": {
+      "type": "minecraft:fixed",
+      "biome": "minecraft:the_void"
+    }
+  }
+}

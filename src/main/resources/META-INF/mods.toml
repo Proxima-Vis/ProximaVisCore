@@ -69,28 +69,28 @@ description='''${mod_description}'''
 [[dependencies.${mod_id}]]
     modId="alexscaves"
     mandatory=true
-    versionRange="[1.0.0,)"
-    ordering="AFTER"
-    side="BOTH"
-
-[[dependencies.${mod_id}]]
-    modId="alexsmobs"
-    mandatory=true
-    versionRange="[1.0.0,)"
+    versionRange="[2.0.2,)"
     ordering="AFTER"
     side="BOTH"
 
 [[dependencies.${mod_id}]]
 modId="unusualfishmod"
 mandatory=true
-versionRange="[1.0.0,)"
+versionRange="[1.1.10,)"
 ordering="AFTER"
 side="BOTH"
 
 [[dependencies.${mod_id}]]
 modId="unusual_prehistory"
 mandatory=true
-versionRange="[1.0.0,)"
+versionRange="[1.4.3,)"
+ordering="AFTER"
+side="BOTH"
+
+[[dependencies.${mod_id}]]
+modId="genesis"
+mandatory=true
+versionRange="[0.7.3,)"
 ordering="AFTER"
 side="BOTH"
 
