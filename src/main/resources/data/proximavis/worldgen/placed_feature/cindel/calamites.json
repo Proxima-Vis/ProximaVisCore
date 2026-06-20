@@ -1,21 +1,9 @@
 {
-  "feature": "proximavis:cindel/guangdedendron", 
+  "feature": "fossil:calamites_tree",
   "placement": [
     {
       "type": "minecraft:count",
-      "count": {
-        "type": "minecraft:weighted_list",
-        "distribution": [
-          {
-            "data": 1,
-            "weight": 3
-          },
-          {
-            "data": 3,
-            "weight": 1
-          }
-        ]
-      }
+      "count": 1
     },
     {
       "type": "minecraft:in_square"
@@ -29,6 +17,9 @@
       "heightmap": "OCEAN_FLOOR"
     },
     {
+      "type": "minecraft:biome"
+    },
+    {
       "type": "minecraft:block_predicate_filter",
       "predicate": {
         "type": "minecraft:would_survive",
@@ -36,9 +27,6 @@
           "Name": "minecraft:oak_sapling"
         }
       }
-    },
-    {
-      "type": "minecraft:biome"
     }
   ]
 }

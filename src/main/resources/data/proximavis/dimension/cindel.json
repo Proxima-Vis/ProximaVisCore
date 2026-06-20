@@ -9,7 +9,10 @@
         {
           "biome": "proximavis:cindel/volcanic_crater",
           "parameters": {
-            "temperature": 0,
+            "temperature": [
+              -1,
+              1
+            ],
             "humidity": [
               -1,
               1
@@ -18,8 +21,14 @@
               1.9,
               2
             ],
-            "erosion": 0,
-            "weirdness": 0,
+            "erosion": [
+              -1,
+              1
+            ],
+            "weirdness": [
+              -1,
+              1
+            ],
             "depth": 0,
             "offset": 0
           }
@@ -27,7 +36,10 @@
         {
           "biome": "proximavis:cindel/volcanic_rim",
           "parameters": {
-            "temperature": 0,
+            "temperature": [
+              -1,
+              1
+            ],
             "humidity": [
               -1,
               1
@@ -36,8 +48,14 @@
               0.9,
               1.9
             ],
-            "erosion": 0,
-            "weirdness": 0,
+            "erosion": [
+              -1,
+              1
+            ],
+            "weirdness": [
+              -1,
+              1
+            ],
             "depth": 0,
             "offset": 0
           }
@@ -45,7 +63,10 @@
         {
           "biome": "proximavis:cindel/volcanic_wastes",
           "parameters": {
-            "temperature": 0,
+            "temperature": [
+              -1,
+              1
+            ],
             "humidity": [
               -1,
               1
@@ -54,8 +75,14 @@
               0.7,
               0.9
             ],
-            "erosion": 0,
-            "weirdness": 0,
+            "erosion": [
+              -1,
+              1
+            ],
+            "weirdness": [
+              -1,
+              1
+            ],
             "depth": 0,
             "offset": 0
           }
@@ -63,17 +90,26 @@
         {
           "biome": "proximavis:cindel/volcanic_wastes",
           "parameters": {
-            "temperature": 0,
+            "temperature": [
+              -1,
+              1
+            ],
             "humidity": [
               -1,
-              -0.2
+              -0.25
             ],
             "continentalness": [
               0.5,
               0.7
             ],
-            "erosion": 0,
-            "weirdness": 0,
+            "erosion": [
+              -1,
+              1
+            ],
+            "weirdness": [
+              -1,
+              1
+            ],
             "depth": 0,
             "offset": 0
           }
@@ -81,17 +117,26 @@
         {
           "biome": "proximavis:cindel/volcanic_valley",
           "parameters": {
-            "temperature": 0,
+            "temperature": [
+              -1,
+              1
+            ],
             "humidity": [
-              -0.2,
+              -0.25,
               1
             ],
             "continentalness": [
               0.5,
               0.7
             ],
-            "erosion": 0,
-            "weirdness": 0,
+            "erosion": [
+              -1,
+              1
+            ],
+            "weirdness": [
+              -1,
+              1
+            ],
             "depth": 0,
             "offset": 0
           }
@@ -99,17 +144,26 @@
         {
           "biome": "proximavis:cindel/volcanic_valley",
           "parameters": {
-            "temperature": 0,
+            "temperature": [
+              -1,
+              1
+            ],
             "humidity": [
               -1,
-              0.1
+              0
             ],
             "continentalness": [
-              0.01,
+              0.1,
               0.5
             ],
-            "erosion": 0,
-            "weirdness": 0,
+            "erosion": [
+              -1,
+              1
+            ],
+            "weirdness": [
+              -1,
+              1
+            ],
             "depth": 0,
             "offset": 0
           }
@@ -117,23 +171,32 @@
         {
           "biome": "proximavis:cindel/volcanic_oasis",
           "parameters": {
-            "temperature": 0,
+            "temperature": [
+              -1,
+              1
+            ],
             "humidity": [
-              0.1,
+              0,
               1
             ],
             "continentalness": [
-              0.01,
+              0.1,
               0.5
             ],
-            "erosion": 0,
-            "weirdness": 0,
+            "erosion": [
+              -1,
+              1
+            ],
+            "weirdness": [
+              -1,
+              1
+            ],
             "depth": 0,
             "offset": 0
           }
         },
         {
-          "biome": "proximavis:cindel/fern_forest",
+          "biome": "proximavis:cindel/sequoia_woodland",
           "parameters": {
             "temperature": [
               -1.0,
@@ -157,7 +220,7 @@
           }
         },
         {
-          "biome": "proximavis:cindel/fern_forest",
+          "biome": "proximavis:cindel/sequoia_woodland",
           "parameters": {
             "temperature": [
               -1.0,
@@ -181,7 +244,7 @@
           }
         },
         {
-          "biome": "proximavis:cindel/fern_forest",
+          "biome": "proximavis:cindel/sequoia_woodland",
           "parameters": {
             "temperature": [
               -1.0,
@@ -205,7 +268,7 @@
           }
         },
         {
-          "biome": "proximavis:cindel/fern_forest",
+          "biome": "proximavis:cindel/sequoia_woodland",
           "parameters": {
             "temperature": [
               -1.0,
@@ -229,7 +292,7 @@
           }
         },
         {
-          "biome": "proximavis:cindel/fern_forest",
+          "biome": "proximavis:cindel/sequoia_woodland",
           "parameters": {
             "temperature": [
               -1.0,
@@ -253,7 +316,7 @@
           }
         },
         {
-          "biome": "proximavis:cindel/fern_forest",
+          "biome": "proximavis:cindel/sequoia_woodland",
           "parameters": {
             "temperature": [
               -1.0,
@@ -301,7 +364,7 @@
           }
         },
         {
-          "biome": "proximavis:cindel/fern_forest",
+          "biome": "proximavis:cindel/sequoia_woodland",
           "parameters": {
             "temperature": [
               -1.0,
@@ -325,7 +388,7 @@
           }
         },
         {
-          "biome": "proximavis:cindel/fern_forest",
+          "biome": "proximavis:cindel/sequoia_woodland",
           "parameters": {
             "temperature": [
               -1.0,
@@ -349,7 +412,7 @@
           }
         },
         {
-          "biome": "proximavis:cindel/fern_forest",
+          "biome": "proximavis:cindel/sequoia_woodland",
           "parameters": {
             "temperature": [
               -1.0,
@@ -373,7 +436,7 @@
           }
         },
         {
-          "biome": "proximavis:cindel/fern_forest",
+          "biome": "proximavis:cindel/sequoia_woodland",
           "parameters": {
             "temperature": [
               -1.0,
@@ -397,7 +460,7 @@
           }
         },
         {
-          "biome": "proximavis:cindel/fern_forest",
+          "biome": "proximavis:cindel/sequoia_woodland",
           "parameters": {
             "temperature": [
               -1.0,
@@ -421,7 +484,7 @@
           }
         },
         {
-          "biome": "proximavis:cindel/fern_forest",
+          "biome": "proximavis:cindel/sequoia_woodland",
           "parameters": {
             "temperature": [
               -1.0,
@@ -1093,7 +1156,7 @@
           }
         },
         {
-          "biome": "proximavis:cindel/cycad_flats",
+          "biome": "proximavis:cindel/coal_swamp",
           "parameters": {
             "temperature": [
               -1.0,
@@ -1261,7 +1324,7 @@
           }
         },
         {
-          "biome": "proximavis:cindel/river",
+          "biome": "proximavis:cindel/coal_swamp",
           "parameters": {
             "temperature": [
               -1.0,
@@ -1429,7 +1492,7 @@
           }
         },
         {
-          "biome": "proximavis:cindel/cycad_flats",
+          "biome": "proximavis:cindel/coal_swamp",
           "parameters": {
             "temperature": [
               -1.0,
@@ -1981,7 +2044,7 @@
           }
         },
         {
-          "biome": "proximavis:cindel/fern_forest",
+          "biome": "proximavis:cindel/sequoia_woodland",
           "parameters": {
             "temperature": [
               -1.0,
@@ -2005,7 +2068,7 @@
           }
         },
         {
-          "biome": "proximavis:cindel/fern_forest",
+          "biome": "proximavis:cindel/sequoia_woodland",
           "parameters": {
             "temperature": [
               -1.0,
@@ -2029,7 +2092,7 @@
           }
         },
         {
-          "biome": "proximavis:cindel/fern_forest",
+          "biome": "proximavis:cindel/sequoia_woodland",
           "parameters": {
             "temperature": [
               -1.0,
@@ -2053,7 +2116,7 @@
           }
         },
         {
-          "biome": "proximavis:cindel/fern_forest",
+          "biome": "proximavis:cindel/sequoia_woodland",
           "parameters": {
             "temperature": [
               -1.0,
@@ -2077,7 +2140,7 @@
           }
         },
         {
-          "biome": "proximavis:cindel/fern_forest",
+          "biome": "proximavis:cindel/sequoia_woodland",
           "parameters": {
             "temperature": [
               -1.0,
@@ -2101,7 +2164,7 @@
           }
         },
         {
-          "biome": "proximavis:cindel/fern_forest",
+          "biome": "proximavis:cindel/sequoia_woodland",
           "parameters": {
             "temperature": [
               -1.0,
@@ -2149,7 +2212,7 @@
           }
         },
         {
-          "biome": "proximavis:cindel/fern_forest",
+          "biome": "proximavis:cindel/sequoia_woodland",
           "parameters": {
             "temperature": [
               -1.0,
@@ -2173,7 +2236,7 @@
           }
         },
         {
-          "biome": "proximavis:cindel/fern_forest",
+          "biome": "proximavis:cindel/sequoia_woodland",
           "parameters": {
             "temperature": [
               -1.0,
@@ -2197,7 +2260,7 @@
           }
         },
         {
-          "biome": "proximavis:cindel/fern_forest",
+          "biome": "proximavis:cindel/sequoia_woodland",
           "parameters": {
             "temperature": [
               -1.0,
@@ -2221,7 +2284,7 @@
           }
         },
         {
-          "biome": "proximavis:cindel/fern_forest",
+          "biome": "proximavis:cindel/sequoia_woodland",
           "parameters": {
             "temperature": [
               -1.0,
@@ -2245,7 +2308,7 @@
           }
         },
         {
-          "biome": "proximavis:cindel/fern_forest",
+          "biome": "proximavis:cindel/sequoia_woodland",
           "parameters": {
             "temperature": [
               -1.0,
@@ -2269,7 +2332,7 @@
           }
         },
         {
-          "biome": "proximavis:cindel/fern_forest",
+          "biome": "proximavis:cindel/sequoia_woodland",
           "parameters": {
             "temperature": [
               -1.0,

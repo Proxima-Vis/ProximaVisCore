@@ -1,0 +1,161 @@
+{
+  "type": "minecraft:flat_cache",
+  "argument": {
+    "type": "minecraft:cache_2d",
+    "argument": {
+      "type": "minecraft:add",
+      "argument1": 0,
+      "argument2": {
+        "type": "minecraft:mul",
+        "argument1": {
+          "type": "minecraft:blend_alpha"
+        },
+        "argument2": {
+          "type": "minecraft:add",
+          "argument1": 0,
+          "argument2": {
+            "type": "minecraft:spline",
+            "spline": {
+              "coordinate": "proximavis:cindel/continents",
+              "points": [
+                {
+                  "derivative": 0,
+                  "location": -0.6,
+                  "value": 0
+                },
+                {
+                  "derivative": 0,
+                  "location": -0.5,
+                  "value": {
+                    "coordinate": "proximavis:cindel/erosion",
+                    "points": [
+                      {
+                        "derivative": 0,
+                        "location": -1,
+                        "value": {
+                          "coordinate": "proximavis:cindel/ridges_folded",
+                          "points": [
+                            {
+                              "derivative": 0,
+                              "location": 0.19999999,
+                              "value": 0
+                            },
+                            {
+                              "derivative": 0,
+                              "location": 0.44999996,
+                              "value": 0
+                            },
+                            {
+                              "derivative": 0,
+                              "location": 1,
+                              "value": {
+                                "coordinate": "proximavis:cindel/ridges",
+                                "points": [
+                                  {
+                                    "derivative": 0,
+                                    "location": -0.01,
+                                    "value": 0.63
+                                  },
+                                  {
+                                    "derivative": 0,
+                                    "location": 0.01,
+                                    "value": 0.3
+                                  }
+                                ]
+                              }
+                            }
+                          ]
+                        }
+                      },
+                      {
+                        "derivative": 0,
+                        "location": -0.78,
+                        "value": {
+                          "coordinate": "proximavis:cindel/ridges_folded",
+                          "points": [
+                            {
+                              "derivative": 0,
+                              "location": 0.19999999,
+                              "value": 0
+                            },
+                            {
+                              "derivative": 0,
+                              "location": 0.44999996,
+                              "value": 0
+                            },
+                            {
+                              "derivative": 0,
+                              "location": 1,
+                              "value": {
+                                "coordinate": "proximavis:cindel/ridges",
+                                "points": [
+                                  {
+                                    "derivative": 0,
+                                    "location": -0.01,
+                                    "value": 0.315
+                                  },
+                                  {
+                                    "derivative": 0,
+                                    "location": 0.01,
+                                    "value": 0.15
+                                  }
+                                ]
+                              }
+                            }
+                          ]
+                        }
+                      },
+                      {
+                        "derivative": 0,
+                        "location": -0.5775,
+                        "value": {
+                          "coordinate": "proximavis:cindel/ridges_folded",
+                          "points": [
+                            {
+                              "derivative": 0,
+                              "location": 0.19999999,
+                              "value": 0
+                            },
+                            {
+                              "derivative": 0,
+                              "location": 0.44999996,
+                              "value": 0
+                            },
+                            {
+                              "derivative": 0,
+                              "location": 1,
+                              "value": {
+                                "coordinate": "proximavis:cindel/ridges",
+                                "points": [
+                                  {
+                                    "derivative": 0,
+                                    "location": -0.01,
+                                    "value": 0.315
+                                  },
+                                  {
+                                    "derivative": 0,
+                                    "location": 0.01,
+                                    "value": 0.15
+                                  }
+                                ]
+                              }
+                            }
+                          ]
+                        }
+                      },
+                      {
+                        "derivative": 0,
+                        "location": -0.375,
+                        "value": 0
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        }
+      }
+    }
+  }
+}

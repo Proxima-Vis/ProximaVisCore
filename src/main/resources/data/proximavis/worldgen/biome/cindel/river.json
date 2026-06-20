@@ -47,14 +47,7 @@
   "has_precipitation": true,
   "spawn_costs": {},
   "spawners": {
-    "ambient": [
-      {
-        "type": "unusual_prehistory:delitzschala",
-        "weight": 1,
-        "minCount": 1,
-        "maxCount": 1
-      }
-    ],
+    "ambient": [],
     "axolotls": [],
     "creature": [],
     "misc": [],
