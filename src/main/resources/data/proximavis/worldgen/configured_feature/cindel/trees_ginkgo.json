@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:random_selector",
+  "config": {
+    "default": "proximavis:cindel/ginkgo_checked",
+    "features": [
+      {
+        "chance": 0.1,
+        "feature": "proximavis:cindel/golden_ginkgo_checked"
+      }
+    ]
+  }
+}

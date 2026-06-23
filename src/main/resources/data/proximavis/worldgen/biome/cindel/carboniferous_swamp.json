@@ -34,13 +34,20 @@
     [],
     [],
     [],
-    [],
+    [
+      "proximavis:cindel/disk_dirt"
+    ],
     [],
     [
       "minecraft:spring_lava"
     ],
     [
-      "proximavis:cindel/oasis_plants"
+      "proximavis:cindel/trees_lepidodendron",
+      "proximavis:cindel/trees_sigillaria",
+      "proximavis:cindel/trees_cordaites",
+      "proximavis:cindel/trees_calamites",
+      "proximavis:cindel/foliage_carboniferous",
+      "proximavis:cindel/patch_moss"
     ],
     [
       "minecraft:freeze_top_layer"
@@ -54,7 +61,13 @@
         "type": "unusual_prehistory:delitzschala",
         "weight": 1,
         "minCount": 1,
-        "maxCount": 1
+        "maxCount": 2
+      },
+      {
+        "type": "unusual_prehistory:zhangsolva",
+        "weight": 1,
+        "minCount": 1,
+        "maxCount": 2
       }
     ],
     "axolotls": [],

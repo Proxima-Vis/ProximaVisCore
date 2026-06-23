@@ -28,30 +28,23 @@
   "features": [
     [],
     [
-      "minecraft:lake_lava_underground",
-      "minecraft:lake_lava_surface"
-    ],
-    [
-      "proximavis:cindel/oasis_rock"
+      "minecraft:lake_lava_underground"
     ],
     [],
     [],
     [],
-    [
-      "proximavis:cindel/coarse_gravel"
-    ],
+    [],
+    [],
     [],
     [
       "minecraft:spring_lava"
     ],
     [
-      "minecraft:glow_lichen",
-      "proximavis:cindel/guangdedendron",
-      "proximavis:cindel/ginkgo",
-      "proximavis:cindel/underweed",
-      "proximavis:cindel/moss_layer",
-      "proximavis:cindel/oasis_plants",
-      "proximavis:cindel/basic_foliage"
+      "proximavis:cindel/trees_ginkgo_sparse",
+      "proximavis:cindel/patch_tempskya",
+      "proximavis:cindel/foliage_jurassic",
+      "proximavis:cindel/foliage_generic",
+      "proximavis:cindel/patch_moss"
     ],
     [
       "minecraft:freeze_top_layer"
@@ -69,26 +62,7 @@
       }
     ],
     "axolotls": [],
-    "creature": [
-      {
-        "type": "unusual_prehistory:pterodactylus",
-        "weight": 5,
-        "minCount": 1,
-        "maxCount": 1
-      },
-      {
-        "type": "unusual_prehistory:lystrosaurus",
-        "weight": 2,
-        "minCount": 2,
-        "maxCount": 3
-      },
-      {
-        "type": "alexscaves:subterranodon",
-        "weight": 1,
-        "minCount": 1,
-        "maxCount": 1
-      }
-    ],
+    "creature": [],
     "misc": [],
     "monster": [],
     "underground_water_creature": [],

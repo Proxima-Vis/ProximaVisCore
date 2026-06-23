@@ -1,5 +1,5 @@
 {
-  "feature": "proximavis:cindel/oasis_rock",
+  "feature": "proximavis:cindel/patch_tempskya",
   "placement": [
     {
       "type": "minecraft:count",
@@ -10,7 +10,7 @@
     },
     {
       "type": "minecraft:heightmap",
-      "heightmap": "MOTION_BLOCKING"
+      "heightmap": "WORLD_SURFACE"
     },
     {
       "type": "minecraft:biome"

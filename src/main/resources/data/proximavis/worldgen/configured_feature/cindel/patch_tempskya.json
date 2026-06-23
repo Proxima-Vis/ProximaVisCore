@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:random_patch",
+  "config": {
+    "tries": 16,
+    "xz_spread": 7,
+    "y_spread": 3,
+    "feature": {
+      "feature": {
+        "config": {
+          "features": [
+            {
+              "chance": 0.7,
+              "feature": "proximavis:cindel/tempskya_checked"
+            }
+          ],
+          "default": "proximavis:cindel/tempskya_tree_checked"
+        },
+        "type": "minecraft:random_selector"
+      },
+      "placement": []
+    }
+  }
+}

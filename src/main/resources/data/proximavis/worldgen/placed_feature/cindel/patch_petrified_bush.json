@@ -1,5 +1,5 @@
 {
-  "feature": "proximavis:cindel/coarse_gravel",
+  "feature": "proximavis:cindel/patch_petrified_bush",
   "placement": [
     {
       "type": "minecraft:count",
@@ -10,7 +10,7 @@
     },
     {
       "type": "minecraft:heightmap",
-      "heightmap": "OCEAN_FLOOR_WG"
+      "heightmap": "WORLD_SURFACE"
     },
     {
       "type": "minecraft:biome"

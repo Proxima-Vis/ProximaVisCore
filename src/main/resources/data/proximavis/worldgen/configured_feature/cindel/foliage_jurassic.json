@@ -10,33 +10,51 @@
             "entries": [
               {
                 "data": {
-                  "Name": "fossil:sarracenia"
+                  "Name": "unusual_prehistory:bennettitales"
                 },
                 "weight": 1
               },
               {
                 "data": {
-                  "Name": "unusual_prehistory:cooksonia"
+                  "Name": "unusual_prehistory:cladophlebis"
                 },
-                "weight": 3
+                "weight": 1
               },
               {
-                "weight": 2,
                 "data": {
-                  "Name": "fossil:welwitschia"
-                }
+                  "Name": "fossil:dipteris"
+                },
+                "weight": 1
               },
               {
-                "weight": 1,
                 "data": {
-                  "Name": "unusual_prehistory:aethophyllum"
-                }
+                  "Name": "fossil:osmunda"
+                },
+                "weight": 1
               },
               {
-                "weight": 2,
                 "data": {
-                  "Name": "unusual_prehistory:delitzschala_stalk"
-                }
+                  "Name": "fossil:zamites"
+                },
+                "weight": 1
+              },
+              {
+                "data": {
+                  "Name": "fossil:cephalotaxus"
+                },
+                "weight": 1
+              },
+              {
+                "data": {
+                  "Name": "fossil:cyathea"
+                },
+                "weight": 1
+              },
+              {
+                "data": {
+                  "Name": "alexscaves:curly_fern"
+                },
+                "weight": 1
               }
             ]
           }
@@ -49,22 +67,10 @@
             "type": "minecraft:matching_blocks",
             "blocks": "minecraft:air"
           }
-        },
-        {
-          "type": "minecraft:block_predicate_filter",
-          "predicate": {
-            "type": "minecraft:matching_blocks",
-            "offset": [
-              0,
-              -1,
-              0
-            ],
-            "blocks": "unusual_prehistory:mossy_dirt"
-          }
         }
       ]
     },
-    "tries": 64,
+    "tries": 32,
     "xz_spread": 7,
     "y_spread": 3
   }

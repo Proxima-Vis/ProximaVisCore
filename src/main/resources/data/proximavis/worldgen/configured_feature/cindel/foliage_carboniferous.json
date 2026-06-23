@@ -10,21 +10,21 @@
             "entries": [
               {
                 "data": {
-                  "Name": "unusual_prehistory:archaeosigillarria"
+                  "Name": "unusual_prehistory:delitzschala_stalk"
                 },
-                "weight": 2
+                "weight": 1
               },
               {
                 "data": {
-                  "Name": "unusual_prehistory:cladophlebis"
+                  "Name": "unusual_prehistory:archaeosigillaria"
                 },
                 "weight": 2
               },
               {
-                "weight": 2,
                 "data": {
                   "Name": "unusual_prehistory:horsetail"
-                }
+                },
+                "weight": 2
               },
               {
                 "weight": 1,
@@ -43,6 +43,12 @@
                   "Name": "minecraft:large_fern"
                 },
                 "weight": 1
+              },
+              {
+                "weight": 1,
+                "data": {
+                  "Name": "fossil:licopodiophyta"
+                }
               }
             ]
           }
@@ -54,18 +60,6 @@
           "predicate": {
             "type": "minecraft:matching_blocks",
             "blocks": "minecraft:air"
-          }
-        },
-        {
-          "type": "minecraft:block_predicate_filter",
-          "predicate": {
-            "type": "minecraft:matching_blocks",
-            "offset": [
-              0,
-              -1,
-              0
-            ],
-            "blocks": "unusual_prehistory:mossy_dirt"
           }
         }
       ]

@@ -40,7 +40,10 @@
       "minecraft:spring_lava"
     ],
     [
-      "proximavis:cindel/basic_foliage"
+      "proximavis:cindel/trees_ginkgo",
+      "proximavis:cindel/foliage_triassic",
+      "proximavis:cindel/foliage_generic",
+      "proximavis:cindel/patch_moss"
     ],
     [
       "minecraft:freeze_top_layer"

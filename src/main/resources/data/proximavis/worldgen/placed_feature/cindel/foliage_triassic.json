@@ -1,9 +1,9 @@
 {
-  "feature": "proximavis:cindel/swamp_foliage",
+  "feature": "proximavis:cindel/foliage_triassic",
   "placement": [
     {
       "type": "minecraft:count",
-      "count": 5
+      "count": 2
     },
     {
       "type": "minecraft:in_square"

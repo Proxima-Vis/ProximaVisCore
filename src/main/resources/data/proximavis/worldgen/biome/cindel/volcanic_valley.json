@@ -38,7 +38,7 @@
     [],
     [],
     [
-      "proximavis:cindel/coarse_gravel",
+      "proximavis:cindel/disk_ash",
       "proximavis:cindel/primal_magma"
     ],
     [],
@@ -47,11 +47,11 @@
     ],
     [
       "minecraft:glow_lichen",
-      "proximavis:cindel/petrified_tree",
-      "proximavis:cindel/petrified_bush",
-      "proximavis:cindel/underweed",
-      "proximavis:cindel/moss_layer",
-      "proximavis:cindel/basic_foliage"
+      "proximavis:cindel/trees_petrified",
+      "proximavis:cindel/foliage_generic",
+      "proximavis:cindel/patch_petrified_bush",
+      "proximavis:cindel/patch_underweed",
+      "proximavis:cindel/patch_moss"
     ],
     [
       "minecraft:freeze_top_layer"

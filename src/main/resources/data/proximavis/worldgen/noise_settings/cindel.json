@@ -311,7 +311,7 @@
           "if_true": {
             "type": "minecraft:biome",
             "biome_is": [
-              "proximavis:cindel/coal_swamp"
+              "proximavis:cindel/carboniferous_swamp"
             ]
           },
           "then_run": {
@@ -401,7 +401,7 @@
               "if_true": {
                 "type": "minecraft:biome",
                 "biome_is": [
-                  "proximavis:cindel/volcanic_oasis"
+                  "proximavis:cindel/permian_steppe"
                 ]
               },
               "then_run": {
@@ -523,7 +523,7 @@
               "if_true": {
                 "type": "minecraft:biome",
                 "biome_is": [
-                  "proximavis:cindel/coal_swamp"
+                  "proximavis:cindel/carboniferous_swamp"
                 ]
               },
               "then_run": {

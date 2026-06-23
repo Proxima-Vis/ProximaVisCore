@@ -30,16 +30,26 @@
     [
       "minecraft:lake_lava_underground"
     ],
-    [],
-    [],
-    [],
+    [
+      "proximavis:cindel/rock_permian"
+    ],
     [],
     [],
     [],
     [
-      "minecraft:spring_lava"
+      "proximavis:cindel/disk_ash"
     ],
     [],
+    [
+      "minecraft:spring_lava"
+    ],
+    [
+      "proximavis:cindel/calamites",
+      "proximavis:cindel/trees_cycad",
+      "proximavis:cindel/foliage_permian",
+      "proximavis:cindel/patch_underweed",
+      "proximavis:cindel/patch_moss"
+    ],
     [
       "minecraft:freeze_top_layer"
     ]
@@ -47,14 +57,7 @@
   "has_precipitation": true,
   "spawn_costs": {},
   "spawners": {
-    "ambient": [
-      {
-        "type": "unusual_prehistory:delitzschala",
-        "weight": 1,
-        "minCount": 1,
-        "maxCount": 1
-      }
-    ],
+    "ambient": [],
     "axolotls": [],
     "creature": [],
     "misc": [],

@@ -1,16 +1,16 @@
 {
-  "feature": "proximavis:cindel/petrified_bush",
+  "feature": "proximavis:cindel/patch_underweed",
   "placement": [
     {
       "type": "minecraft:count",
-      "count": 2
+      "count": 3
     },
     {
       "type": "minecraft:in_square"
     },
     {
       "type": "minecraft:heightmap",
-      "heightmap": "WORLD_SURFACE_WG"
+      "heightmap": "WORLD_SURFACE"
     },
     {
       "type": "minecraft:biome"
