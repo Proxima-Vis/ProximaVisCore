@@ -3,18 +3,6 @@
   "config": {
     "decorators": [
       {
-        "type": "minecraft:alter_ground",
-        "provider": {
-          "type": "minecraft:simple_state_provider",
-          "state": {
-            "Name": "minecraft:podzol",
-            "Properties": {
-              "snowy": "false"
-            }
-          }
-        }
-      },
-      {
         "type": "unusual_prehistory:tree_branch",
         "leaf_provider": {
           "type": "minecraft:simple_state_provider",

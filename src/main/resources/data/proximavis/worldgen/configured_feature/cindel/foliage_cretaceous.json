@@ -10,49 +10,43 @@
             "entries": [
               {
                 "data": {
+                  "Name": "unusual_prehistory:leefructus"
+                },
+                "weight": 1
+              },
+              {
+                "data": {
                   "Name": "unusual_prehistory:bennettitales"
                 },
-                "weight": 2
+                "weight": 1
+              },
+              {
+                "data": {
+                  "Name": "unusual_prehistory:brachyphyllum"
+                },
+                "weight": 1
               },
               {
                 "data": {
                   "Name": "unusual_prehistory:cladophlebis"
                 },
-                "weight": 2
+                "weight": 1
               },
               {
                 "data": {
                   "Name": "fossil:dipteris"
                 },
-                "weight": 2
+                "weight": 1
               },
               {
                 "data": {
-                  "Name": "fossil:osmunda"
-                },
-                "weight": 2
-              },
-              {
-                "data": {
-                  "Name": "fossil:zamites"
+                  "Name": "fossil:welwitschia"
                 },
                 "weight": 1
               },
               {
                 "data": {
                   "Name": "fossil:cephalotaxus"
-                },
-                "weight": 2
-              },
-              {
-                "data": {
-                  "Name": "fossil:cyathea"
-                },
-                "weight": 1
-              },
-              {
-                "data": {
-                  "Name": "alexscaves:curly_fern"
                 },
                 "weight": 1
               }

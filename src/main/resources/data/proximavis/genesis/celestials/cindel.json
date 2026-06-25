@@ -4,11 +4,11 @@
   "gravity": 1.0,
   "transformProvider": {
     "type": "genesis:orbiting",
-    "parentID": "genesis:sun",
+    "parentID": "proximavis:lanturn",
     "seed": 12345,
-    "orbitDistance": 7500,
-    "orbitTime": 2300000,
-    "dayLength": 24000
+    "orbitDistance": 1000,
+    "orbitTime": 108000,
+    "dayLength": 36000
   },
   "properties": {
     "atmosphere": {
@@ -16,7 +16,9 @@
       "thickness": 1.0,
       "precipitation": true,
       "isBreathable": true,
-      "color": { "type": "genesis:overworld" }
+      "color": {
+        "type": "genesis:overworld"
+      }
     }
   }
 }

@@ -8,19 +8,24 @@
   },
   "downfall": 0.3,
   "effects": {
-    "fog_color": 12638463,
+    "ambient_sound": "alexscaves:primordial_caves_ambience",
+    "additions_sound": {
+      "sound": "alexscaves:primordial_caves_ambience_additions",
+      "tick_chance": 0.0111
+    },
     "mood_sound": {
       "block_search_extent": 8,
-      "offset": 2,
-      "sound": "minecraft:ambient.cave",
+      "offset": 2.0,
+      "sound": "alexscaves:primordial_caves_ambience_mood",
       "tick_delay": 6000
     },
     "music": {
       "max_delay": 24000,
       "min_delay": 12000,
       "replace_current_music": false,
-      "sound": "minecraft:music.overworld.stony_peaks"
+      "sound": "alexscaves:primordial_caves_music"
     },
+    "fog_color": 12638463,
     "sky_color": 7776511,
     "water_color": 4159204,
     "water_fog_color": 329011
@@ -28,23 +33,29 @@
   "features": [
     [],
     [
-      "minecraft:lake_lava_underground",
-      "minecraft:lake_lava_surface"
-    ],
-    [
-      "proximavis:cindel/rock_permian"
+      "minecraft:lake_lava_underground"
     ],
     [],
     [],
     [],
+    [],
     [
-      "proximavis:cindel/disk_ash"
+      "minecraft:disk_sand",
+      "minecraft:disk_clay",
+      "minecraft:disk_gravel"
     ],
     [],
     [
       "minecraft:spring_lava"
     ],
-    [],
+    [
+      "proximavis:cindel/trees_ginkgo_sparse",
+      "proximavis:cindel/trees_cycad",
+      "proximavis:cindel/patch_tempskya",
+      "proximavis:cindel/foliage_jurassic",
+      "proximavis:cindel/foliage_generic",
+      "proximavis:cindel/patch_moss"
+    ],
     [
       "minecraft:freeze_top_layer"
     ]
@@ -61,26 +72,7 @@
       }
     ],
     "axolotls": [],
-    "creature": [
-      {
-        "type": "unusual_prehistory:pterodactylus",
-        "weight": 5,
-        "minCount": 1,
-        "maxCount": 1
-      },
-      {
-        "type": "unusual_prehistory:lystrosaurus",
-        "weight": 2,
-        "minCount": 2,
-        "maxCount": 3
-      },
-      {
-        "type": "alexscaves:subterranodon",
-        "weight": 1,
-        "minCount": 1,
-        "maxCount": 1
-      }
-    ],
+    "creature": [],
     "misc": [],
     "monster": [],
     "underground_water_creature": [],

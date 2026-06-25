@@ -8,19 +8,24 @@
   },
   "downfall": 0.3,
   "effects": {
-    "fog_color": 12638463,
+    "ambient_sound": "alexscaves:primordial_caves_ambience",
+    "additions_sound": {
+      "sound": "alexscaves:primordial_caves_ambience_additions",
+      "tick_chance": 0.0111
+    },
     "mood_sound": {
       "block_search_extent": 8,
-      "offset": 2,
-      "sound": "minecraft:ambient.cave",
+      "offset": 2.0,
+      "sound": "alexscaves:primordial_caves_ambience_mood",
       "tick_delay": 6000
     },
     "music": {
       "max_delay": 24000,
       "min_delay": 12000,
       "replace_current_music": false,
-      "sound": "minecraft:music.overworld.stony_peaks"
+      "sound": "alexscaves:primordial_caves_music"
     },
+    "fog_color": 12638463,
     "sky_color": 7776511,
     "water_color": 4159204,
     "water_fog_color": 329011
@@ -28,20 +33,26 @@
   "features": [
     [],
     [
-      "minecraft:lake_lava_underground"
+      "minecraft:lake_lava_underground",
+      "minecraft:lake_lava_surface"
     ],
     [],
     [],
     [],
     [],
-    [],
+    [
+      "minecraft:disk_sand",
+      "minecraft:disk_clay",
+      "minecraft:disk_gravel"
+    ],
     [],
     [
       "minecraft:spring_lava"
     ],
     [
-      "proximavis:cindel/trees_ginkgo",
-      "proximavis:cindel/foliage_triassic",
+      "proximavis:cindel/trees_guangdedendron",
+      "proximavis:cindel/patch_prototaxites",
+      "proximavis:cindel/foliage_devonian",
       "proximavis:cindel/foliage_generic",
       "proximavis:cindel/patch_moss"
     ],
@@ -52,14 +63,7 @@
   "has_precipitation": true,
   "spawn_costs": {},
   "spawners": {
-    "ambient": [
-      {
-        "type": "unusual_prehistory:delitzschala",
-        "weight": 1,
-        "minCount": 1,
-        "maxCount": 1
-      }
-    ],
+    "ambient": [],
     "axolotls": [],
     "creature": [],
     "misc": [],

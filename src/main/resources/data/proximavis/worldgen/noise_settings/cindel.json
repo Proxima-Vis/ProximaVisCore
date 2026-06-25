@@ -224,8 +224,8 @@
           "if_true": {
             "type": "minecraft:biome",
             "biome_is": [
-              "proximavis:cindel/volcanic_rim",
-              "proximavis:cindel/volcanic_wastes"
+              "proximavis:volcanic_rim",
+              "proximavis:volcanic_wastes"
             ]
           },
           "then_run": {
@@ -251,7 +251,7 @@
                 "if_true": {
                   "type": "minecraft:biome",
                   "biome_is": [
-                    "proximavis:cindel/volcanic_rim"
+                    "proximavis:volcanic_rim"
                   ]
                 },
                 "then_run": {
@@ -270,8 +270,8 @@
         "if_true": {
           "type": "minecraft:biome",
           "biome_is": [
-            "proximavis:cindel/volcanic_rim",
-            "proximavis:cindel/volcanic_crater"
+            "proximavis:volcanic_rim",
+            "proximavis:volcanic_crater"
           ]
         },
         "then_run": {
@@ -311,7 +311,7 @@
           "if_true": {
             "type": "minecraft:biome",
             "biome_is": [
-              "proximavis:cindel/carboniferous_swamp"
+              "proximavis:carboniferous_swamp"
             ]
           },
           "then_run": {
@@ -376,8 +376,8 @@
               "if_true": {
                 "type": "minecraft:biome",
                 "biome_is": [
-                  "proximavis:cindel/volcanic_wastes",
-                  "proximavis:cindel/volcanic_rim"
+                  "proximavis:volcanic_wastes",
+                  "proximavis:volcanic_rim"
                 ]
               },
               "then_run": {
@@ -401,7 +401,7 @@
               "if_true": {
                 "type": "minecraft:biome",
                 "biome_is": [
-                  "proximavis:cindel/permian_steppe"
+                  "proximavis:permian_steppe"
                 ]
               },
               "then_run": {
@@ -444,7 +444,7 @@
               "if_true": {
                 "type": "minecraft:biome",
                 "biome_is": [
-                  "proximavis:cindel/volcanic_valley"
+                  "proximavis:volcanic_valley"
                 ]
               },
               "then_run": {
@@ -468,7 +468,7 @@
               "if_true": {
                 "type": "minecraft:biome",
                 "biome_is": [
-                  "proximavis:cindel/volcanic_wastes"
+                  "proximavis:volcanic_wastes"
                 ]
               },
               "then_run": {
@@ -507,8 +507,8 @@
               "if_true": {
                 "type": "minecraft:biome",
                 "biome_is": [
-                  "proximavis:cindel/volcanic_rim",
-                  "proximavis:cindel/volcanic_crater"
+                  "proximavis:volcanic_rim",
+                  "proximavis:volcanic_crater"
                 ]
               },
               "then_run": {
@@ -523,7 +523,7 @@
               "if_true": {
                 "type": "minecraft:biome",
                 "biome_is": [
-                  "proximavis:cindel/carboniferous_swamp"
+                  "proximavis:carboniferous_swamp"
                 ]
               },
               "then_run": {

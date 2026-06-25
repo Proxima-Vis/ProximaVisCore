@@ -1,9 +1,9 @@
 {
-  "feature": "proximavis:cindel/moss_layer",
+  "feature": "proximavis:cindel/foliage_cretaceous",
   "placement": [
     {
       "type": "minecraft:count",
-      "count": 2
+      "count": 1
     },
     {
       "type": "minecraft:in_square"
