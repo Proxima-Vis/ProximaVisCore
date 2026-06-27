@@ -62,7 +62,14 @@
   "spawners": {
     "ambient": [],
     "axolotls": [],
-    "creature": [],
+    "creature": [
+      {
+        "type": "unusual_prehistory:lystrosaurus",
+        "weight": 20,
+        "minCount": 1,
+        "maxCount": 2
+      }
+    ],
     "misc": [],
     "monster": [],
     "underground_water_creature": [],

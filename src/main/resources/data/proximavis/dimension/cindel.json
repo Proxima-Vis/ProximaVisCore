@@ -34,6 +34,33 @@
           }
         },
         {
+          "biome": "proximavis:volcanic_crater",
+          "parameters": {
+            "temperature": [
+              -1,
+              1
+            ],
+            "humidity": [
+              -1,
+              1
+            ],
+            "continentalness": [
+              1.9,
+              2
+            ],
+            "erosion": [
+              -1,
+              1
+            ],
+            "weirdness": [
+              -1,
+              1
+            ],
+            "depth": 1.0,
+            "offset": 0
+          }
+        },
+        {
           "biome": "proximavis:volcanic_rim",
           "parameters": {
             "temperature": [
@@ -57,6 +84,33 @@
               1
             ],
             "depth": 0,
+            "offset": 0
+          }
+        },
+        {
+          "biome": "proximavis:volcanic_rim",
+          "parameters": {
+            "temperature": [
+              -1,
+              1
+            ],
+            "humidity": [
+              -1,
+              1
+            ],
+            "continentalness": [
+              0.9,
+              1.9
+            ],
+            "erosion": [
+              -1,
+              1
+            ],
+            "weirdness": [
+              -1,
+              1
+            ],
+            "depth": 1.0,
             "offset": 0
           }
         },
@@ -96,7 +150,88 @@
             ],
             "humidity": [
               -1,
+              1
+            ],
+            "continentalness": [
+              0.7,
+              0.9
+            ],
+            "erosion": [
+              -1,
+              1
+            ],
+            "weirdness": [
+              -1,
+              1
+            ],
+            "depth": 1.0,
+            "offset": 0
+          }
+        },
+        {
+          "biome": "proximavis:volcanic_wastes",
+          "parameters": {
+            "temperature": [
+              -1,
+              1
+            ],
+            "humidity": [
+              -1,
               -0.25
+            ],
+            "continentalness": [
+              0.5,
+              0.7
+            ],
+            "erosion": [
+              -1,
+              1
+            ],
+            "weirdness": [
+              -1,
+              1
+            ],
+            "depth": 0,
+            "offset": 0
+          }
+        },
+        {
+          "biome": "proximavis:volcanic_wastes",
+          "parameters": {
+            "temperature": [
+              -1,
+              1
+            ],
+            "humidity": [
+              -1,
+              -0.25
+            ],
+            "continentalness": [
+              0.5,
+              0.7
+            ],
+            "erosion": [
+              -1,
+              1
+            ],
+            "weirdness": [
+              -1,
+              1
+            ],
+            "depth": 1.0,
+            "offset": 0
+          }
+        },
+        {
+          "biome": "proximavis:volcanic_valley",
+          "parameters": {
+            "temperature": [
+              -1,
+              1
+            ],
+            "humidity": [
+              -0.25,
+              1
             ],
             "continentalness": [
               0.5,
@@ -137,6 +272,33 @@
               -1,
               1
             ],
+            "depth": 1.0,
+            "offset": 0
+          }
+        },
+        {
+          "biome": "proximavis:volcanic_valley",
+          "parameters": {
+            "temperature": [
+              -1,
+              1
+            ],
+            "humidity": [
+              -1,
+              0
+            ],
+            "continentalness": [
+              0.1,
+              0.5
+            ],
+            "erosion": [
+              -1,
+              1
+            ],
+            "weirdness": [
+              -1,
+              1
+            ],
             "depth": 0,
             "offset": 0
           }
@@ -151,6 +313,33 @@
             "humidity": [
               -1,
               0
+            ],
+            "continentalness": [
+              0.1,
+              0.5
+            ],
+            "erosion": [
+              -1,
+              1
+            ],
+            "weirdness": [
+              -1,
+              1
+            ],
+            "depth": 1.0,
+            "offset": 0
+          }
+        },
+        {
+          "biome": "proximavis:permian_steppe",
+          "parameters": {
+            "temperature": [
+              -1,
+              1
+            ],
+            "humidity": [
+              0,
+              1
             ],
             "continentalness": [
               0.1,
@@ -191,7 +380,7 @@
               -1,
               1
             ],
-            "depth": 0,
+            "depth": 1.0,
             "offset": 0
           }
         },
@@ -227,6 +416,30 @@
               1.0
             ],
             "erosion": [
+              0.55,
+              1.0
+            ],
+            "humidity": [
+              0.5,
+              1.0
+            ],
+            "temperature": [
+              -1.0,
+              1.0
+            ],
+            "continentalness": 0.0,
+            "depth": 1.0,
+            "offset": 0.0
+          }
+        },
+        {
+          "biome": "proximavis:cretaceous_copse",
+          "parameters": {
+            "weirdness": [
+              0.933,
+              1.0
+            ],
+            "erosion": [
               0.45,
               0.55
             ],
@@ -240,6 +453,30 @@
             ],
             "continentalness": 0.0,
             "depth": 0.0,
+            "offset": 0.0
+          }
+        },
+        {
+          "biome": "proximavis:cretaceous_copse",
+          "parameters": {
+            "weirdness": [
+              0.933,
+              1.0
+            ],
+            "erosion": [
+              0.45,
+              0.55
+            ],
+            "humidity": [
+              0.5,
+              1.0
+            ],
+            "temperature": [
+              -1.0,
+              1.0
+            ],
+            "continentalness": 0.0,
+            "depth": 1.0,
             "offset": 0.0
           }
         },
@@ -275,8 +512,80 @@
               1.0
             ],
             "erosion": [
+              0.05,
+              0.45
+            ],
+            "humidity": [
+              0.5,
+              1.0
+            ],
+            "temperature": [
+              -1.0,
+              1.0
+            ],
+            "continentalness": 0.0,
+            "depth": 1.0,
+            "offset": 0.0
+          }
+        },
+        {
+          "biome": "proximavis:cretaceous_copse",
+          "parameters": {
+            "weirdness": [
+              0.933,
+              1.0
+            ],
+            "erosion": [
               -0.223,
               0.05
+            ],
+            "humidity": [
+              0.5,
+              1.0
+            ],
+            "temperature": [
+              -1.0,
+              1.0
+            ],
+            "continentalness": 0.0,
+            "depth": 0.0,
+            "offset": 0.0
+          }
+        },
+        {
+          "biome": "proximavis:cretaceous_copse",
+          "parameters": {
+            "weirdness": [
+              0.933,
+              1.0
+            ],
+            "erosion": [
+              -0.223,
+              0.05
+            ],
+            "humidity": [
+              0.5,
+              1.0
+            ],
+            "temperature": [
+              -1.0,
+              1.0
+            ],
+            "continentalness": 0.0,
+            "depth": 1.0,
+            "offset": 0.0
+          }
+        },
+        {
+          "biome": "proximavis:cretaceous_copse",
+          "parameters": {
+            "weirdness": [
+              0.933,
+              1.0
+            ],
+            "erosion": [
+              -0.375,
+              -0.223
             ],
             "humidity": [
               0.5,
@@ -311,7 +620,7 @@
               1.0
             ],
             "continentalness": 0.0,
-            "depth": 0.0,
+            "depth": 1.0,
             "offset": 0.0
           }
         },
@@ -347,6 +656,30 @@
               1.0
             ],
             "erosion": [
+              -0.78,
+              -0.375
+            ],
+            "humidity": [
+              0.5,
+              1.0
+            ],
+            "temperature": [
+              -1.0,
+              1.0
+            ],
+            "continentalness": 0.0,
+            "depth": 1.0,
+            "offset": 0.0
+          }
+        },
+        {
+          "biome": "proximavis:carboniferous_swamp",
+          "parameters": {
+            "weirdness": [
+              0.933,
+              1.0
+            ],
+            "erosion": [
               -1.0,
               -0.78
             ],
@@ -360,6 +693,30 @@
             ],
             "continentalness": 0.0,
             "depth": 0.0,
+            "offset": 0.0
+          }
+        },
+        {
+          "biome": "proximavis:carboniferous_swamp",
+          "parameters": {
+            "weirdness": [
+              0.933,
+              1.0
+            ],
+            "erosion": [
+              -1.0,
+              -0.78
+            ],
+            "humidity": [
+              0.5,
+              1.0
+            ],
+            "temperature": [
+              -1.0,
+              1.0
+            ],
+            "continentalness": 0.0,
+            "depth": 1.0,
             "offset": 0.0
           }
         },
@@ -395,6 +752,30 @@
               0.933
             ],
             "erosion": [
+              0.55,
+              1.0
+            ],
+            "humidity": [
+              0.5,
+              1.0
+            ],
+            "temperature": [
+              -1.0,
+              1.0
+            ],
+            "continentalness": 0.0,
+            "depth": 1.0,
+            "offset": 0.0
+          }
+        },
+        {
+          "biome": "proximavis:cretaceous_copse",
+          "parameters": {
+            "weirdness": [
+              0.767,
+              0.933
+            ],
+            "erosion": [
               0.45,
               0.55
             ],
@@ -408,6 +789,30 @@
             ],
             "continentalness": 0.0,
             "depth": 0.0,
+            "offset": 0.0
+          }
+        },
+        {
+          "biome": "proximavis:cretaceous_copse",
+          "parameters": {
+            "weirdness": [
+              0.767,
+              0.933
+            ],
+            "erosion": [
+              0.45,
+              0.55
+            ],
+            "humidity": [
+              0.5,
+              1.0
+            ],
+            "temperature": [
+              -1.0,
+              1.0
+            ],
+            "continentalness": 0.0,
+            "depth": 1.0,
             "offset": 0.0
           }
         },
@@ -443,6 +848,30 @@
               0.933
             ],
             "erosion": [
+              0.05,
+              0.45
+            ],
+            "humidity": [
+              0.5,
+              1.0
+            ],
+            "temperature": [
+              -1.0,
+              1.0
+            ],
+            "continentalness": 0.0,
+            "depth": 1.0,
+            "offset": 0.0
+          }
+        },
+        {
+          "biome": "proximavis:cretaceous_copse",
+          "parameters": {
+            "weirdness": [
+              0.767,
+              0.933
+            ],
+            "erosion": [
               -0.223,
               0.05
             ],
@@ -456,6 +885,30 @@
             ],
             "continentalness": 0.0,
             "depth": 0.0,
+            "offset": 0.0
+          }
+        },
+        {
+          "biome": "proximavis:cretaceous_copse",
+          "parameters": {
+            "weirdness": [
+              0.767,
+              0.933
+            ],
+            "erosion": [
+              -0.223,
+              0.05
+            ],
+            "humidity": [
+              0.5,
+              1.0
+            ],
+            "temperature": [
+              -1.0,
+              1.0
+            ],
+            "continentalness": 0.0,
+            "depth": 1.0,
             "offset": 0.0
           }
         },
@@ -491,8 +944,80 @@
               0.933
             ],
             "erosion": [
+              -0.375,
+              -0.223
+            ],
+            "humidity": [
+              0.5,
+              1.0
+            ],
+            "temperature": [
+              -1.0,
+              1.0
+            ],
+            "continentalness": 0.0,
+            "depth": 1.0,
+            "offset": 0.0
+          }
+        },
+        {
+          "biome": "proximavis:cretaceous_copse",
+          "parameters": {
+            "weirdness": [
+              0.767,
+              0.933
+            ],
+            "erosion": [
               -0.78,
               -0.375
+            ],
+            "humidity": [
+              0.5,
+              1.0
+            ],
+            "temperature": [
+              -1.0,
+              1.0
+            ],
+            "continentalness": 0.0,
+            "depth": 0.0,
+            "offset": 0.0
+          }
+        },
+        {
+          "biome": "proximavis:cretaceous_copse",
+          "parameters": {
+            "weirdness": [
+              0.767,
+              0.933
+            ],
+            "erosion": [
+              -0.78,
+              -0.375
+            ],
+            "humidity": [
+              0.5,
+              1.0
+            ],
+            "temperature": [
+              -1.0,
+              1.0
+            ],
+            "continentalness": 0.0,
+            "depth": 1.0,
+            "offset": 0.0
+          }
+        },
+        {
+          "biome": "proximavis:jurassic_fields",
+          "parameters": {
+            "weirdness": [
+              0.767,
+              0.933
+            ],
+            "erosion": [
+              -1.0,
+              -0.78
             ],
             "humidity": [
               0.5,
@@ -527,7 +1052,7 @@
               1.0
             ],
             "continentalness": 0.0,
-            "depth": 0.0,
+            "depth": 1.0,
             "offset": 0.0
           }
         },
@@ -563,6 +1088,30 @@
               0.767
             ],
             "erosion": [
+              0.55,
+              1.0
+            ],
+            "humidity": [
+              0.5,
+              1.0
+            ],
+            "temperature": [
+              -1.0,
+              1.0
+            ],
+            "continentalness": 0.0,
+            "depth": 1.0,
+            "offset": 0.0
+          }
+        },
+        {
+          "biome": "proximavis:cretaceous_copse",
+          "parameters": {
+            "weirdness": [
+              0.567,
+              0.767
+            ],
+            "erosion": [
               0.45,
               0.55
             ],
@@ -576,6 +1125,30 @@
             ],
             "continentalness": 0.0,
             "depth": 0.0,
+            "offset": 0.0
+          }
+        },
+        {
+          "biome": "proximavis:cretaceous_copse",
+          "parameters": {
+            "weirdness": [
+              0.567,
+              0.767
+            ],
+            "erosion": [
+              0.45,
+              0.55
+            ],
+            "humidity": [
+              0.5,
+              1.0
+            ],
+            "temperature": [
+              -1.0,
+              1.0
+            ],
+            "continentalness": 0.0,
+            "depth": 1.0,
             "offset": 0.0
           }
         },
@@ -611,6 +1184,30 @@
               0.767
             ],
             "erosion": [
+              0.05,
+              0.45
+            ],
+            "humidity": [
+              0.5,
+              1.0
+            ],
+            "temperature": [
+              -1.0,
+              1.0
+            ],
+            "continentalness": 0.0,
+            "depth": 1.0,
+            "offset": 0.0
+          }
+        },
+        {
+          "biome": "proximavis:cretaceous_copse",
+          "parameters": {
+            "weirdness": [
+              0.567,
+              0.767
+            ],
+            "erosion": [
               -0.223,
               0.05
             ],
@@ -624,6 +1221,30 @@
             ],
             "continentalness": 0.0,
             "depth": 0.0,
+            "offset": 0.0
+          }
+        },
+        {
+          "biome": "proximavis:cretaceous_copse",
+          "parameters": {
+            "weirdness": [
+              0.567,
+              0.767
+            ],
+            "erosion": [
+              -0.223,
+              0.05
+            ],
+            "humidity": [
+              0.5,
+              1.0
+            ],
+            "temperature": [
+              -1.0,
+              1.0
+            ],
+            "continentalness": 0.0,
+            "depth": 1.0,
             "offset": 0.0
           }
         },
@@ -659,8 +1280,80 @@
               0.767
             ],
             "erosion": [
+              -0.375,
+              -0.223
+            ],
+            "humidity": [
+              0.5,
+              1.0
+            ],
+            "temperature": [
+              -1.0,
+              1.0
+            ],
+            "continentalness": 0.0,
+            "depth": 1.0,
+            "offset": 0.0
+          }
+        },
+        {
+          "biome": "proximavis:cretaceous_copse",
+          "parameters": {
+            "weirdness": [
+              0.567,
+              0.767
+            ],
+            "erosion": [
               -0.78,
               -0.375
+            ],
+            "humidity": [
+              0.5,
+              1.0
+            ],
+            "temperature": [
+              -1.0,
+              1.0
+            ],
+            "continentalness": 0.0,
+            "depth": 0.0,
+            "offset": 0.0
+          }
+        },
+        {
+          "biome": "proximavis:cretaceous_copse",
+          "parameters": {
+            "weirdness": [
+              0.567,
+              0.767
+            ],
+            "erosion": [
+              -0.78,
+              -0.375
+            ],
+            "humidity": [
+              0.5,
+              1.0
+            ],
+            "temperature": [
+              -1.0,
+              1.0
+            ],
+            "continentalness": 0.0,
+            "depth": 1.0,
+            "offset": 0.0
+          }
+        },
+        {
+          "biome": "proximavis:jurassic_fields",
+          "parameters": {
+            "weirdness": [
+              0.567,
+              0.767
+            ],
+            "erosion": [
+              -1.0,
+              -0.78
             ],
             "humidity": [
               0.5,
@@ -695,7 +1388,7 @@
               1.0
             ],
             "continentalness": 0.0,
-            "depth": 0.0,
+            "depth": 1.0,
             "offset": 0.0
           }
         },
@@ -731,6 +1424,30 @@
               0.567
             ],
             "erosion": [
+              0.55,
+              1.0
+            ],
+            "humidity": [
+              0.5,
+              1.0
+            ],
+            "temperature": [
+              -1.0,
+              1.0
+            ],
+            "continentalness": 0.0,
+            "depth": 1.0,
+            "offset": 0.0
+          }
+        },
+        {
+          "biome": "proximavis:triassic_thicket",
+          "parameters": {
+            "weirdness": [
+              0.4,
+              0.567
+            ],
+            "erosion": [
               0.45,
               0.55
             ],
@@ -744,6 +1461,30 @@
             ],
             "continentalness": 0.0,
             "depth": 0.0,
+            "offset": 0.0
+          }
+        },
+        {
+          "biome": "proximavis:triassic_thicket",
+          "parameters": {
+            "weirdness": [
+              0.4,
+              0.567
+            ],
+            "erosion": [
+              0.45,
+              0.55
+            ],
+            "humidity": [
+              0.5,
+              1.0
+            ],
+            "temperature": [
+              -1.0,
+              1.0
+            ],
+            "continentalness": 0.0,
+            "depth": 1.0,
             "offset": 0.0
           }
         },
@@ -779,6 +1520,30 @@
               0.567
             ],
             "erosion": [
+              0.05,
+              0.45
+            ],
+            "humidity": [
+              0.5,
+              1.0
+            ],
+            "temperature": [
+              -1.0,
+              1.0
+            ],
+            "continentalness": 0.0,
+            "depth": 1.0,
+            "offset": 0.0
+          }
+        },
+        {
+          "biome": "proximavis:triassic_thicket",
+          "parameters": {
+            "weirdness": [
+              0.4,
+              0.567
+            ],
+            "erosion": [
               -0.223,
               0.05
             ],
@@ -792,6 +1557,30 @@
             ],
             "continentalness": 0.0,
             "depth": 0.0,
+            "offset": 0.0
+          }
+        },
+        {
+          "biome": "proximavis:triassic_thicket",
+          "parameters": {
+            "weirdness": [
+              0.4,
+              0.567
+            ],
+            "erosion": [
+              -0.223,
+              0.05
+            ],
+            "humidity": [
+              0.5,
+              1.0
+            ],
+            "temperature": [
+              -1.0,
+              1.0
+            ],
+            "continentalness": 0.0,
+            "depth": 1.0,
             "offset": 0.0
           }
         },
@@ -827,8 +1616,80 @@
               0.567
             ],
             "erosion": [
+              -0.375,
+              -0.223
+            ],
+            "humidity": [
+              0.5,
+              1.0
+            ],
+            "temperature": [
+              -1.0,
+              1.0
+            ],
+            "continentalness": 0.0,
+            "depth": 1.0,
+            "offset": 0.0
+          }
+        },
+        {
+          "biome": "proximavis:triassic_thicket",
+          "parameters": {
+            "weirdness": [
+              0.4,
+              0.567
+            ],
+            "erosion": [
               -0.78,
               -0.375
+            ],
+            "humidity": [
+              0.5,
+              1.0
+            ],
+            "temperature": [
+              -1.0,
+              1.0
+            ],
+            "continentalness": 0.0,
+            "depth": 0.0,
+            "offset": 0.0
+          }
+        },
+        {
+          "biome": "proximavis:triassic_thicket",
+          "parameters": {
+            "weirdness": [
+              0.4,
+              0.567
+            ],
+            "erosion": [
+              -0.78,
+              -0.375
+            ],
+            "humidity": [
+              0.5,
+              1.0
+            ],
+            "temperature": [
+              -1.0,
+              1.0
+            ],
+            "continentalness": 0.0,
+            "depth": 1.0,
+            "offset": 0.0
+          }
+        },
+        {
+          "biome": "proximavis:jurassic_fields",
+          "parameters": {
+            "weirdness": [
+              0.4,
+              0.567
+            ],
+            "erosion": [
+              -1.0,
+              -0.78
             ],
             "humidity": [
               0.5,
@@ -863,7 +1724,7 @@
               1.0
             ],
             "continentalness": 0.0,
-            "depth": 0.0,
+            "depth": 1.0,
             "offset": 0.0
           }
         },
@@ -899,6 +1760,30 @@
               0.4
             ],
             "erosion": [
+              0.55,
+              1.0
+            ],
+            "humidity": [
+              0.5,
+              1.0
+            ],
+            "temperature": [
+              -1.0,
+              1.0
+            ],
+            "continentalness": 0.0,
+            "depth": 1.0,
+            "offset": 0.0
+          }
+        },
+        {
+          "biome": "proximavis:triassic_thicket",
+          "parameters": {
+            "weirdness": [
+              0.267,
+              0.4
+            ],
+            "erosion": [
               0.45,
               0.55
             ],
@@ -912,6 +1797,30 @@
             ],
             "continentalness": 0.0,
             "depth": 0.0,
+            "offset": 0.0
+          }
+        },
+        {
+          "biome": "proximavis:triassic_thicket",
+          "parameters": {
+            "weirdness": [
+              0.267,
+              0.4
+            ],
+            "erosion": [
+              0.45,
+              0.55
+            ],
+            "humidity": [
+              0.5,
+              1.0
+            ],
+            "temperature": [
+              -1.0,
+              1.0
+            ],
+            "continentalness": 0.0,
+            "depth": 1.0,
             "offset": 0.0
           }
         },
@@ -947,6 +1856,30 @@
               0.4
             ],
             "erosion": [
+              0.05,
+              0.45
+            ],
+            "humidity": [
+              0.5,
+              1.0
+            ],
+            "temperature": [
+              -1.0,
+              1.0
+            ],
+            "continentalness": 0.0,
+            "depth": 1.0,
+            "offset": 0.0
+          }
+        },
+        {
+          "biome": "proximavis:triassic_thicket",
+          "parameters": {
+            "weirdness": [
+              0.267,
+              0.4
+            ],
+            "erosion": [
               -0.223,
               0.05
             ],
@@ -960,6 +1893,30 @@
             ],
             "continentalness": 0.0,
             "depth": 0.0,
+            "offset": 0.0
+          }
+        },
+        {
+          "biome": "proximavis:triassic_thicket",
+          "parameters": {
+            "weirdness": [
+              0.267,
+              0.4
+            ],
+            "erosion": [
+              -0.223,
+              0.05
+            ],
+            "humidity": [
+              0.5,
+              1.0
+            ],
+            "temperature": [
+              -1.0,
+              1.0
+            ],
+            "continentalness": 0.0,
+            "depth": 1.0,
             "offset": 0.0
           }
         },
@@ -995,8 +1952,80 @@
               0.4
             ],
             "erosion": [
+              -0.375,
+              -0.223
+            ],
+            "humidity": [
+              0.5,
+              1.0
+            ],
+            "temperature": [
+              -1.0,
+              1.0
+            ],
+            "continentalness": 0.0,
+            "depth": 1.0,
+            "offset": 0.0
+          }
+        },
+        {
+          "biome": "proximavis:triassic_thicket",
+          "parameters": {
+            "weirdness": [
+              0.267,
+              0.4
+            ],
+            "erosion": [
               -0.78,
               -0.375
+            ],
+            "humidity": [
+              0.5,
+              1.0
+            ],
+            "temperature": [
+              -1.0,
+              1.0
+            ],
+            "continentalness": 0.0,
+            "depth": 0.0,
+            "offset": 0.0
+          }
+        },
+        {
+          "biome": "proximavis:triassic_thicket",
+          "parameters": {
+            "weirdness": [
+              0.267,
+              0.4
+            ],
+            "erosion": [
+              -0.78,
+              -0.375
+            ],
+            "humidity": [
+              0.5,
+              1.0
+            ],
+            "temperature": [
+              -1.0,
+              1.0
+            ],
+            "continentalness": 0.0,
+            "depth": 1.0,
+            "offset": 0.0
+          }
+        },
+        {
+          "biome": "proximavis:carboniferous_swamp",
+          "parameters": {
+            "weirdness": [
+              0.267,
+              0.4
+            ],
+            "erosion": [
+              -1.0,
+              -0.78
             ],
             "humidity": [
               0.5,
@@ -1031,7 +2060,7 @@
               1.0
             ],
             "continentalness": 0.0,
-            "depth": 0.0,
+            "depth": 1.0,
             "offset": 0.0
           }
         },
@@ -1067,6 +2096,30 @@
               0.267
             ],
             "erosion": [
+              0.55,
+              1.0
+            ],
+            "humidity": [
+              0.5,
+              1.0
+            ],
+            "temperature": [
+              -1.0,
+              1.0
+            ],
+            "continentalness": 0.0,
+            "depth": 1.0,
+            "offset": 0.0
+          }
+        },
+        {
+          "biome": "proximavis:jurassic_fields",
+          "parameters": {
+            "weirdness": [
+              0.05,
+              0.267
+            ],
+            "erosion": [
               0.45,
               0.55
             ],
@@ -1080,6 +2133,30 @@
             ],
             "continentalness": 0.0,
             "depth": 0.0,
+            "offset": 0.0
+          }
+        },
+        {
+          "biome": "proximavis:jurassic_fields",
+          "parameters": {
+            "weirdness": [
+              0.05,
+              0.267
+            ],
+            "erosion": [
+              0.45,
+              0.55
+            ],
+            "humidity": [
+              0.5,
+              1.0
+            ],
+            "temperature": [
+              -1.0,
+              1.0
+            ],
+            "continentalness": 0.0,
+            "depth": 1.0,
             "offset": 0.0
           }
         },
@@ -1115,6 +2192,30 @@
               0.267
             ],
             "erosion": [
+              0.05,
+              0.45
+            ],
+            "humidity": [
+              0.5,
+              1.0
+            ],
+            "temperature": [
+              -1.0,
+              1.0
+            ],
+            "continentalness": 0.0,
+            "depth": 1.0,
+            "offset": 0.0
+          }
+        },
+        {
+          "biome": "proximavis:jurassic_fields",
+          "parameters": {
+            "weirdness": [
+              0.05,
+              0.267
+            ],
+            "erosion": [
               -0.223,
               0.05
             ],
@@ -1128,6 +2229,30 @@
             ],
             "continentalness": 0.0,
             "depth": 0.0,
+            "offset": 0.0
+          }
+        },
+        {
+          "biome": "proximavis:jurassic_fields",
+          "parameters": {
+            "weirdness": [
+              0.05,
+              0.267
+            ],
+            "erosion": [
+              -0.223,
+              0.05
+            ],
+            "humidity": [
+              0.5,
+              1.0
+            ],
+            "temperature": [
+              -1.0,
+              1.0
+            ],
+            "continentalness": 0.0,
+            "depth": 1.0,
             "offset": 0.0
           }
         },
@@ -1163,8 +2288,80 @@
               0.267
             ],
             "erosion": [
+              -0.375,
+              -0.223
+            ],
+            "humidity": [
+              0.5,
+              1.0
+            ],
+            "temperature": [
+              -1.0,
+              1.0
+            ],
+            "continentalness": 0.0,
+            "depth": 1.0,
+            "offset": 0.0
+          }
+        },
+        {
+          "biome": "proximavis:carboniferous_swamp",
+          "parameters": {
+            "weirdness": [
+              0.05,
+              0.267
+            ],
+            "erosion": [
               -0.78,
               -0.375
+            ],
+            "humidity": [
+              0.5,
+              1.0
+            ],
+            "temperature": [
+              -1.0,
+              1.0
+            ],
+            "continentalness": 0.0,
+            "depth": 0.0,
+            "offset": 0.0
+          }
+        },
+        {
+          "biome": "proximavis:carboniferous_swamp",
+          "parameters": {
+            "weirdness": [
+              0.05,
+              0.267
+            ],
+            "erosion": [
+              -0.78,
+              -0.375
+            ],
+            "humidity": [
+              0.5,
+              1.0
+            ],
+            "temperature": [
+              -1.0,
+              1.0
+            ],
+            "continentalness": 0.0,
+            "depth": 1.0,
+            "offset": 0.0
+          }
+        },
+        {
+          "biome": "proximavis:carboniferous_swamp",
+          "parameters": {
+            "weirdness": [
+              0.05,
+              0.267
+            ],
+            "erosion": [
+              -1.0,
+              -0.78
             ],
             "humidity": [
               0.5,
@@ -1199,7 +2396,7 @@
               1.0
             ],
             "continentalness": 0.0,
-            "depth": 0.0,
+            "depth": 1.0,
             "offset": 0.0
           }
         },
@@ -1235,6 +2432,30 @@
               0.05
             ],
             "erosion": [
+              0.55,
+              1.0
+            ],
+            "humidity": [
+              0.5,
+              1.0
+            ],
+            "temperature": [
+              -1.0,
+              1.0
+            ],
+            "continentalness": 0.0,
+            "depth": 1.0,
+            "offset": 0.0
+          }
+        },
+        {
+          "biome": "proximavis:jurassic_fields",
+          "parameters": {
+            "weirdness": [
+              -0.05,
+              0.05
+            ],
+            "erosion": [
               0.45,
               0.55
             ],
@@ -1248,6 +2469,30 @@
             ],
             "continentalness": 0.0,
             "depth": 0.0,
+            "offset": 0.0
+          }
+        },
+        {
+          "biome": "proximavis:jurassic_fields",
+          "parameters": {
+            "weirdness": [
+              -0.05,
+              0.05
+            ],
+            "erosion": [
+              0.45,
+              0.55
+            ],
+            "humidity": [
+              0.5,
+              1.0
+            ],
+            "temperature": [
+              -1.0,
+              1.0
+            ],
+            "continentalness": 0.0,
+            "depth": 1.0,
             "offset": 0.0
           }
         },
@@ -1283,6 +2528,30 @@
               0.05
             ],
             "erosion": [
+              0.05,
+              0.45
+            ],
+            "humidity": [
+              0.5,
+              1.0
+            ],
+            "temperature": [
+              -1.0,
+              1.0
+            ],
+            "continentalness": 0.0,
+            "depth": 1.0,
+            "offset": 0.0
+          }
+        },
+        {
+          "biome": "proximavis:river",
+          "parameters": {
+            "weirdness": [
+              -0.05,
+              0.05
+            ],
+            "erosion": [
               -0.223,
               0.05
             ],
@@ -1296,6 +2565,30 @@
             ],
             "continentalness": 0.0,
             "depth": 0.0,
+            "offset": 0.0
+          }
+        },
+        {
+          "biome": "proximavis:river",
+          "parameters": {
+            "weirdness": [
+              -0.05,
+              0.05
+            ],
+            "erosion": [
+              -0.223,
+              0.05
+            ],
+            "humidity": [
+              0.5,
+              1.0
+            ],
+            "temperature": [
+              -1.0,
+              1.0
+            ],
+            "continentalness": 0.0,
+            "depth": 1.0,
             "offset": 0.0
           }
         },
@@ -1331,8 +2624,80 @@
               0.05
             ],
             "erosion": [
+              -0.375,
+              -0.223
+            ],
+            "humidity": [
+              0.5,
+              1.0
+            ],
+            "temperature": [
+              -1.0,
+              1.0
+            ],
+            "continentalness": 0.0,
+            "depth": 1.0,
+            "offset": 0.0
+          }
+        },
+        {
+          "biome": "proximavis:carboniferous_swamp",
+          "parameters": {
+            "weirdness": [
+              -0.05,
+              0.05
+            ],
+            "erosion": [
               -0.78,
               -0.375
+            ],
+            "humidity": [
+              0.5,
+              1.0
+            ],
+            "temperature": [
+              -1.0,
+              1.0
+            ],
+            "continentalness": 0.0,
+            "depth": 0.0,
+            "offset": 0.0
+          }
+        },
+        {
+          "biome": "proximavis:carboniferous_swamp",
+          "parameters": {
+            "weirdness": [
+              -0.05,
+              0.05
+            ],
+            "erosion": [
+              -0.78,
+              -0.375
+            ],
+            "humidity": [
+              0.5,
+              1.0
+            ],
+            "temperature": [
+              -1.0,
+              1.0
+            ],
+            "continentalness": 0.0,
+            "depth": 1.0,
+            "offset": 0.0
+          }
+        },
+        {
+          "biome": "proximavis:carboniferous_swamp",
+          "parameters": {
+            "weirdness": [
+              -0.05,
+              0.05
+            ],
+            "erosion": [
+              -1.0,
+              -0.78
             ],
             "humidity": [
               0.5,
@@ -1367,7 +2732,7 @@
               1.0
             ],
             "continentalness": 0.0,
-            "depth": 0.0,
+            "depth": 1.0,
             "offset": 0.0
           }
         },
@@ -1403,6 +2768,30 @@
               -0.05
             ],
             "erosion": [
+              0.55,
+              1.0
+            ],
+            "humidity": [
+              0.5,
+              1.0
+            ],
+            "temperature": [
+              -1.0,
+              1.0
+            ],
+            "continentalness": 0.0,
+            "depth": 1.0,
+            "offset": 0.0
+          }
+        },
+        {
+          "biome": "proximavis:jurassic_fields",
+          "parameters": {
+            "weirdness": [
+              -0.267,
+              -0.05
+            ],
+            "erosion": [
               0.45,
               0.55
             ],
@@ -1416,6 +2805,30 @@
             ],
             "continentalness": 0.0,
             "depth": 0.0,
+            "offset": 0.0
+          }
+        },
+        {
+          "biome": "proximavis:jurassic_fields",
+          "parameters": {
+            "weirdness": [
+              -0.267,
+              -0.05
+            ],
+            "erosion": [
+              0.45,
+              0.55
+            ],
+            "humidity": [
+              0.5,
+              1.0
+            ],
+            "temperature": [
+              -1.0,
+              1.0
+            ],
+            "continentalness": 0.0,
+            "depth": 1.0,
             "offset": 0.0
           }
         },
@@ -1451,6 +2864,30 @@
               -0.05
             ],
             "erosion": [
+              0.05,
+              0.45
+            ],
+            "humidity": [
+              0.5,
+              1.0
+            ],
+            "temperature": [
+              -1.0,
+              1.0
+            ],
+            "continentalness": 0.0,
+            "depth": 1.0,
+            "offset": 0.0
+          }
+        },
+        {
+          "biome": "proximavis:jurassic_fields",
+          "parameters": {
+            "weirdness": [
+              -0.267,
+              -0.05
+            ],
+            "erosion": [
               -0.223,
               0.05
             ],
@@ -1464,6 +2901,30 @@
             ],
             "continentalness": 0.0,
             "depth": 0.0,
+            "offset": 0.0
+          }
+        },
+        {
+          "biome": "proximavis:jurassic_fields",
+          "parameters": {
+            "weirdness": [
+              -0.267,
+              -0.05
+            ],
+            "erosion": [
+              -0.223,
+              0.05
+            ],
+            "humidity": [
+              0.5,
+              1.0
+            ],
+            "temperature": [
+              -1.0,
+              1.0
+            ],
+            "continentalness": 0.0,
+            "depth": 1.0,
             "offset": 0.0
           }
         },
@@ -1499,8 +2960,80 @@
               -0.05
             ],
             "erosion": [
+              -0.375,
+              -0.223
+            ],
+            "humidity": [
+              0.5,
+              1.0
+            ],
+            "temperature": [
+              -1.0,
+              1.0
+            ],
+            "continentalness": 0.0,
+            "depth": 1.0,
+            "offset": 0.0
+          }
+        },
+        {
+          "biome": "proximavis:carboniferous_swamp",
+          "parameters": {
+            "weirdness": [
+              -0.267,
+              -0.05
+            ],
+            "erosion": [
               -0.78,
               -0.375
+            ],
+            "humidity": [
+              0.5,
+              1.0
+            ],
+            "temperature": [
+              -1.0,
+              1.0
+            ],
+            "continentalness": 0.0,
+            "depth": 0.0,
+            "offset": 0.0
+          }
+        },
+        {
+          "biome": "proximavis:carboniferous_swamp",
+          "parameters": {
+            "weirdness": [
+              -0.267,
+              -0.05
+            ],
+            "erosion": [
+              -0.78,
+              -0.375
+            ],
+            "humidity": [
+              0.5,
+              1.0
+            ],
+            "temperature": [
+              -1.0,
+              1.0
+            ],
+            "continentalness": 0.0,
+            "depth": 1.0,
+            "offset": 0.0
+          }
+        },
+        {
+          "biome": "proximavis:carboniferous_swamp",
+          "parameters": {
+            "weirdness": [
+              -0.267,
+              -0.05
+            ],
+            "erosion": [
+              -1.0,
+              -0.78
             ],
             "humidity": [
               0.5,
@@ -1535,7 +3068,7 @@
               1.0
             ],
             "continentalness": 0.0,
-            "depth": 0.0,
+            "depth": 1.0,
             "offset": 0.0
           }
         },
@@ -1571,6 +3104,30 @@
               -0.267
             ],
             "erosion": [
+              0.55,
+              1.0
+            ],
+            "humidity": [
+              0.5,
+              1.0
+            ],
+            "temperature": [
+              -1.0,
+              1.0
+            ],
+            "continentalness": 0.0,
+            "depth": 1.0,
+            "offset": 0.0
+          }
+        },
+        {
+          "biome": "proximavis:triassic_thicket",
+          "parameters": {
+            "weirdness": [
+              -0.4,
+              -0.267
+            ],
+            "erosion": [
               0.45,
               0.55
             ],
@@ -1584,6 +3141,30 @@
             ],
             "continentalness": 0.0,
             "depth": 0.0,
+            "offset": 0.0
+          }
+        },
+        {
+          "biome": "proximavis:triassic_thicket",
+          "parameters": {
+            "weirdness": [
+              -0.4,
+              -0.267
+            ],
+            "erosion": [
+              0.45,
+              0.55
+            ],
+            "humidity": [
+              0.5,
+              1.0
+            ],
+            "temperature": [
+              -1.0,
+              1.0
+            ],
+            "continentalness": 0.0,
+            "depth": 1.0,
             "offset": 0.0
           }
         },
@@ -1619,6 +3200,30 @@
               -0.267
             ],
             "erosion": [
+              0.05,
+              0.45
+            ],
+            "humidity": [
+              0.5,
+              1.0
+            ],
+            "temperature": [
+              -1.0,
+              1.0
+            ],
+            "continentalness": 0.0,
+            "depth": 1.0,
+            "offset": 0.0
+          }
+        },
+        {
+          "biome": "proximavis:triassic_thicket",
+          "parameters": {
+            "weirdness": [
+              -0.4,
+              -0.267
+            ],
+            "erosion": [
               -0.223,
               0.05
             ],
@@ -1632,6 +3237,30 @@
             ],
             "continentalness": 0.0,
             "depth": 0.0,
+            "offset": 0.0
+          }
+        },
+        {
+          "biome": "proximavis:triassic_thicket",
+          "parameters": {
+            "weirdness": [
+              -0.4,
+              -0.267
+            ],
+            "erosion": [
+              -0.223,
+              0.05
+            ],
+            "humidity": [
+              0.5,
+              1.0
+            ],
+            "temperature": [
+              -1.0,
+              1.0
+            ],
+            "continentalness": 0.0,
+            "depth": 1.0,
             "offset": 0.0
           }
         },
@@ -1667,8 +3296,80 @@
               -0.267
             ],
             "erosion": [
+              -0.375,
+              -0.223
+            ],
+            "humidity": [
+              0.5,
+              1.0
+            ],
+            "temperature": [
+              -1.0,
+              1.0
+            ],
+            "continentalness": 0.0,
+            "depth": 1.0,
+            "offset": 0.0
+          }
+        },
+        {
+          "biome": "proximavis:triassic_thicket",
+          "parameters": {
+            "weirdness": [
+              -0.4,
+              -0.267
+            ],
+            "erosion": [
               -0.78,
               -0.375
+            ],
+            "humidity": [
+              0.5,
+              1.0
+            ],
+            "temperature": [
+              -1.0,
+              1.0
+            ],
+            "continentalness": 0.0,
+            "depth": 0.0,
+            "offset": 0.0
+          }
+        },
+        {
+          "biome": "proximavis:triassic_thicket",
+          "parameters": {
+            "weirdness": [
+              -0.4,
+              -0.267
+            ],
+            "erosion": [
+              -0.78,
+              -0.375
+            ],
+            "humidity": [
+              0.5,
+              1.0
+            ],
+            "temperature": [
+              -1.0,
+              1.0
+            ],
+            "continentalness": 0.0,
+            "depth": 1.0,
+            "offset": 0.0
+          }
+        },
+        {
+          "biome": "proximavis:carboniferous_swamp",
+          "parameters": {
+            "weirdness": [
+              -0.4,
+              -0.267
+            ],
+            "erosion": [
+              -1.0,
+              -0.78
             ],
             "humidity": [
               0.5,
@@ -1703,7 +3404,7 @@
               1.0
             ],
             "continentalness": 0.0,
-            "depth": 0.0,
+            "depth": 1.0,
             "offset": 0.0
           }
         },
@@ -1739,6 +3440,30 @@
               -0.4
             ],
             "erosion": [
+              0.55,
+              1.0
+            ],
+            "humidity": [
+              0.5,
+              1.0
+            ],
+            "temperature": [
+              -1.0,
+              1.0
+            ],
+            "continentalness": 0.0,
+            "depth": 1.0,
+            "offset": 0.0
+          }
+        },
+        {
+          "biome": "proximavis:triassic_thicket",
+          "parameters": {
+            "weirdness": [
+              -0.567,
+              -0.4
+            ],
+            "erosion": [
               0.45,
               0.55
             ],
@@ -1752,6 +3477,30 @@
             ],
             "continentalness": 0.0,
             "depth": 0.0,
+            "offset": 0.0
+          }
+        },
+        {
+          "biome": "proximavis:triassic_thicket",
+          "parameters": {
+            "weirdness": [
+              -0.567,
+              -0.4
+            ],
+            "erosion": [
+              0.45,
+              0.55
+            ],
+            "humidity": [
+              0.5,
+              1.0
+            ],
+            "temperature": [
+              -1.0,
+              1.0
+            ],
+            "continentalness": 0.0,
+            "depth": 1.0,
             "offset": 0.0
           }
         },
@@ -1787,6 +3536,30 @@
               -0.4
             ],
             "erosion": [
+              0.05,
+              0.45
+            ],
+            "humidity": [
+              0.5,
+              1.0
+            ],
+            "temperature": [
+              -1.0,
+              1.0
+            ],
+            "continentalness": 0.0,
+            "depth": 1.0,
+            "offset": 0.0
+          }
+        },
+        {
+          "biome": "proximavis:triassic_thicket",
+          "parameters": {
+            "weirdness": [
+              -0.567,
+              -0.4
+            ],
+            "erosion": [
               -0.223,
               0.05
             ],
@@ -1811,8 +3584,80 @@
               -0.4
             ],
             "erosion": [
+              -0.223,
+              0.05
+            ],
+            "humidity": [
+              0.5,
+              1.0
+            ],
+            "temperature": [
+              -1.0,
+              1.0
+            ],
+            "continentalness": 0.0,
+            "depth": 1.0,
+            "offset": 0.0
+          }
+        },
+        {
+          "biome": "proximavis:triassic_thicket",
+          "parameters": {
+            "weirdness": [
+              -0.567,
+              -0.4
+            ],
+            "erosion": [
               -0.375,
               -0.223
+            ],
+            "humidity": [
+              0.5,
+              1.0
+            ],
+            "temperature": [
+              -1.0,
+              1.0
+            ],
+            "continentalness": 0.0,
+            "depth": 0.0,
+            "offset": 0.0
+          }
+        },
+        {
+          "biome": "proximavis:triassic_thicket",
+          "parameters": {
+            "weirdness": [
+              -0.567,
+              -0.4
+            ],
+            "erosion": [
+              -0.375,
+              -0.223
+            ],
+            "humidity": [
+              0.5,
+              1.0
+            ],
+            "temperature": [
+              -1.0,
+              1.0
+            ],
+            "continentalness": 0.0,
+            "depth": 1.0,
+            "offset": 0.0
+          }
+        },
+        {
+          "biome": "proximavis:triassic_thicket",
+          "parameters": {
+            "weirdness": [
+              -0.567,
+              -0.4
+            ],
+            "erosion": [
+              -0.78,
+              -0.375
             ],
             "humidity": [
               0.5,
@@ -1847,7 +3692,7 @@
               1.0
             ],
             "continentalness": 0.0,
-            "depth": 0.0,
+            "depth": 1.0,
             "offset": 0.0
           }
         },
@@ -1876,6 +3721,30 @@
           }
         },
         {
+          "biome": "proximavis:jurassic_fields",
+          "parameters": {
+            "weirdness": [
+              -0.567,
+              -0.4
+            ],
+            "erosion": [
+              -1.0,
+              -0.78
+            ],
+            "humidity": [
+              0.5,
+              1.0
+            ],
+            "temperature": [
+              -1.0,
+              1.0
+            ],
+            "continentalness": 0.0,
+            "depth": 1.0,
+            "offset": 0.0
+          }
+        },
+        {
           "biome": "proximavis:cretaceous_copse",
           "parameters": {
             "weirdness": [
@@ -1896,6 +3765,30 @@
             ],
             "continentalness": 0.0,
             "depth": 0.0,
+            "offset": 0.0
+          }
+        },
+        {
+          "biome": "proximavis:cretaceous_copse",
+          "parameters": {
+            "weirdness": [
+              -0.676,
+              -0.567
+            ],
+            "erosion": [
+              0.55,
+              1.0
+            ],
+            "humidity": [
+              0.5,
+              1.0
+            ],
+            "temperature": [
+              -1.0,
+              1.0
+            ],
+            "continentalness": 0.0,
+            "depth": 1.0,
             "offset": 0.0
           }
         },
@@ -1931,6 +3824,30 @@
               -0.567
             ],
             "erosion": [
+              0.45,
+              0.55
+            ],
+            "humidity": [
+              0.5,
+              1.0
+            ],
+            "temperature": [
+              -1.0,
+              1.0
+            ],
+            "continentalness": 0.0,
+            "depth": 1.0,
+            "offset": 0.0
+          }
+        },
+        {
+          "biome": "proximavis:cretaceous_copse",
+          "parameters": {
+            "weirdness": [
+              -0.676,
+              -0.567
+            ],
+            "erosion": [
               0.05,
               0.45
             ],
@@ -1944,6 +3861,30 @@
             ],
             "continentalness": 0.0,
             "depth": 0.0,
+            "offset": 0.0
+          }
+        },
+        {
+          "biome": "proximavis:cretaceous_copse",
+          "parameters": {
+            "weirdness": [
+              -0.676,
+              -0.567
+            ],
+            "erosion": [
+              0.05,
+              0.45
+            ],
+            "humidity": [
+              0.5,
+              1.0
+            ],
+            "temperature": [
+              -1.0,
+              1.0
+            ],
+            "continentalness": 0.0,
+            "depth": 1.0,
             "offset": 0.0
           }
         },
@@ -1979,8 +3920,80 @@
               -0.567
             ],
             "erosion": [
+              -0.223,
+              0.05
+            ],
+            "humidity": [
+              0.5,
+              1.0
+            ],
+            "temperature": [
+              -1.0,
+              1.0
+            ],
+            "continentalness": 0.0,
+            "depth": 1.0,
+            "offset": 0.0
+          }
+        },
+        {
+          "biome": "proximavis:cretaceous_copse",
+          "parameters": {
+            "weirdness": [
+              -0.676,
+              -0.567
+            ],
+            "erosion": [
               -0.375,
               -0.223
+            ],
+            "humidity": [
+              0.5,
+              1.0
+            ],
+            "temperature": [
+              -1.0,
+              1.0
+            ],
+            "continentalness": 0.0,
+            "depth": 0.0,
+            "offset": 0.0
+          }
+        },
+        {
+          "biome": "proximavis:cretaceous_copse",
+          "parameters": {
+            "weirdness": [
+              -0.676,
+              -0.567
+            ],
+            "erosion": [
+              -0.375,
+              -0.223
+            ],
+            "humidity": [
+              0.5,
+              1.0
+            ],
+            "temperature": [
+              -1.0,
+              1.0
+            ],
+            "continentalness": 0.0,
+            "depth": 1.0,
+            "offset": 0.0
+          }
+        },
+        {
+          "biome": "proximavis:cretaceous_copse",
+          "parameters": {
+            "weirdness": [
+              -0.676,
+              -0.567
+            ],
+            "erosion": [
+              -0.78,
+              -0.375
             ],
             "humidity": [
               0.5,
@@ -2015,7 +4028,7 @@
               1.0
             ],
             "continentalness": 0.0,
-            "depth": 0.0,
+            "depth": 1.0,
             "offset": 0.0
           }
         },
@@ -2040,6 +4053,30 @@
             ],
             "continentalness": 0.0,
             "depth": 0.0,
+            "offset": 0.0
+          }
+        },
+        {
+          "biome": "proximavis:jurassic_fields",
+          "parameters": {
+            "weirdness": [
+              -0.676,
+              -0.567
+            ],
+            "erosion": [
+              -1.0,
+              -0.78
+            ],
+            "humidity": [
+              0.5,
+              1.0
+            ],
+            "temperature": [
+              -1.0,
+              1.0
+            ],
+            "continentalness": 0.0,
+            "depth": 1.0,
             "offset": 0.0
           }
         },
@@ -2075,6 +4112,30 @@
               -0.767
             ],
             "erosion": [
+              0.55,
+              1.0
+            ],
+            "humidity": [
+              0.5,
+              1.0
+            ],
+            "temperature": [
+              -1.0,
+              1.0
+            ],
+            "continentalness": 0.0,
+            "depth": 1.0,
+            "offset": 0.0
+          }
+        },
+        {
+          "biome": "proximavis:cretaceous_copse",
+          "parameters": {
+            "weirdness": [
+              -0.933,
+              -0.767
+            ],
+            "erosion": [
               0.45,
               0.55
             ],
@@ -2088,6 +4149,30 @@
             ],
             "continentalness": 0.0,
             "depth": 0.0,
+            "offset": 0.0
+          }
+        },
+        {
+          "biome": "proximavis:cretaceous_copse",
+          "parameters": {
+            "weirdness": [
+              -0.933,
+              -0.767
+            ],
+            "erosion": [
+              0.45,
+              0.55
+            ],
+            "humidity": [
+              0.5,
+              1.0
+            ],
+            "temperature": [
+              -1.0,
+              1.0
+            ],
+            "continentalness": 0.0,
+            "depth": 1.0,
             "offset": 0.0
           }
         },
@@ -2123,6 +4208,30 @@
               -0.767
             ],
             "erosion": [
+              0.05,
+              0.45
+            ],
+            "humidity": [
+              0.5,
+              1.0
+            ],
+            "temperature": [
+              -1.0,
+              1.0
+            ],
+            "continentalness": 0.0,
+            "depth": 1.0,
+            "offset": 0.0
+          }
+        },
+        {
+          "biome": "proximavis:cretaceous_copse",
+          "parameters": {
+            "weirdness": [
+              -0.933,
+              -0.767
+            ],
+            "erosion": [
               -0.223,
               0.05
             ],
@@ -2147,8 +4256,80 @@
               -0.767
             ],
             "erosion": [
+              -0.223,
+              0.05
+            ],
+            "humidity": [
+              0.5,
+              1.0
+            ],
+            "temperature": [
+              -1.0,
+              1.0
+            ],
+            "continentalness": 0.0,
+            "depth": 1.0,
+            "offset": 0.0
+          }
+        },
+        {
+          "biome": "proximavis:cretaceous_copse",
+          "parameters": {
+            "weirdness": [
+              -0.933,
+              -0.767
+            ],
+            "erosion": [
               -0.375,
               -0.223
+            ],
+            "humidity": [
+              0.5,
+              1.0
+            ],
+            "temperature": [
+              -1.0,
+              1.0
+            ],
+            "continentalness": 0.0,
+            "depth": 0.0,
+            "offset": 0.0
+          }
+        },
+        {
+          "biome": "proximavis:cretaceous_copse",
+          "parameters": {
+            "weirdness": [
+              -0.933,
+              -0.767
+            ],
+            "erosion": [
+              -0.375,
+              -0.223
+            ],
+            "humidity": [
+              0.5,
+              1.0
+            ],
+            "temperature": [
+              -1.0,
+              1.0
+            ],
+            "continentalness": 0.0,
+            "depth": 1.0,
+            "offset": 0.0
+          }
+        },
+        {
+          "biome": "proximavis:cretaceous_copse",
+          "parameters": {
+            "weirdness": [
+              -0.933,
+              -0.767
+            ],
+            "erosion": [
+              -0.78,
+              -0.375
             ],
             "humidity": [
               0.5,
@@ -2183,7 +4364,7 @@
               1.0
             ],
             "continentalness": 0.0,
-            "depth": 0.0,
+            "depth": 1.0,
             "offset": 0.0
           }
         },
@@ -2208,6 +4389,30 @@
             ],
             "continentalness": 0.0,
             "depth": 0.0,
+            "offset": 0.0
+          }
+        },
+        {
+          "biome": "proximavis:jurassic_fields",
+          "parameters": {
+            "weirdness": [
+              -0.933,
+              -0.767
+            ],
+            "erosion": [
+              -1.0,
+              -0.78
+            ],
+            "humidity": [
+              0.5,
+              1.0
+            ],
+            "temperature": [
+              -1.0,
+              1.0
+            ],
+            "continentalness": 0.0,
+            "depth": 1.0,
             "offset": 0.0
           }
         },
@@ -2243,6 +4448,30 @@
               -0.933
             ],
             "erosion": [
+              0.55,
+              1.0
+            ],
+            "humidity": [
+              0.5,
+              1.0
+            ],
+            "temperature": [
+              -1.0,
+              1.0
+            ],
+            "continentalness": 0.0,
+            "depth": 1.0,
+            "offset": 0.0
+          }
+        },
+        {
+          "biome": "proximavis:cretaceous_copse",
+          "parameters": {
+            "weirdness": [
+              -1.0,
+              -0.933
+            ],
+            "erosion": [
               0.45,
               0.55
             ],
@@ -2256,6 +4485,30 @@
             ],
             "continentalness": 0.0,
             "depth": 0.0,
+            "offset": 0.0
+          }
+        },
+        {
+          "biome": "proximavis:cretaceous_copse",
+          "parameters": {
+            "weirdness": [
+              -1.0,
+              -0.933
+            ],
+            "erosion": [
+              0.45,
+              0.55
+            ],
+            "humidity": [
+              0.5,
+              1.0
+            ],
+            "temperature": [
+              -1.0,
+              1.0
+            ],
+            "continentalness": 0.0,
+            "depth": 1.0,
             "offset": 0.0
           }
         },
@@ -2291,8 +4544,80 @@
               -0.933
             ],
             "erosion": [
+              0.05,
+              0.45
+            ],
+            "humidity": [
+              0.5,
+              1.0
+            ],
+            "temperature": [
+              -1.0,
+              1.0
+            ],
+            "continentalness": 0.0,
+            "depth": 1.0,
+            "offset": 0.0
+          }
+        },
+        {
+          "biome": "proximavis:cretaceous_copse",
+          "parameters": {
+            "weirdness": [
+              -1.0,
+              -0.933
+            ],
+            "erosion": [
               -0.223,
               0.05
+            ],
+            "humidity": [
+              0.5,
+              1.0
+            ],
+            "temperature": [
+              -1.0,
+              1.0
+            ],
+            "continentalness": 0.0,
+            "depth": 0.0,
+            "offset": 0.0
+          }
+        },
+        {
+          "biome": "proximavis:cretaceous_copse",
+          "parameters": {
+            "weirdness": [
+              -1.0,
+              -0.933
+            ],
+            "erosion": [
+              -0.223,
+              0.05
+            ],
+            "humidity": [
+              0.5,
+              1.0
+            ],
+            "temperature": [
+              -1.0,
+              1.0
+            ],
+            "continentalness": 0.0,
+            "depth": 1.0,
+            "offset": 0.0
+          }
+        },
+        {
+          "biome": "proximavis:cretaceous_copse",
+          "parameters": {
+            "weirdness": [
+              -1.0,
+              -0.933
+            ],
+            "erosion": [
+              -0.375,
+              -0.223
             ],
             "humidity": [
               0.5,
@@ -2327,7 +4652,7 @@
               1.0
             ],
             "continentalness": 0.0,
-            "depth": 0.0,
+            "depth": 1.0,
             "offset": 0.0
           }
         },
@@ -2363,6 +4688,30 @@
               -0.933
             ],
             "erosion": [
+              -0.78,
+              -0.375
+            ],
+            "humidity": [
+              0.5,
+              1.0
+            ],
+            "temperature": [
+              -1.0,
+              1.0
+            ],
+            "continentalness": 0.0,
+            "depth": 1.0,
+            "offset": 0.0
+          }
+        },
+        {
+          "biome": "proximavis:carboniferous_swamp",
+          "parameters": {
+            "weirdness": [
+              -1.0,
+              -0.933
+            ],
+            "erosion": [
               -1.0,
               -0.78
             ],
@@ -2380,6 +4729,30 @@
           }
         },
         {
+          "biome": "proximavis:carboniferous_swamp",
+          "parameters": {
+            "weirdness": [
+              -1.0,
+              -0.933
+            ],
+            "erosion": [
+              -1.0,
+              -0.78
+            ],
+            "humidity": [
+              0.5,
+              1.0
+            ],
+            "temperature": [
+              -1.0,
+              1.0
+            ],
+            "continentalness": 0.0,
+            "depth": 1.0,
+            "offset": 0.0
+          }
+        },
+        {
           "biome": "proximavis:cretaceous_copse",
           "parameters": {
             "weirdness": [
@@ -2400,6 +4773,30 @@
             ],
             "continentalness": 0.0,
             "depth": 0.0,
+            "offset": 0.0
+          }
+        },
+        {
+          "biome": "proximavis:cretaceous_copse",
+          "parameters": {
+            "weirdness": [
+              0.933,
+              1.0
+            ],
+            "erosion": [
+              0.55,
+              1.0
+            ],
+            "humidity": [
+              -0.5,
+              0.5
+            ],
+            "temperature": [
+              -1.0,
+              1.0
+            ],
+            "continentalness": 0.0,
+            "depth": 1.0,
             "offset": 0.0
           }
         },
@@ -2435,6 +4832,30 @@
               1.0
             ],
             "erosion": [
+              0.45,
+              0.55
+            ],
+            "humidity": [
+              -0.5,
+              0.5
+            ],
+            "temperature": [
+              -1.0,
+              1.0
+            ],
+            "continentalness": 0.0,
+            "depth": 1.0,
+            "offset": 0.0
+          }
+        },
+        {
+          "biome": "proximavis:cretaceous_copse",
+          "parameters": {
+            "weirdness": [
+              0.933,
+              1.0
+            ],
+            "erosion": [
               0.05,
               0.45
             ],
@@ -2448,6 +4869,30 @@
             ],
             "continentalness": 0.0,
             "depth": 0.0,
+            "offset": 0.0
+          }
+        },
+        {
+          "biome": "proximavis:cretaceous_copse",
+          "parameters": {
+            "weirdness": [
+              0.933,
+              1.0
+            ],
+            "erosion": [
+              0.05,
+              0.45
+            ],
+            "humidity": [
+              -0.5,
+              0.5
+            ],
+            "temperature": [
+              -1.0,
+              1.0
+            ],
+            "continentalness": 0.0,
+            "depth": 1.0,
             "offset": 0.0
           }
         },
@@ -2483,6 +4928,30 @@
               1.0
             ],
             "erosion": [
+              -0.223,
+              0.05
+            ],
+            "humidity": [
+              -0.5,
+              0.5
+            ],
+            "temperature": [
+              -1.0,
+              1.0
+            ],
+            "continentalness": 0.0,
+            "depth": 1.0,
+            "offset": 0.0
+          }
+        },
+        {
+          "biome": "proximavis:cretaceous_copse",
+          "parameters": {
+            "weirdness": [
+              0.933,
+              1.0
+            ],
+            "erosion": [
               -0.375,
               -0.223
             ],
@@ -2496,6 +4965,30 @@
             ],
             "continentalness": 0.0,
             "depth": 0.0,
+            "offset": 0.0
+          }
+        },
+        {
+          "biome": "proximavis:cretaceous_copse",
+          "parameters": {
+            "weirdness": [
+              0.933,
+              1.0
+            ],
+            "erosion": [
+              -0.375,
+              -0.223
+            ],
+            "humidity": [
+              -0.5,
+              0.5
+            ],
+            "temperature": [
+              -1.0,
+              1.0
+            ],
+            "continentalness": 0.0,
+            "depth": 1.0,
             "offset": 0.0
           }
         },
@@ -2531,6 +5024,30 @@
               1.0
             ],
             "erosion": [
+              -0.78,
+              -0.375
+            ],
+            "humidity": [
+              -0.5,
+              0.5
+            ],
+            "temperature": [
+              -1.0,
+              1.0
+            ],
+            "continentalness": 0.0,
+            "depth": 1.0,
+            "offset": 0.0
+          }
+        },
+        {
+          "biome": "proximavis:carboniferous_swamp",
+          "parameters": {
+            "weirdness": [
+              0.933,
+              1.0
+            ],
+            "erosion": [
               -1.0,
               -0.78
             ],
@@ -2544,6 +5061,30 @@
             ],
             "continentalness": 0.0,
             "depth": 0.0,
+            "offset": 0.0
+          }
+        },
+        {
+          "biome": "proximavis:carboniferous_swamp",
+          "parameters": {
+            "weirdness": [
+              0.933,
+              1.0
+            ],
+            "erosion": [
+              -1.0,
+              -0.78
+            ],
+            "humidity": [
+              -0.5,
+              0.5
+            ],
+            "temperature": [
+              -1.0,
+              1.0
+            ],
+            "continentalness": 0.0,
+            "depth": 1.0,
             "offset": 0.0
           }
         },
@@ -2579,6 +5120,30 @@
               0.933
             ],
             "erosion": [
+              0.55,
+              1.0
+            ],
+            "humidity": [
+              -0.5,
+              0.5
+            ],
+            "temperature": [
+              -1.0,
+              1.0
+            ],
+            "continentalness": 0.0,
+            "depth": 1.0,
+            "offset": 0.0
+          }
+        },
+        {
+          "biome": "proximavis:cretaceous_copse",
+          "parameters": {
+            "weirdness": [
+              0.767,
+              0.933
+            ],
+            "erosion": [
               0.45,
               0.55
             ],
@@ -2592,6 +5157,30 @@
             ],
             "continentalness": 0.0,
             "depth": 0.0,
+            "offset": 0.0
+          }
+        },
+        {
+          "biome": "proximavis:cretaceous_copse",
+          "parameters": {
+            "weirdness": [
+              0.767,
+              0.933
+            ],
+            "erosion": [
+              0.45,
+              0.55
+            ],
+            "humidity": [
+              -0.5,
+              0.5
+            ],
+            "temperature": [
+              -1.0,
+              1.0
+            ],
+            "continentalness": 0.0,
+            "depth": 1.0,
             "offset": 0.0
           }
         },
@@ -2627,6 +5216,30 @@
               0.933
             ],
             "erosion": [
+              0.05,
+              0.45
+            ],
+            "humidity": [
+              -0.5,
+              0.5
+            ],
+            "temperature": [
+              -1.0,
+              1.0
+            ],
+            "continentalness": 0.0,
+            "depth": 1.0,
+            "offset": 0.0
+          }
+        },
+        {
+          "biome": "proximavis:cretaceous_copse",
+          "parameters": {
+            "weirdness": [
+              0.767,
+              0.933
+            ],
+            "erosion": [
               -0.223,
               0.05
             ],
@@ -2640,6 +5253,30 @@
             ],
             "continentalness": 0.0,
             "depth": 0.0,
+            "offset": 0.0
+          }
+        },
+        {
+          "biome": "proximavis:cretaceous_copse",
+          "parameters": {
+            "weirdness": [
+              0.767,
+              0.933
+            ],
+            "erosion": [
+              -0.223,
+              0.05
+            ],
+            "humidity": [
+              -0.5,
+              0.5
+            ],
+            "temperature": [
+              -1.0,
+              1.0
+            ],
+            "continentalness": 0.0,
+            "depth": 1.0,
             "offset": 0.0
           }
         },
@@ -2675,8 +5312,80 @@
               0.933
             ],
             "erosion": [
+              -0.375,
+              -0.223
+            ],
+            "humidity": [
+              -0.5,
+              0.5
+            ],
+            "temperature": [
+              -1.0,
+              1.0
+            ],
+            "continentalness": 0.0,
+            "depth": 1.0,
+            "offset": 0.0
+          }
+        },
+        {
+          "biome": "proximavis:cretaceous_copse",
+          "parameters": {
+            "weirdness": [
+              0.767,
+              0.933
+            ],
+            "erosion": [
               -0.78,
               -0.375
+            ],
+            "humidity": [
+              -0.5,
+              0.5
+            ],
+            "temperature": [
+              -1.0,
+              1.0
+            ],
+            "continentalness": 0.0,
+            "depth": 0.0,
+            "offset": 0.0
+          }
+        },
+        {
+          "biome": "proximavis:cretaceous_copse",
+          "parameters": {
+            "weirdness": [
+              0.767,
+              0.933
+            ],
+            "erosion": [
+              -0.78,
+              -0.375
+            ],
+            "humidity": [
+              -0.5,
+              0.5
+            ],
+            "temperature": [
+              -1.0,
+              1.0
+            ],
+            "continentalness": 0.0,
+            "depth": 1.0,
+            "offset": 0.0
+          }
+        },
+        {
+          "biome": "proximavis:jurassic_fields",
+          "parameters": {
+            "weirdness": [
+              0.767,
+              0.933
+            ],
+            "erosion": [
+              -1.0,
+              -0.78
             ],
             "humidity": [
               -0.5,
@@ -2711,7 +5420,7 @@
               1.0
             ],
             "continentalness": 0.0,
-            "depth": 0.0,
+            "depth": 1.0,
             "offset": 0.0
           }
         },
@@ -2747,6 +5456,30 @@
               0.767
             ],
             "erosion": [
+              0.55,
+              1.0
+            ],
+            "humidity": [
+              -0.5,
+              0.5
+            ],
+            "temperature": [
+              -1.0,
+              1.0
+            ],
+            "continentalness": 0.0,
+            "depth": 1.0,
+            "offset": 0.0
+          }
+        },
+        {
+          "biome": "proximavis:cretaceous_copse",
+          "parameters": {
+            "weirdness": [
+              0.567,
+              0.767
+            ],
+            "erosion": [
               0.45,
               0.55
             ],
@@ -2760,6 +5493,30 @@
             ],
             "continentalness": 0.0,
             "depth": 0.0,
+            "offset": 0.0
+          }
+        },
+        {
+          "biome": "proximavis:cretaceous_copse",
+          "parameters": {
+            "weirdness": [
+              0.567,
+              0.767
+            ],
+            "erosion": [
+              0.45,
+              0.55
+            ],
+            "humidity": [
+              -0.5,
+              0.5
+            ],
+            "temperature": [
+              -1.0,
+              1.0
+            ],
+            "continentalness": 0.0,
+            "depth": 1.0,
             "offset": 0.0
           }
         },
@@ -2795,8 +5552,80 @@
               0.767
             ],
             "erosion": [
+              0.05,
+              0.45
+            ],
+            "humidity": [
+              -0.5,
+              0.5
+            ],
+            "temperature": [
+              -1.0,
+              1.0
+            ],
+            "continentalness": 0.0,
+            "depth": 1.0,
+            "offset": 0.0
+          }
+        },
+        {
+          "biome": "proximavis:cretaceous_copse",
+          "parameters": {
+            "weirdness": [
+              0.567,
+              0.767
+            ],
+            "erosion": [
               -0.223,
               0.05
+            ],
+            "humidity": [
+              -0.5,
+              0.5
+            ],
+            "temperature": [
+              -1.0,
+              1.0
+            ],
+            "continentalness": 0.0,
+            "depth": 0.0,
+            "offset": 0.0
+          }
+        },
+        {
+          "biome": "proximavis:cretaceous_copse",
+          "parameters": {
+            "weirdness": [
+              0.567,
+              0.767
+            ],
+            "erosion": [
+              -0.223,
+              0.05
+            ],
+            "humidity": [
+              -0.5,
+              0.5
+            ],
+            "temperature": [
+              -1.0,
+              1.0
+            ],
+            "continentalness": 0.0,
+            "depth": 1.0,
+            "offset": 0.0
+          }
+        },
+        {
+          "biome": "proximavis:triassic_thicket",
+          "parameters": {
+            "weirdness": [
+              0.567,
+              0.767
+            ],
+            "erosion": [
+              -0.375,
+              -0.223
             ],
             "humidity": [
               -0.5,
@@ -2831,6 +5660,30 @@
               1.0
             ],
             "continentalness": 0.0,
+            "depth": 1.0,
+            "offset": 0.0
+          }
+        },
+        {
+          "biome": "proximavis:cretaceous_copse",
+          "parameters": {
+            "weirdness": [
+              0.567,
+              0.767
+            ],
+            "erosion": [
+              -0.78,
+              -0.375
+            ],
+            "humidity": [
+              -0.5,
+              0.5
+            ],
+            "temperature": [
+              -1.0,
+              1.0
+            ],
+            "continentalness": 0.0,
             "depth": 0.0,
             "offset": 0.0
           }
@@ -2845,6 +5698,30 @@
             "erosion": [
               -0.78,
               -0.375
+            ],
+            "humidity": [
+              -0.5,
+              0.5
+            ],
+            "temperature": [
+              -1.0,
+              1.0
+            ],
+            "continentalness": 0.0,
+            "depth": 1.0,
+            "offset": 0.0
+          }
+        },
+        {
+          "biome": "proximavis:jurassic_fields",
+          "parameters": {
+            "weirdness": [
+              0.567,
+              0.767
+            ],
+            "erosion": [
+              -1.0,
+              -0.78
             ],
             "humidity": [
               -0.5,
@@ -2879,7 +5756,7 @@
               1.0
             ],
             "continentalness": 0.0,
-            "depth": 0.0,
+            "depth": 1.0,
             "offset": 0.0
           }
         },
@@ -2915,6 +5792,30 @@
               0.567
             ],
             "erosion": [
+              0.55,
+              1.0
+            ],
+            "humidity": [
+              -0.5,
+              0.5
+            ],
+            "temperature": [
+              -1.0,
+              1.0
+            ],
+            "continentalness": 0.0,
+            "depth": 1.0,
+            "offset": 0.0
+          }
+        },
+        {
+          "biome": "proximavis:cretaceous_copse",
+          "parameters": {
+            "weirdness": [
+              0.4,
+              0.567
+            ],
+            "erosion": [
               0.45,
               0.55
             ],
@@ -2928,6 +5829,30 @@
             ],
             "continentalness": 0.0,
             "depth": 0.0,
+            "offset": 0.0
+          }
+        },
+        {
+          "biome": "proximavis:cretaceous_copse",
+          "parameters": {
+            "weirdness": [
+              0.4,
+              0.567
+            ],
+            "erosion": [
+              0.45,
+              0.55
+            ],
+            "humidity": [
+              -0.5,
+              0.5
+            ],
+            "temperature": [
+              -1.0,
+              1.0
+            ],
+            "continentalness": 0.0,
+            "depth": 1.0,
             "offset": 0.0
           }
         },
@@ -2963,6 +5888,30 @@
               0.567
             ],
             "erosion": [
+              0.05,
+              0.45
+            ],
+            "humidity": [
+              -0.5,
+              0.5
+            ],
+            "temperature": [
+              -1.0,
+              1.0
+            ],
+            "continentalness": 0.0,
+            "depth": 1.0,
+            "offset": 0.0
+          }
+        },
+        {
+          "biome": "proximavis:triassic_thicket",
+          "parameters": {
+            "weirdness": [
+              0.4,
+              0.567
+            ],
+            "erosion": [
               -0.223,
               0.05
             ],
@@ -2976,6 +5925,30 @@
             ],
             "continentalness": 0.0,
             "depth": 0.0,
+            "offset": 0.0
+          }
+        },
+        {
+          "biome": "proximavis:triassic_thicket",
+          "parameters": {
+            "weirdness": [
+              0.4,
+              0.567
+            ],
+            "erosion": [
+              -0.223,
+              0.05
+            ],
+            "humidity": [
+              -0.5,
+              0.5
+            ],
+            "temperature": [
+              -1.0,
+              1.0
+            ],
+            "continentalness": 0.0,
+            "depth": 1.0,
             "offset": 0.0
           }
         },
@@ -3011,8 +5984,80 @@
               0.567
             ],
             "erosion": [
+              -0.375,
+              -0.223
+            ],
+            "humidity": [
+              -0.5,
+              0.5
+            ],
+            "temperature": [
+              -1.0,
+              1.0
+            ],
+            "continentalness": 0.0,
+            "depth": 1.0,
+            "offset": 0.0
+          }
+        },
+        {
+          "biome": "proximavis:triassic_thicket",
+          "parameters": {
+            "weirdness": [
+              0.4,
+              0.567
+            ],
+            "erosion": [
               -0.78,
               -0.375
+            ],
+            "humidity": [
+              -0.5,
+              0.5
+            ],
+            "temperature": [
+              -1.0,
+              1.0
+            ],
+            "continentalness": 0.0,
+            "depth": 0.0,
+            "offset": 0.0
+          }
+        },
+        {
+          "biome": "proximavis:triassic_thicket",
+          "parameters": {
+            "weirdness": [
+              0.4,
+              0.567
+            ],
+            "erosion": [
+              -0.78,
+              -0.375
+            ],
+            "humidity": [
+              -0.5,
+              0.5
+            ],
+            "temperature": [
+              -1.0,
+              1.0
+            ],
+            "continentalness": 0.0,
+            "depth": 1.0,
+            "offset": 0.0
+          }
+        },
+        {
+          "biome": "proximavis:jurassic_fields",
+          "parameters": {
+            "weirdness": [
+              0.4,
+              0.567
+            ],
+            "erosion": [
+              -1.0,
+              -0.78
             ],
             "humidity": [
               -0.5,
@@ -3047,7 +6092,7 @@
               1.0
             ],
             "continentalness": 0.0,
-            "depth": 0.0,
+            "depth": 1.0,
             "offset": 0.0
           }
         },
@@ -3083,8 +6128,80 @@
               0.4
             ],
             "erosion": [
+              0.55,
+              1.0
+            ],
+            "humidity": [
+              -0.5,
+              0.5
+            ],
+            "temperature": [
+              -1.0,
+              1.0
+            ],
+            "continentalness": 0.0,
+            "depth": 1.0,
+            "offset": 0.0
+          }
+        },
+        {
+          "biome": "proximavis:cretaceous_copse",
+          "parameters": {
+            "weirdness": [
+              0.267,
+              0.4
+            ],
+            "erosion": [
               0.45,
               0.55
+            ],
+            "humidity": [
+              -0.5,
+              0.5
+            ],
+            "temperature": [
+              -1.0,
+              1.0
+            ],
+            "continentalness": 0.0,
+            "depth": 0.0,
+            "offset": 0.0
+          }
+        },
+        {
+          "biome": "proximavis:cretaceous_copse",
+          "parameters": {
+            "weirdness": [
+              0.267,
+              0.4
+            ],
+            "erosion": [
+              0.45,
+              0.55
+            ],
+            "humidity": [
+              -0.5,
+              0.5
+            ],
+            "temperature": [
+              -1.0,
+              1.0
+            ],
+            "continentalness": 0.0,
+            "depth": 1.0,
+            "offset": 0.0
+          }
+        },
+        {
+          "biome": "proximavis:triassic_thicket",
+          "parameters": {
+            "weirdness": [
+              0.267,
+              0.4
+            ],
+            "erosion": [
+              0.05,
+              0.45
             ],
             "humidity": [
               -0.5,
@@ -3119,6 +6236,30 @@
               1.0
             ],
             "continentalness": 0.0,
+            "depth": 1.0,
+            "offset": 0.0
+          }
+        },
+        {
+          "biome": "proximavis:jurassic_fields",
+          "parameters": {
+            "weirdness": [
+              0.267,
+              0.4
+            ],
+            "erosion": [
+              -0.223,
+              0.05
+            ],
+            "humidity": [
+              -0.5,
+              0.5
+            ],
+            "temperature": [
+              -1.0,
+              1.0
+            ],
+            "continentalness": 0.0,
             "depth": 0.0,
             "offset": 0.0
           }
@@ -3133,6 +6274,30 @@
             "erosion": [
               -0.223,
               0.05
+            ],
+            "humidity": [
+              -0.5,
+              0.5
+            ],
+            "temperature": [
+              -1.0,
+              1.0
+            ],
+            "continentalness": 0.0,
+            "depth": 1.0,
+            "offset": 0.0
+          }
+        },
+        {
+          "biome": "proximavis:devonian_downs",
+          "parameters": {
+            "weirdness": [
+              0.267,
+              0.4
+            ],
+            "erosion": [
+              -0.375,
+              -0.223
             ],
             "humidity": [
               -0.5,
@@ -3167,6 +6332,30 @@
               1.0
             ],
             "continentalness": 0.0,
+            "depth": 1.0,
+            "offset": 0.0
+          }
+        },
+        {
+          "biome": "proximavis:triassic_thicket",
+          "parameters": {
+            "weirdness": [
+              0.267,
+              0.4
+            ],
+            "erosion": [
+              -0.78,
+              -0.375
+            ],
+            "humidity": [
+              -0.5,
+              0.5
+            ],
+            "temperature": [
+              -1.0,
+              1.0
+            ],
+            "continentalness": 0.0,
             "depth": 0.0,
             "offset": 0.0
           }
@@ -3181,6 +6370,30 @@
             "erosion": [
               -0.78,
               -0.375
+            ],
+            "humidity": [
+              -0.5,
+              0.5
+            ],
+            "temperature": [
+              -1.0,
+              1.0
+            ],
+            "continentalness": 0.0,
+            "depth": 1.0,
+            "offset": 0.0
+          }
+        },
+        {
+          "biome": "proximavis:carboniferous_swamp",
+          "parameters": {
+            "weirdness": [
+              0.267,
+              0.4
+            ],
+            "erosion": [
+              -1.0,
+              -0.78
             ],
             "humidity": [
               -0.5,
@@ -3215,7 +6428,7 @@
               1.0
             ],
             "continentalness": 0.0,
-            "depth": 0.0,
+            "depth": 1.0,
             "offset": 0.0
           }
         },
@@ -3251,8 +6464,80 @@
               0.267
             ],
             "erosion": [
+              0.55,
+              1.0
+            ],
+            "humidity": [
+              -0.5,
+              0.5
+            ],
+            "temperature": [
+              -1.0,
+              1.0
+            ],
+            "continentalness": 0.0,
+            "depth": 1.0,
+            "offset": 0.0
+          }
+        },
+        {
+          "biome": "proximavis:jurassic_fields",
+          "parameters": {
+            "weirdness": [
+              0.05,
+              0.267
+            ],
+            "erosion": [
               0.45,
               0.55
+            ],
+            "humidity": [
+              -0.5,
+              0.5
+            ],
+            "temperature": [
+              -1.0,
+              1.0
+            ],
+            "continentalness": 0.0,
+            "depth": 0.0,
+            "offset": 0.0
+          }
+        },
+        {
+          "biome": "proximavis:jurassic_fields",
+          "parameters": {
+            "weirdness": [
+              0.05,
+              0.267
+            ],
+            "erosion": [
+              0.45,
+              0.55
+            ],
+            "humidity": [
+              -0.5,
+              0.5
+            ],
+            "temperature": [
+              -1.0,
+              1.0
+            ],
+            "continentalness": 0.0,
+            "depth": 1.0,
+            "offset": 0.0
+          }
+        },
+        {
+          "biome": "proximavis:jurassic_fields",
+          "parameters": {
+            "weirdness": [
+              0.05,
+              0.267
+            ],
+            "erosion": [
+              0.05,
+              0.45
             ],
             "humidity": [
               -0.5,
@@ -3287,7 +6572,7 @@
               1.0
             ],
             "continentalness": 0.0,
-            "depth": 0.0,
+            "depth": 1.0,
             "offset": 0.0
           }
         },
@@ -3312,6 +6597,30 @@
             ],
             "continentalness": 0.0,
             "depth": 0.0,
+            "offset": 0.0
+          }
+        },
+        {
+          "biome": "proximavis:devonian_downs",
+          "parameters": {
+            "weirdness": [
+              0.05,
+              0.267
+            ],
+            "erosion": [
+              -0.223,
+              0.05
+            ],
+            "humidity": [
+              -0.5,
+              0.5
+            ],
+            "temperature": [
+              -1.0,
+              1.0
+            ],
+            "continentalness": 0.0,
+            "depth": 1.0,
             "offset": 0.0
           }
         },
@@ -3347,8 +6656,80 @@
               0.267
             ],
             "erosion": [
+              -0.375,
+              -0.223
+            ],
+            "humidity": [
+              -0.5,
+              0.5
+            ],
+            "temperature": [
+              -1.0,
+              1.0
+            ],
+            "continentalness": 0.0,
+            "depth": 1.0,
+            "offset": 0.0
+          }
+        },
+        {
+          "biome": "proximavis:carboniferous_swamp",
+          "parameters": {
+            "weirdness": [
+              0.05,
+              0.267
+            ],
+            "erosion": [
               -0.78,
               -0.375
+            ],
+            "humidity": [
+              -0.5,
+              0.5
+            ],
+            "temperature": [
+              -1.0,
+              1.0
+            ],
+            "continentalness": 0.0,
+            "depth": 0.0,
+            "offset": 0.0
+          }
+        },
+        {
+          "biome": "proximavis:carboniferous_swamp",
+          "parameters": {
+            "weirdness": [
+              0.05,
+              0.267
+            ],
+            "erosion": [
+              -0.78,
+              -0.375
+            ],
+            "humidity": [
+              -0.5,
+              0.5
+            ],
+            "temperature": [
+              -1.0,
+              1.0
+            ],
+            "continentalness": 0.0,
+            "depth": 1.0,
+            "offset": 0.0
+          }
+        },
+        {
+          "biome": "proximavis:carboniferous_swamp",
+          "parameters": {
+            "weirdness": [
+              0.05,
+              0.267
+            ],
+            "erosion": [
+              -1.0,
+              -0.78
             ],
             "humidity": [
               -0.5,
@@ -3383,7 +6764,7 @@
               1.0
             ],
             "continentalness": 0.0,
-            "depth": 0.0,
+            "depth": 1.0,
             "offset": 0.0
           }
         },
@@ -3419,6 +6800,30 @@
               0.05
             ],
             "erosion": [
+              0.55,
+              1.0
+            ],
+            "humidity": [
+              -0.5,
+              0.5
+            ],
+            "temperature": [
+              -1.0,
+              1.0
+            ],
+            "continentalness": 0.0,
+            "depth": 1.0,
+            "offset": 0.0
+          }
+        },
+        {
+          "biome": "proximavis:jurassic_fields",
+          "parameters": {
+            "weirdness": [
+              -0.05,
+              0.05
+            ],
+            "erosion": [
               0.45,
               0.55
             ],
@@ -3432,6 +6837,30 @@
             ],
             "continentalness": 0.0,
             "depth": 0.0,
+            "offset": 0.0
+          }
+        },
+        {
+          "biome": "proximavis:jurassic_fields",
+          "parameters": {
+            "weirdness": [
+              -0.05,
+              0.05
+            ],
+            "erosion": [
+              0.45,
+              0.55
+            ],
+            "humidity": [
+              -0.5,
+              0.5
+            ],
+            "temperature": [
+              -1.0,
+              1.0
+            ],
+            "continentalness": 0.0,
+            "depth": 1.0,
             "offset": 0.0
           }
         },
@@ -3467,6 +6896,30 @@
               0.05
             ],
             "erosion": [
+              0.05,
+              0.45
+            ],
+            "humidity": [
+              -0.5,
+              0.5
+            ],
+            "temperature": [
+              -1.0,
+              1.0
+            ],
+            "continentalness": 0.0,
+            "depth": 1.0,
+            "offset": 0.0
+          }
+        },
+        {
+          "biome": "proximavis:river",
+          "parameters": {
+            "weirdness": [
+              -0.05,
+              0.05
+            ],
+            "erosion": [
               -0.223,
               0.05
             ],
@@ -3480,6 +6933,30 @@
             ],
             "continentalness": 0.0,
             "depth": 0.0,
+            "offset": 0.0
+          }
+        },
+        {
+          "biome": "proximavis:river",
+          "parameters": {
+            "weirdness": [
+              -0.05,
+              0.05
+            ],
+            "erosion": [
+              -0.223,
+              0.05
+            ],
+            "humidity": [
+              -0.5,
+              0.5
+            ],
+            "temperature": [
+              -1.0,
+              1.0
+            ],
+            "continentalness": 0.0,
+            "depth": 1.0,
             "offset": 0.0
           }
         },
@@ -3515,8 +6992,80 @@
               0.05
             ],
             "erosion": [
+              -0.375,
+              -0.223
+            ],
+            "humidity": [
+              -0.5,
+              0.5
+            ],
+            "temperature": [
+              -1.0,
+              1.0
+            ],
+            "continentalness": 0.0,
+            "depth": 1.0,
+            "offset": 0.0
+          }
+        },
+        {
+          "biome": "proximavis:carboniferous_swamp",
+          "parameters": {
+            "weirdness": [
+              -0.05,
+              0.05
+            ],
+            "erosion": [
               -0.78,
               -0.375
+            ],
+            "humidity": [
+              -0.5,
+              0.5
+            ],
+            "temperature": [
+              -1.0,
+              1.0
+            ],
+            "continentalness": 0.0,
+            "depth": 0.0,
+            "offset": 0.0
+          }
+        },
+        {
+          "biome": "proximavis:carboniferous_swamp",
+          "parameters": {
+            "weirdness": [
+              -0.05,
+              0.05
+            ],
+            "erosion": [
+              -0.78,
+              -0.375
+            ],
+            "humidity": [
+              -0.5,
+              0.5
+            ],
+            "temperature": [
+              -1.0,
+              1.0
+            ],
+            "continentalness": 0.0,
+            "depth": 1.0,
+            "offset": 0.0
+          }
+        },
+        {
+          "biome": "proximavis:carboniferous_swamp",
+          "parameters": {
+            "weirdness": [
+              -0.05,
+              0.05
+            ],
+            "erosion": [
+              -1.0,
+              -0.78
             ],
             "humidity": [
               -0.5,
@@ -3551,7 +7100,7 @@
               1.0
             ],
             "continentalness": 0.0,
-            "depth": 0.0,
+            "depth": 1.0,
             "offset": 0.0
           }
         },
@@ -3587,8 +7136,80 @@
               -0.05
             ],
             "erosion": [
+              0.55,
+              1.0
+            ],
+            "humidity": [
+              -0.5,
+              0.5
+            ],
+            "temperature": [
+              -1.0,
+              1.0
+            ],
+            "continentalness": 0.0,
+            "depth": 1.0,
+            "offset": 0.0
+          }
+        },
+        {
+          "biome": "proximavis:jurassic_fields",
+          "parameters": {
+            "weirdness": [
+              -0.267,
+              -0.05
+            ],
+            "erosion": [
               0.45,
               0.55
+            ],
+            "humidity": [
+              -0.5,
+              0.5
+            ],
+            "temperature": [
+              -1.0,
+              1.0
+            ],
+            "continentalness": 0.0,
+            "depth": 0.0,
+            "offset": 0.0
+          }
+        },
+        {
+          "biome": "proximavis:jurassic_fields",
+          "parameters": {
+            "weirdness": [
+              -0.267,
+              -0.05
+            ],
+            "erosion": [
+              0.45,
+              0.55
+            ],
+            "humidity": [
+              -0.5,
+              0.5
+            ],
+            "temperature": [
+              -1.0,
+              1.0
+            ],
+            "continentalness": 0.0,
+            "depth": 1.0,
+            "offset": 0.0
+          }
+        },
+        {
+          "biome": "proximavis:jurassic_fields",
+          "parameters": {
+            "weirdness": [
+              -0.267,
+              -0.05
+            ],
+            "erosion": [
+              0.05,
+              0.45
             ],
             "humidity": [
               -0.5,
@@ -3623,7 +7244,7 @@
               1.0
             ],
             "continentalness": 0.0,
-            "depth": 0.0,
+            "depth": 1.0,
             "offset": 0.0
           }
         },
@@ -3652,6 +7273,30 @@
           }
         },
         {
+          "biome": "proximavis:devonian_downs",
+          "parameters": {
+            "weirdness": [
+              -0.267,
+              -0.05
+            ],
+            "erosion": [
+              -0.223,
+              0.05
+            ],
+            "humidity": [
+              -0.5,
+              0.5
+            ],
+            "temperature": [
+              -1.0,
+              1.0
+            ],
+            "continentalness": 0.0,
+            "depth": 1.0,
+            "offset": 0.0
+          }
+        },
+        {
           "biome": "proximavis:carboniferous_swamp",
           "parameters": {
             "weirdness": [
@@ -3683,8 +7328,80 @@
               -0.05
             ],
             "erosion": [
+              -0.375,
+              -0.223
+            ],
+            "humidity": [
+              -0.5,
+              0.5
+            ],
+            "temperature": [
+              -1.0,
+              1.0
+            ],
+            "continentalness": 0.0,
+            "depth": 1.0,
+            "offset": 0.0
+          }
+        },
+        {
+          "biome": "proximavis:carboniferous_swamp",
+          "parameters": {
+            "weirdness": [
+              -0.267,
+              -0.05
+            ],
+            "erosion": [
               -0.78,
               -0.375
+            ],
+            "humidity": [
+              -0.5,
+              0.5
+            ],
+            "temperature": [
+              -1.0,
+              1.0
+            ],
+            "continentalness": 0.0,
+            "depth": 0.0,
+            "offset": 0.0
+          }
+        },
+        {
+          "biome": "proximavis:carboniferous_swamp",
+          "parameters": {
+            "weirdness": [
+              -0.267,
+              -0.05
+            ],
+            "erosion": [
+              -0.78,
+              -0.375
+            ],
+            "humidity": [
+              -0.5,
+              0.5
+            ],
+            "temperature": [
+              -1.0,
+              1.0
+            ],
+            "continentalness": 0.0,
+            "depth": 1.0,
+            "offset": 0.0
+          }
+        },
+        {
+          "biome": "proximavis:carboniferous_swamp",
+          "parameters": {
+            "weirdness": [
+              -0.267,
+              -0.05
+            ],
+            "erosion": [
+              -1.0,
+              -0.78
             ],
             "humidity": [
               -0.5,
@@ -3719,7 +7436,7 @@
               1.0
             ],
             "continentalness": 0.0,
-            "depth": 0.0,
+            "depth": 1.0,
             "offset": 0.0
           }
         },
@@ -3755,8 +7472,80 @@
               -0.267
             ],
             "erosion": [
+              0.55,
+              1.0
+            ],
+            "humidity": [
+              -0.5,
+              0.5
+            ],
+            "temperature": [
+              -1.0,
+              1.0
+            ],
+            "continentalness": 0.0,
+            "depth": 1.0,
+            "offset": 0.0
+          }
+        },
+        {
+          "biome": "proximavis:cretaceous_copse",
+          "parameters": {
+            "weirdness": [
+              -0.4,
+              -0.267
+            ],
+            "erosion": [
               0.45,
               0.55
+            ],
+            "humidity": [
+              -0.5,
+              0.5
+            ],
+            "temperature": [
+              -1.0,
+              1.0
+            ],
+            "continentalness": 0.0,
+            "depth": 0.0,
+            "offset": 0.0
+          }
+        },
+        {
+          "biome": "proximavis:cretaceous_copse",
+          "parameters": {
+            "weirdness": [
+              -0.4,
+              -0.267
+            ],
+            "erosion": [
+              0.45,
+              0.55
+            ],
+            "humidity": [
+              -0.5,
+              0.5
+            ],
+            "temperature": [
+              -1.0,
+              1.0
+            ],
+            "continentalness": 0.0,
+            "depth": 1.0,
+            "offset": 0.0
+          }
+        },
+        {
+          "biome": "proximavis:triassic_thicket",
+          "parameters": {
+            "weirdness": [
+              -0.4,
+              -0.267
+            ],
+            "erosion": [
+              0.05,
+              0.45
             ],
             "humidity": [
               -0.5,
@@ -3791,7 +7580,7 @@
               1.0
             ],
             "continentalness": 0.0,
-            "depth": 0.0,
+            "depth": 1.0,
             "offset": 0.0
           }
         },
@@ -3820,6 +7609,30 @@
           }
         },
         {
+          "biome": "proximavis:jurassic_fields",
+          "parameters": {
+            "weirdness": [
+              -0.4,
+              -0.267
+            ],
+            "erosion": [
+              -0.223,
+              0.05
+            ],
+            "humidity": [
+              -0.5,
+              0.5
+            ],
+            "temperature": [
+              -1.0,
+              1.0
+            ],
+            "continentalness": 0.0,
+            "depth": 1.0,
+            "offset": 0.0
+          }
+        },
+        {
           "biome": "proximavis:devonian_downs",
           "parameters": {
             "weirdness": [
@@ -3844,6 +7657,30 @@
           }
         },
         {
+          "biome": "proximavis:devonian_downs",
+          "parameters": {
+            "weirdness": [
+              -0.4,
+              -0.267
+            ],
+            "erosion": [
+              -0.375,
+              -0.223
+            ],
+            "humidity": [
+              -0.5,
+              0.5
+            ],
+            "temperature": [
+              -1.0,
+              1.0
+            ],
+            "continentalness": 0.0,
+            "depth": 1.0,
+            "offset": 0.0
+          }
+        },
+        {
           "biome": "proximavis:triassic_thicket",
           "parameters": {
             "weirdness": [
@@ -3868,6 +7705,30 @@
           }
         },
         {
+          "biome": "proximavis:triassic_thicket",
+          "parameters": {
+            "weirdness": [
+              -0.4,
+              -0.267
+            ],
+            "erosion": [
+              -0.78,
+              -0.375
+            ],
+            "humidity": [
+              -0.5,
+              0.5
+            ],
+            "temperature": [
+              -1.0,
+              1.0
+            ],
+            "continentalness": 0.0,
+            "depth": 1.0,
+            "offset": 0.0
+          }
+        },
+        {
           "biome": "proximavis:carboniferous_swamp",
           "parameters": {
             "weirdness": [
@@ -3892,6 +7753,30 @@
           }
         },
         {
+          "biome": "proximavis:carboniferous_swamp",
+          "parameters": {
+            "weirdness": [
+              -0.4,
+              -0.267
+            ],
+            "erosion": [
+              -1.0,
+              -0.78
+            ],
+            "humidity": [
+              -0.5,
+              0.5
+            ],
+            "temperature": [
+              -1.0,
+              1.0
+            ],
+            "continentalness": 0.0,
+            "depth": 1.0,
+            "offset": 0.0
+          }
+        },
+        {
           "biome": "proximavis:cretaceous_copse",
           "parameters": {
             "weirdness": [
@@ -3901,6 +7786,54 @@
             "erosion": [
               0.55,
               1.0
+            ],
+            "humidity": [
+              -0.5,
+              0.5
+            ],
+            "temperature": [
+              -1.0,
+              1.0
+            ],
+            "continentalness": 0.0,
+            "depth": 0.0,
+            "offset": 0.0
+          }
+        },
+        {
+          "biome": "proximavis:cretaceous_copse",
+          "parameters": {
+            "weirdness": [
+              -0.567,
+              -0.4
+            ],
+            "erosion": [
+              0.55,
+              1.0
+            ],
+            "humidity": [
+              -0.5,
+              0.5
+            ],
+            "temperature": [
+              -1.0,
+              1.0
+            ],
+            "continentalness": 0.0,
+            "depth": 1.0,
+            "offset": 0.0
+          }
+        },
+        {
+          "biome": "proximavis:cretaceous_copse",
+          "parameters": {
+            "weirdness": [
+              -0.567,
+              -0.4
+            ],
+            "erosion": [
+              0.45,
+              0.55
             ],
             "humidity": [
               -0.5,
@@ -3935,7 +7868,7 @@
               1.0
             ],
             "continentalness": 0.0,
-            "depth": 0.0,
+            "depth": 1.0,
             "offset": 0.0
           }
         },
@@ -3971,6 +7904,30 @@
               -0.4
             ],
             "erosion": [
+              0.05,
+              0.45
+            ],
+            "humidity": [
+              -0.5,
+              0.5
+            ],
+            "temperature": [
+              -1.0,
+              1.0
+            ],
+            "continentalness": 0.0,
+            "depth": 1.0,
+            "offset": 0.0
+          }
+        },
+        {
+          "biome": "proximavis:triassic_thicket",
+          "parameters": {
+            "weirdness": [
+              -0.567,
+              -0.4
+            ],
+            "erosion": [
               -0.223,
               0.05
             ],
@@ -3984,6 +7941,30 @@
             ],
             "continentalness": 0.0,
             "depth": 0.0,
+            "offset": 0.0
+          }
+        },
+        {
+          "biome": "proximavis:triassic_thicket",
+          "parameters": {
+            "weirdness": [
+              -0.567,
+              -0.4
+            ],
+            "erosion": [
+              -0.223,
+              0.05
+            ],
+            "humidity": [
+              -0.5,
+              0.5
+            ],
+            "temperature": [
+              -1.0,
+              1.0
+            ],
+            "continentalness": 0.0,
+            "depth": 1.0,
             "offset": 0.0
           }
         },
@@ -4019,8 +8000,80 @@
               -0.4
             ],
             "erosion": [
+              -0.375,
+              -0.223
+            ],
+            "humidity": [
+              -0.5,
+              0.5
+            ],
+            "temperature": [
+              -1.0,
+              1.0
+            ],
+            "continentalness": 0.0,
+            "depth": 1.0,
+            "offset": 0.0
+          }
+        },
+        {
+          "biome": "proximavis:triassic_thicket",
+          "parameters": {
+            "weirdness": [
+              -0.567,
+              -0.4
+            ],
+            "erosion": [
               -0.78,
               -0.375
+            ],
+            "humidity": [
+              -0.5,
+              0.5
+            ],
+            "temperature": [
+              -1.0,
+              1.0
+            ],
+            "continentalness": 0.0,
+            "depth": 0.0,
+            "offset": 0.0
+          }
+        },
+        {
+          "biome": "proximavis:triassic_thicket",
+          "parameters": {
+            "weirdness": [
+              -0.567,
+              -0.4
+            ],
+            "erosion": [
+              -0.78,
+              -0.375
+            ],
+            "humidity": [
+              -0.5,
+              0.5
+            ],
+            "temperature": [
+              -1.0,
+              1.0
+            ],
+            "continentalness": 0.0,
+            "depth": 1.0,
+            "offset": 0.0
+          }
+        },
+        {
+          "biome": "proximavis:jurassic_fields",
+          "parameters": {
+            "weirdness": [
+              -0.567,
+              -0.4
+            ],
+            "erosion": [
+              -1.0,
+              -0.78
             ],
             "humidity": [
               -0.5,
@@ -4055,7 +8108,7 @@
               1.0
             ],
             "continentalness": 0.0,
-            "depth": 0.0,
+            "depth": 1.0,
             "offset": 0.0
           }
         },
@@ -4091,6 +8144,30 @@
               -0.567
             ],
             "erosion": [
+              0.55,
+              1.0
+            ],
+            "humidity": [
+              -0.5,
+              0.5
+            ],
+            "temperature": [
+              -1.0,
+              1.0
+            ],
+            "continentalness": 0.0,
+            "depth": 1.0,
+            "offset": 0.0
+          }
+        },
+        {
+          "biome": "proximavis:cretaceous_copse",
+          "parameters": {
+            "weirdness": [
+              -0.676,
+              -0.567
+            ],
+            "erosion": [
               0.45,
               0.55
             ],
@@ -4104,6 +8181,30 @@
             ],
             "continentalness": 0.0,
             "depth": 0.0,
+            "offset": 0.0
+          }
+        },
+        {
+          "biome": "proximavis:cretaceous_copse",
+          "parameters": {
+            "weirdness": [
+              -0.676,
+              -0.567
+            ],
+            "erosion": [
+              0.45,
+              0.55
+            ],
+            "humidity": [
+              -0.5,
+              0.5
+            ],
+            "temperature": [
+              -1.0,
+              1.0
+            ],
+            "continentalness": 0.0,
+            "depth": 1.0,
             "offset": 0.0
           }
         },
@@ -4139,8 +8240,80 @@
               -0.567
             ],
             "erosion": [
+              0.05,
+              0.45
+            ],
+            "humidity": [
+              -0.5,
+              0.5
+            ],
+            "temperature": [
+              -1.0,
+              1.0
+            ],
+            "continentalness": 0.0,
+            "depth": 1.0,
+            "offset": 0.0
+          }
+        },
+        {
+          "biome": "proximavis:cretaceous_copse",
+          "parameters": {
+            "weirdness": [
+              -0.676,
+              -0.567
+            ],
+            "erosion": [
               -0.223,
               0.05
+            ],
+            "humidity": [
+              -0.5,
+              0.5
+            ],
+            "temperature": [
+              -1.0,
+              1.0
+            ],
+            "continentalness": 0.0,
+            "depth": 0.0,
+            "offset": 0.0
+          }
+        },
+        {
+          "biome": "proximavis:cretaceous_copse",
+          "parameters": {
+            "weirdness": [
+              -0.676,
+              -0.567
+            ],
+            "erosion": [
+              -0.223,
+              0.05
+            ],
+            "humidity": [
+              -0.5,
+              0.5
+            ],
+            "temperature": [
+              -1.0,
+              1.0
+            ],
+            "continentalness": 0.0,
+            "depth": 1.0,
+            "offset": 0.0
+          }
+        },
+        {
+          "biome": "proximavis:triassic_thicket",
+          "parameters": {
+            "weirdness": [
+              -0.676,
+              -0.567
+            ],
+            "erosion": [
+              -0.375,
+              -0.223
             ],
             "humidity": [
               -0.5,
@@ -4175,7 +8348,7 @@
               1.0
             ],
             "continentalness": 0.0,
-            "depth": 0.0,
+            "depth": 1.0,
             "offset": 0.0
           }
         },
@@ -4204,6 +8377,30 @@
           }
         },
         {
+          "biome": "proximavis:cretaceous_copse",
+          "parameters": {
+            "weirdness": [
+              -0.676,
+              -0.567
+            ],
+            "erosion": [
+              -0.78,
+              -0.375
+            ],
+            "humidity": [
+              -0.5,
+              0.5
+            ],
+            "temperature": [
+              -1.0,
+              1.0
+            ],
+            "continentalness": 0.0,
+            "depth": 1.0,
+            "offset": 0.0
+          }
+        },
+        {
           "biome": "proximavis:jurassic_fields",
           "parameters": {
             "weirdness": [
@@ -4228,6 +8425,30 @@
           }
         },
         {
+          "biome": "proximavis:jurassic_fields",
+          "parameters": {
+            "weirdness": [
+              -0.676,
+              -0.567
+            ],
+            "erosion": [
+              -1.0,
+              -0.78
+            ],
+            "humidity": [
+              -0.5,
+              0.5
+            ],
+            "temperature": [
+              -1.0,
+              1.0
+            ],
+            "continentalness": 0.0,
+            "depth": 1.0,
+            "offset": 0.0
+          }
+        },
+        {
           "biome": "proximavis:cretaceous_copse",
           "parameters": {
             "weirdness": [
@@ -4248,6 +8469,30 @@
             ],
             "continentalness": 0.0,
             "depth": 0.0,
+            "offset": 0.0
+          }
+        },
+        {
+          "biome": "proximavis:cretaceous_copse",
+          "parameters": {
+            "weirdness": [
+              -0.933,
+              -0.767
+            ],
+            "erosion": [
+              0.55,
+              1.0
+            ],
+            "humidity": [
+              -0.5,
+              0.5
+            ],
+            "temperature": [
+              -1.0,
+              1.0
+            ],
+            "continentalness": 0.0,
+            "depth": 1.0,
             "offset": 0.0
           }
         },
@@ -4283,6 +8528,30 @@
               -0.767
             ],
             "erosion": [
+              0.45,
+              0.55
+            ],
+            "humidity": [
+              -0.5,
+              0.5
+            ],
+            "temperature": [
+              -1.0,
+              1.0
+            ],
+            "continentalness": 0.0,
+            "depth": 1.0,
+            "offset": 0.0
+          }
+        },
+        {
+          "biome": "proximavis:cretaceous_copse",
+          "parameters": {
+            "weirdness": [
+              -0.933,
+              -0.767
+            ],
+            "erosion": [
               0.05,
               0.45
             ],
@@ -4296,6 +8565,30 @@
             ],
             "continentalness": 0.0,
             "depth": 0.0,
+            "offset": 0.0
+          }
+        },
+        {
+          "biome": "proximavis:cretaceous_copse",
+          "parameters": {
+            "weirdness": [
+              -0.933,
+              -0.767
+            ],
+            "erosion": [
+              0.05,
+              0.45
+            ],
+            "humidity": [
+              -0.5,
+              0.5
+            ],
+            "temperature": [
+              -1.0,
+              1.0
+            ],
+            "continentalness": 0.0,
+            "depth": 1.0,
             "offset": 0.0
           }
         },
@@ -4331,6 +8624,30 @@
               -0.767
             ],
             "erosion": [
+              -0.223,
+              0.05
+            ],
+            "humidity": [
+              -0.5,
+              0.5
+            ],
+            "temperature": [
+              -1.0,
+              1.0
+            ],
+            "continentalness": 0.0,
+            "depth": 1.0,
+            "offset": 0.0
+          }
+        },
+        {
+          "biome": "proximavis:cretaceous_copse",
+          "parameters": {
+            "weirdness": [
+              -0.933,
+              -0.767
+            ],
+            "erosion": [
               -0.375,
               -0.223
             ],
@@ -4355,8 +8672,80 @@
               -0.767
             ],
             "erosion": [
+              -0.375,
+              -0.223
+            ],
+            "humidity": [
+              -0.5,
+              0.5
+            ],
+            "temperature": [
+              -1.0,
+              1.0
+            ],
+            "continentalness": 0.0,
+            "depth": 1.0,
+            "offset": 0.0
+          }
+        },
+        {
+          "biome": "proximavis:cretaceous_copse",
+          "parameters": {
+            "weirdness": [
+              -0.933,
+              -0.767
+            ],
+            "erosion": [
               -0.78,
               -0.375
+            ],
+            "humidity": [
+              -0.5,
+              0.5
+            ],
+            "temperature": [
+              -1.0,
+              1.0
+            ],
+            "continentalness": 0.0,
+            "depth": 0.0,
+            "offset": 0.0
+          }
+        },
+        {
+          "biome": "proximavis:cretaceous_copse",
+          "parameters": {
+            "weirdness": [
+              -0.933,
+              -0.767
+            ],
+            "erosion": [
+              -0.78,
+              -0.375
+            ],
+            "humidity": [
+              -0.5,
+              0.5
+            ],
+            "temperature": [
+              -1.0,
+              1.0
+            ],
+            "continentalness": 0.0,
+            "depth": 1.0,
+            "offset": 0.0
+          }
+        },
+        {
+          "biome": "proximavis:jurassic_fields",
+          "parameters": {
+            "weirdness": [
+              -0.933,
+              -0.767
+            ],
+            "erosion": [
+              -1.0,
+              -0.78
             ],
             "humidity": [
               -0.5,
@@ -4391,7 +8780,7 @@
               1.0
             ],
             "continentalness": 0.0,
-            "depth": 0.0,
+            "depth": 1.0,
             "offset": 0.0
           }
         },
@@ -4427,6 +8816,30 @@
               -0.933
             ],
             "erosion": [
+              0.55,
+              1.0
+            ],
+            "humidity": [
+              -0.5,
+              0.5
+            ],
+            "temperature": [
+              -1.0,
+              1.0
+            ],
+            "continentalness": 0.0,
+            "depth": 1.0,
+            "offset": 0.0
+          }
+        },
+        {
+          "biome": "proximavis:cretaceous_copse",
+          "parameters": {
+            "weirdness": [
+              -1.0,
+              -0.933
+            ],
+            "erosion": [
               0.45,
               0.55
             ],
@@ -4440,6 +8853,30 @@
             ],
             "continentalness": 0.0,
             "depth": 0.0,
+            "offset": 0.0
+          }
+        },
+        {
+          "biome": "proximavis:cretaceous_copse",
+          "parameters": {
+            "weirdness": [
+              -1.0,
+              -0.933
+            ],
+            "erosion": [
+              0.45,
+              0.55
+            ],
+            "humidity": [
+              -0.5,
+              0.5
+            ],
+            "temperature": [
+              -1.0,
+              1.0
+            ],
+            "continentalness": 0.0,
+            "depth": 1.0,
             "offset": 0.0
           }
         },
@@ -4475,8 +8912,80 @@
               -0.933
             ],
             "erosion": [
+              0.05,
+              0.45
+            ],
+            "humidity": [
+              -0.5,
+              0.5
+            ],
+            "temperature": [
+              -1.0,
+              1.0
+            ],
+            "continentalness": 0.0,
+            "depth": 1.0,
+            "offset": 0.0
+          }
+        },
+        {
+          "biome": "proximavis:cretaceous_copse",
+          "parameters": {
+            "weirdness": [
+              -1.0,
+              -0.933
+            ],
+            "erosion": [
               -0.223,
               0.05
+            ],
+            "humidity": [
+              -0.5,
+              0.5
+            ],
+            "temperature": [
+              -1.0,
+              1.0
+            ],
+            "continentalness": 0.0,
+            "depth": 0.0,
+            "offset": 0.0
+          }
+        },
+        {
+          "biome": "proximavis:cretaceous_copse",
+          "parameters": {
+            "weirdness": [
+              -1.0,
+              -0.933
+            ],
+            "erosion": [
+              -0.223,
+              0.05
+            ],
+            "humidity": [
+              -0.5,
+              0.5
+            ],
+            "temperature": [
+              -1.0,
+              1.0
+            ],
+            "continentalness": 0.0,
+            "depth": 1.0,
+            "offset": 0.0
+          }
+        },
+        {
+          "biome": "proximavis:cretaceous_copse",
+          "parameters": {
+            "weirdness": [
+              -1.0,
+              -0.933
+            ],
+            "erosion": [
+              -0.375,
+              -0.223
             ],
             "humidity": [
               -0.5,
@@ -4511,6 +9020,30 @@
               1.0
             ],
             "continentalness": 0.0,
+            "depth": 1.0,
+            "offset": 0.0
+          }
+        },
+        {
+          "biome": "proximavis:carboniferous_swamp",
+          "parameters": {
+            "weirdness": [
+              -1.0,
+              -0.933
+            ],
+            "erosion": [
+              -0.78,
+              -0.375
+            ],
+            "humidity": [
+              -0.5,
+              0.5
+            ],
+            "temperature": [
+              -1.0,
+              1.0
+            ],
+            "continentalness": 0.0,
             "depth": 0.0,
             "offset": 0.0
           }
@@ -4525,6 +9058,30 @@
             "erosion": [
               -0.78,
               -0.375
+            ],
+            "humidity": [
+              -0.5,
+              0.5
+            ],
+            "temperature": [
+              -1.0,
+              1.0
+            ],
+            "continentalness": 0.0,
+            "depth": 1.0,
+            "offset": 0.0
+          }
+        },
+        {
+          "biome": "proximavis:carboniferous_swamp",
+          "parameters": {
+            "weirdness": [
+              -1.0,
+              -0.933
+            ],
+            "erosion": [
+              -1.0,
+              -0.78
             ],
             "humidity": [
               -0.5,
@@ -4559,7 +9116,7 @@
               1.0
             ],
             "continentalness": 0.0,
-            "depth": 0.0,
+            "depth": 1.0,
             "offset": 0.0
           }
         },
@@ -4595,6 +9152,30 @@
               1.0
             ],
             "erosion": [
+              0.55,
+              1.0
+            ],
+            "humidity": [
+              -1.0,
+              -0.5
+            ],
+            "temperature": [
+              -1.0,
+              1.0
+            ],
+            "continentalness": 0.0,
+            "depth": 1.0,
+            "offset": 0.0
+          }
+        },
+        {
+          "biome": "proximavis:cretaceous_copse",
+          "parameters": {
+            "weirdness": [
+              0.933,
+              1.0
+            ],
+            "erosion": [
               0.45,
               0.55
             ],
@@ -4608,6 +9189,30 @@
             ],
             "continentalness": 0.0,
             "depth": 0.0,
+            "offset": 0.0
+          }
+        },
+        {
+          "biome": "proximavis:cretaceous_copse",
+          "parameters": {
+            "weirdness": [
+              0.933,
+              1.0
+            ],
+            "erosion": [
+              0.45,
+              0.55
+            ],
+            "humidity": [
+              -1.0,
+              -0.5
+            ],
+            "temperature": [
+              -1.0,
+              1.0
+            ],
+            "continentalness": 0.0,
+            "depth": 1.0,
             "offset": 0.0
           }
         },
@@ -4643,8 +9248,80 @@
               1.0
             ],
             "erosion": [
+              0.05,
+              0.45
+            ],
+            "humidity": [
+              -1.0,
+              -0.5
+            ],
+            "temperature": [
+              -1.0,
+              1.0
+            ],
+            "continentalness": 0.0,
+            "depth": 1.0,
+            "offset": 0.0
+          }
+        },
+        {
+          "biome": "proximavis:cretaceous_copse",
+          "parameters": {
+            "weirdness": [
+              0.933,
+              1.0
+            ],
+            "erosion": [
               -0.223,
               0.05
+            ],
+            "humidity": [
+              -1.0,
+              -0.5
+            ],
+            "temperature": [
+              -1.0,
+              1.0
+            ],
+            "continentalness": 0.0,
+            "depth": 0.0,
+            "offset": 0.0
+          }
+        },
+        {
+          "biome": "proximavis:cretaceous_copse",
+          "parameters": {
+            "weirdness": [
+              0.933,
+              1.0
+            ],
+            "erosion": [
+              -0.223,
+              0.05
+            ],
+            "humidity": [
+              -1.0,
+              -0.5
+            ],
+            "temperature": [
+              -1.0,
+              1.0
+            ],
+            "continentalness": 0.0,
+            "depth": 1.0,
+            "offset": 0.0
+          }
+        },
+        {
+          "biome": "proximavis:cretaceous_copse",
+          "parameters": {
+            "weirdness": [
+              0.933,
+              1.0
+            ],
+            "erosion": [
+              -0.375,
+              -0.223
             ],
             "humidity": [
               -1.0,
@@ -4679,6 +9356,30 @@
               1.0
             ],
             "continentalness": 0.0,
+            "depth": 1.0,
+            "offset": 0.0
+          }
+        },
+        {
+          "biome": "proximavis:carboniferous_swamp",
+          "parameters": {
+            "weirdness": [
+              0.933,
+              1.0
+            ],
+            "erosion": [
+              -0.78,
+              -0.375
+            ],
+            "humidity": [
+              -1.0,
+              -0.5
+            ],
+            "temperature": [
+              -1.0,
+              1.0
+            ],
+            "continentalness": 0.0,
             "depth": 0.0,
             "offset": 0.0
           }
@@ -4693,6 +9394,30 @@
             "erosion": [
               -0.78,
               -0.375
+            ],
+            "humidity": [
+              -1.0,
+              -0.5
+            ],
+            "temperature": [
+              -1.0,
+              1.0
+            ],
+            "continentalness": 0.0,
+            "depth": 1.0,
+            "offset": 0.0
+          }
+        },
+        {
+          "biome": "proximavis:carboniferous_swamp",
+          "parameters": {
+            "weirdness": [
+              0.933,
+              1.0
+            ],
+            "erosion": [
+              -1.0,
+              -0.78
             ],
             "humidity": [
               -1.0,
@@ -4727,7 +9452,7 @@
               1.0
             ],
             "continentalness": 0.0,
-            "depth": 0.0,
+            "depth": 1.0,
             "offset": 0.0
           }
         },
@@ -4763,6 +9488,30 @@
               0.933
             ],
             "erosion": [
+              0.55,
+              1.0
+            ],
+            "humidity": [
+              -1.0,
+              -0.5
+            ],
+            "temperature": [
+              -1.0,
+              1.0
+            ],
+            "continentalness": 0.0,
+            "depth": 1.0,
+            "offset": 0.0
+          }
+        },
+        {
+          "biome": "proximavis:cretaceous_copse",
+          "parameters": {
+            "weirdness": [
+              0.767,
+              0.933
+            ],
+            "erosion": [
               0.45,
               0.55
             ],
@@ -4776,6 +9525,30 @@
             ],
             "continentalness": 0.0,
             "depth": 0.0,
+            "offset": 0.0
+          }
+        },
+        {
+          "biome": "proximavis:cretaceous_copse",
+          "parameters": {
+            "weirdness": [
+              0.767,
+              0.933
+            ],
+            "erosion": [
+              0.45,
+              0.55
+            ],
+            "humidity": [
+              -1.0,
+              -0.5
+            ],
+            "temperature": [
+              -1.0,
+              1.0
+            ],
+            "continentalness": 0.0,
+            "depth": 1.0,
             "offset": 0.0
           }
         },
@@ -4811,6 +9584,30 @@
               0.933
             ],
             "erosion": [
+              0.05,
+              0.45
+            ],
+            "humidity": [
+              -1.0,
+              -0.5
+            ],
+            "temperature": [
+              -1.0,
+              1.0
+            ],
+            "continentalness": 0.0,
+            "depth": 1.0,
+            "offset": 0.0
+          }
+        },
+        {
+          "biome": "proximavis:cretaceous_copse",
+          "parameters": {
+            "weirdness": [
+              0.767,
+              0.933
+            ],
+            "erosion": [
               -0.223,
               0.05
             ],
@@ -4824,6 +9621,30 @@
             ],
             "continentalness": 0.0,
             "depth": 0.0,
+            "offset": 0.0
+          }
+        },
+        {
+          "biome": "proximavis:cretaceous_copse",
+          "parameters": {
+            "weirdness": [
+              0.767,
+              0.933
+            ],
+            "erosion": [
+              -0.223,
+              0.05
+            ],
+            "humidity": [
+              -1.0,
+              -0.5
+            ],
+            "temperature": [
+              -1.0,
+              1.0
+            ],
+            "continentalness": 0.0,
+            "depth": 1.0,
             "offset": 0.0
           }
         },
@@ -4859,8 +9680,80 @@
               0.933
             ],
             "erosion": [
+              -0.375,
+              -0.223
+            ],
+            "humidity": [
+              -1.0,
+              -0.5
+            ],
+            "temperature": [
+              -1.0,
+              1.0
+            ],
+            "continentalness": 0.0,
+            "depth": 1.0,
+            "offset": 0.0
+          }
+        },
+        {
+          "biome": "proximavis:cretaceous_copse",
+          "parameters": {
+            "weirdness": [
+              0.767,
+              0.933
+            ],
+            "erosion": [
               -0.78,
               -0.375
+            ],
+            "humidity": [
+              -1.0,
+              -0.5
+            ],
+            "temperature": [
+              -1.0,
+              1.0
+            ],
+            "continentalness": 0.0,
+            "depth": 0.0,
+            "offset": 0.0
+          }
+        },
+        {
+          "biome": "proximavis:cretaceous_copse",
+          "parameters": {
+            "weirdness": [
+              0.767,
+              0.933
+            ],
+            "erosion": [
+              -0.78,
+              -0.375
+            ],
+            "humidity": [
+              -1.0,
+              -0.5
+            ],
+            "temperature": [
+              -1.0,
+              1.0
+            ],
+            "continentalness": 0.0,
+            "depth": 1.0,
+            "offset": 0.0
+          }
+        },
+        {
+          "biome": "proximavis:jurassic_fields",
+          "parameters": {
+            "weirdness": [
+              0.767,
+              0.933
+            ],
+            "erosion": [
+              -1.0,
+              -0.78
             ],
             "humidity": [
               -1.0,
@@ -4895,7 +9788,7 @@
               1.0
             ],
             "continentalness": 0.0,
-            "depth": 0.0,
+            "depth": 1.0,
             "offset": 0.0
           }
         },
@@ -4931,6 +9824,30 @@
               0.767
             ],
             "erosion": [
+              0.55,
+              1.0
+            ],
+            "humidity": [
+              -1.0,
+              -0.5
+            ],
+            "temperature": [
+              -1.0,
+              1.0
+            ],
+            "continentalness": 0.0,
+            "depth": 1.0,
+            "offset": 0.0
+          }
+        },
+        {
+          "biome": "proximavis:cretaceous_copse",
+          "parameters": {
+            "weirdness": [
+              0.567,
+              0.767
+            ],
+            "erosion": [
               0.45,
               0.55
             ],
@@ -4944,6 +9861,30 @@
             ],
             "continentalness": 0.0,
             "depth": 0.0,
+            "offset": 0.0
+          }
+        },
+        {
+          "biome": "proximavis:cretaceous_copse",
+          "parameters": {
+            "weirdness": [
+              0.567,
+              0.767
+            ],
+            "erosion": [
+              0.45,
+              0.55
+            ],
+            "humidity": [
+              -1.0,
+              -0.5
+            ],
+            "temperature": [
+              -1.0,
+              1.0
+            ],
+            "continentalness": 0.0,
+            "depth": 1.0,
             "offset": 0.0
           }
         },
@@ -4979,6 +9920,30 @@
               0.767
             ],
             "erosion": [
+              0.05,
+              0.45
+            ],
+            "humidity": [
+              -1.0,
+              -0.5
+            ],
+            "temperature": [
+              -1.0,
+              1.0
+            ],
+            "continentalness": 0.0,
+            "depth": 1.0,
+            "offset": 0.0
+          }
+        },
+        {
+          "biome": "proximavis:cretaceous_copse",
+          "parameters": {
+            "weirdness": [
+              0.567,
+              0.767
+            ],
+            "erosion": [
               -0.223,
               0.05
             ],
@@ -5003,8 +9968,80 @@
               0.767
             ],
             "erosion": [
+              -0.223,
+              0.05
+            ],
+            "humidity": [
+              -1.0,
+              -0.5
+            ],
+            "temperature": [
+              -1.0,
+              1.0
+            ],
+            "continentalness": 0.0,
+            "depth": 1.0,
+            "offset": 0.0
+          }
+        },
+        {
+          "biome": "proximavis:cretaceous_copse",
+          "parameters": {
+            "weirdness": [
+              0.567,
+              0.767
+            ],
+            "erosion": [
               -0.375,
               -0.223
+            ],
+            "humidity": [
+              -1.0,
+              -0.5
+            ],
+            "temperature": [
+              -1.0,
+              1.0
+            ],
+            "continentalness": 0.0,
+            "depth": 0.0,
+            "offset": 0.0
+          }
+        },
+        {
+          "biome": "proximavis:cretaceous_copse",
+          "parameters": {
+            "weirdness": [
+              0.567,
+              0.767
+            ],
+            "erosion": [
+              -0.375,
+              -0.223
+            ],
+            "humidity": [
+              -1.0,
+              -0.5
+            ],
+            "temperature": [
+              -1.0,
+              1.0
+            ],
+            "continentalness": 0.0,
+            "depth": 1.0,
+            "offset": 0.0
+          }
+        },
+        {
+          "biome": "proximavis:cretaceous_copse",
+          "parameters": {
+            "weirdness": [
+              0.567,
+              0.767
+            ],
+            "erosion": [
+              -0.78,
+              -0.375
             ],
             "humidity": [
               -1.0,
@@ -5039,7 +10076,7 @@
               1.0
             ],
             "continentalness": 0.0,
-            "depth": 0.0,
+            "depth": 1.0,
             "offset": 0.0
           }
         },
@@ -5064,6 +10101,30 @@
             ],
             "continentalness": 0.0,
             "depth": 0.0,
+            "offset": 0.0
+          }
+        },
+        {
+          "biome": "proximavis:jurassic_fields",
+          "parameters": {
+            "weirdness": [
+              0.567,
+              0.767
+            ],
+            "erosion": [
+              -1.0,
+              -0.78
+            ],
+            "humidity": [
+              -1.0,
+              -0.5
+            ],
+            "temperature": [
+              -1.0,
+              1.0
+            ],
+            "continentalness": 0.0,
+            "depth": 1.0,
             "offset": 0.0
           }
         },
@@ -5099,6 +10160,30 @@
               0.567
             ],
             "erosion": [
+              0.55,
+              1.0
+            ],
+            "humidity": [
+              -1.0,
+              -0.5
+            ],
+            "temperature": [
+              -1.0,
+              1.0
+            ],
+            "continentalness": 0.0,
+            "depth": 1.0,
+            "offset": 0.0
+          }
+        },
+        {
+          "biome": "proximavis:cretaceous_copse",
+          "parameters": {
+            "weirdness": [
+              0.4,
+              0.567
+            ],
+            "erosion": [
               0.45,
               0.55
             ],
@@ -5112,6 +10197,30 @@
             ],
             "continentalness": 0.0,
             "depth": 0.0,
+            "offset": 0.0
+          }
+        },
+        {
+          "biome": "proximavis:cretaceous_copse",
+          "parameters": {
+            "weirdness": [
+              0.4,
+              0.567
+            ],
+            "erosion": [
+              0.45,
+              0.55
+            ],
+            "humidity": [
+              -1.0,
+              -0.5
+            ],
+            "temperature": [
+              -1.0,
+              1.0
+            ],
+            "continentalness": 0.0,
+            "depth": 1.0,
             "offset": 0.0
           }
         },
@@ -5147,6 +10256,30 @@
               0.567
             ],
             "erosion": [
+              0.05,
+              0.45
+            ],
+            "humidity": [
+              -1.0,
+              -0.5
+            ],
+            "temperature": [
+              -1.0,
+              1.0
+            ],
+            "continentalness": 0.0,
+            "depth": 1.0,
+            "offset": 0.0
+          }
+        },
+        {
+          "biome": "proximavis:cretaceous_copse",
+          "parameters": {
+            "weirdness": [
+              0.4,
+              0.567
+            ],
+            "erosion": [
               -0.223,
               0.05
             ],
@@ -5171,8 +10304,80 @@
               0.567
             ],
             "erosion": [
+              -0.223,
+              0.05
+            ],
+            "humidity": [
+              -1.0,
+              -0.5
+            ],
+            "temperature": [
+              -1.0,
+              1.0
+            ],
+            "continentalness": 0.0,
+            "depth": 1.0,
+            "offset": 0.0
+          }
+        },
+        {
+          "biome": "proximavis:cretaceous_copse",
+          "parameters": {
+            "weirdness": [
+              0.4,
+              0.567
+            ],
+            "erosion": [
               -0.375,
               -0.223
+            ],
+            "humidity": [
+              -1.0,
+              -0.5
+            ],
+            "temperature": [
+              -1.0,
+              1.0
+            ],
+            "continentalness": 0.0,
+            "depth": 0.0,
+            "offset": 0.0
+          }
+        },
+        {
+          "biome": "proximavis:cretaceous_copse",
+          "parameters": {
+            "weirdness": [
+              0.4,
+              0.567
+            ],
+            "erosion": [
+              -0.375,
+              -0.223
+            ],
+            "humidity": [
+              -1.0,
+              -0.5
+            ],
+            "temperature": [
+              -1.0,
+              1.0
+            ],
+            "continentalness": 0.0,
+            "depth": 1.0,
+            "offset": 0.0
+          }
+        },
+        {
+          "biome": "proximavis:triassic_thicket",
+          "parameters": {
+            "weirdness": [
+              0.4,
+              0.567
+            ],
+            "erosion": [
+              -0.78,
+              -0.375
             ],
             "humidity": [
               -1.0,
@@ -5207,7 +10412,7 @@
               1.0
             ],
             "continentalness": 0.0,
-            "depth": 0.0,
+            "depth": 1.0,
             "offset": 0.0
           }
         },
@@ -5232,6 +10437,30 @@
             ],
             "continentalness": 0.0,
             "depth": 0.0,
+            "offset": 0.0
+          }
+        },
+        {
+          "biome": "proximavis:jurassic_fields",
+          "parameters": {
+            "weirdness": [
+              0.4,
+              0.567
+            ],
+            "erosion": [
+              -1.0,
+              -0.78
+            ],
+            "humidity": [
+              -1.0,
+              -0.5
+            ],
+            "temperature": [
+              -1.0,
+              1.0
+            ],
+            "continentalness": 0.0,
+            "depth": 1.0,
             "offset": 0.0
           }
         },
@@ -5267,6 +10496,30 @@
               0.4
             ],
             "erosion": [
+              0.55,
+              1.0
+            ],
+            "humidity": [
+              -1.0,
+              -0.5
+            ],
+            "temperature": [
+              -1.0,
+              1.0
+            ],
+            "continentalness": 0.0,
+            "depth": 1.0,
+            "offset": 0.0
+          }
+        },
+        {
+          "biome": "proximavis:devonian_downs",
+          "parameters": {
+            "weirdness": [
+              0.267,
+              0.4
+            ],
+            "erosion": [
               0.45,
               0.55
             ],
@@ -5280,6 +10533,30 @@
             ],
             "continentalness": 0.0,
             "depth": 0.0,
+            "offset": 0.0
+          }
+        },
+        {
+          "biome": "proximavis:devonian_downs",
+          "parameters": {
+            "weirdness": [
+              0.267,
+              0.4
+            ],
+            "erosion": [
+              0.45,
+              0.55
+            ],
+            "humidity": [
+              -1.0,
+              -0.5
+            ],
+            "temperature": [
+              -1.0,
+              1.0
+            ],
+            "continentalness": 0.0,
+            "depth": 1.0,
             "offset": 0.0
           }
         },
@@ -5315,6 +10592,30 @@
               0.4
             ],
             "erosion": [
+              0.05,
+              0.45
+            ],
+            "humidity": [
+              -1.0,
+              -0.5
+            ],
+            "temperature": [
+              -1.0,
+              1.0
+            ],
+            "continentalness": 0.0,
+            "depth": 1.0,
+            "offset": 0.0
+          }
+        },
+        {
+          "biome": "proximavis:devonian_downs",
+          "parameters": {
+            "weirdness": [
+              0.267,
+              0.4
+            ],
+            "erosion": [
               -0.223,
               0.05
             ],
@@ -5339,8 +10640,80 @@
               0.4
             ],
             "erosion": [
+              -0.223,
+              0.05
+            ],
+            "humidity": [
+              -1.0,
+              -0.5
+            ],
+            "temperature": [
+              -1.0,
+              1.0
+            ],
+            "continentalness": 0.0,
+            "depth": 1.0,
+            "offset": 0.0
+          }
+        },
+        {
+          "biome": "proximavis:devonian_downs",
+          "parameters": {
+            "weirdness": [
+              0.267,
+              0.4
+            ],
+            "erosion": [
               -0.375,
               -0.223
+            ],
+            "humidity": [
+              -1.0,
+              -0.5
+            ],
+            "temperature": [
+              -1.0,
+              1.0
+            ],
+            "continentalness": 0.0,
+            "depth": 0.0,
+            "offset": 0.0
+          }
+        },
+        {
+          "biome": "proximavis:devonian_downs",
+          "parameters": {
+            "weirdness": [
+              0.267,
+              0.4
+            ],
+            "erosion": [
+              -0.375,
+              -0.223
+            ],
+            "humidity": [
+              -1.0,
+              -0.5
+            ],
+            "temperature": [
+              -1.0,
+              1.0
+            ],
+            "continentalness": 0.0,
+            "depth": 1.0,
+            "offset": 0.0
+          }
+        },
+        {
+          "biome": "proximavis:triassic_thicket",
+          "parameters": {
+            "weirdness": [
+              0.267,
+              0.4
+            ],
+            "erosion": [
+              -0.78,
+              -0.375
             ],
             "humidity": [
               -1.0,
@@ -5375,7 +10748,7 @@
               1.0
             ],
             "continentalness": 0.0,
-            "depth": 0.0,
+            "depth": 1.0,
             "offset": 0.0
           }
         },
@@ -5400,6 +10773,30 @@
             ],
             "continentalness": 0.0,
             "depth": 0.0,
+            "offset": 0.0
+          }
+        },
+        {
+          "biome": "proximavis:carboniferous_swamp",
+          "parameters": {
+            "weirdness": [
+              0.267,
+              0.4
+            ],
+            "erosion": [
+              -1.0,
+              -0.78
+            ],
+            "humidity": [
+              -1.0,
+              -0.5
+            ],
+            "temperature": [
+              -1.0,
+              1.0
+            ],
+            "continentalness": 0.0,
+            "depth": 1.0,
             "offset": 0.0
           }
         },
@@ -5435,6 +10832,30 @@
               0.267
             ],
             "erosion": [
+              0.55,
+              1.0
+            ],
+            "humidity": [
+              -1.0,
+              -0.5
+            ],
+            "temperature": [
+              -1.0,
+              1.0
+            ],
+            "continentalness": 0.0,
+            "depth": 1.0,
+            "offset": 0.0
+          }
+        },
+        {
+          "biome": "proximavis:devonian_downs",
+          "parameters": {
+            "weirdness": [
+              0.05,
+              0.267
+            ],
+            "erosion": [
               0.45,
               0.55
             ],
@@ -5448,6 +10869,30 @@
             ],
             "continentalness": 0.0,
             "depth": 0.0,
+            "offset": 0.0
+          }
+        },
+        {
+          "biome": "proximavis:devonian_downs",
+          "parameters": {
+            "weirdness": [
+              0.05,
+              0.267
+            ],
+            "erosion": [
+              0.45,
+              0.55
+            ],
+            "humidity": [
+              -1.0,
+              -0.5
+            ],
+            "temperature": [
+              -1.0,
+              1.0
+            ],
+            "continentalness": 0.0,
+            "depth": 1.0,
             "offset": 0.0
           }
         },
@@ -5483,8 +10928,80 @@
               0.267
             ],
             "erosion": [
+              0.05,
+              0.45
+            ],
+            "humidity": [
+              -1.0,
+              -0.5
+            ],
+            "temperature": [
+              -1.0,
+              1.0
+            ],
+            "continentalness": 0.0,
+            "depth": 1.0,
+            "offset": 0.0
+          }
+        },
+        {
+          "biome": "proximavis:devonian_downs",
+          "parameters": {
+            "weirdness": [
+              0.05,
+              0.267
+            ],
+            "erosion": [
               -0.223,
               0.05
+            ],
+            "humidity": [
+              -1.0,
+              -0.5
+            ],
+            "temperature": [
+              -1.0,
+              1.0
+            ],
+            "continentalness": 0.0,
+            "depth": 0.0,
+            "offset": 0.0
+          }
+        },
+        {
+          "biome": "proximavis:devonian_downs",
+          "parameters": {
+            "weirdness": [
+              0.05,
+              0.267
+            ],
+            "erosion": [
+              -0.223,
+              0.05
+            ],
+            "humidity": [
+              -1.0,
+              -0.5
+            ],
+            "temperature": [
+              -1.0,
+              1.0
+            ],
+            "continentalness": 0.0,
+            "depth": 1.0,
+            "offset": 0.0
+          }
+        },
+        {
+          "biome": "proximavis:devonian_downs",
+          "parameters": {
+            "weirdness": [
+              0.05,
+              0.267
+            ],
+            "erosion": [
+              -0.375,
+              -0.223
             ],
             "humidity": [
               -1.0,
@@ -5519,7 +11036,7 @@
               1.0
             ],
             "continentalness": 0.0,
-            "depth": 0.0,
+            "depth": 1.0,
             "offset": 0.0
           }
         },
@@ -5555,6 +11072,30 @@
               0.267
             ],
             "erosion": [
+              -0.78,
+              -0.375
+            ],
+            "humidity": [
+              -1.0,
+              -0.5
+            ],
+            "temperature": [
+              -1.0,
+              1.0
+            ],
+            "continentalness": 0.0,
+            "depth": 1.0,
+            "offset": 0.0
+          }
+        },
+        {
+          "biome": "proximavis:carboniferous_swamp",
+          "parameters": {
+            "weirdness": [
+              0.05,
+              0.267
+            ],
+            "erosion": [
               -1.0,
               -0.78
             ],
@@ -5568,6 +11109,30 @@
             ],
             "continentalness": 0.0,
             "depth": 0.0,
+            "offset": 0.0
+          }
+        },
+        {
+          "biome": "proximavis:carboniferous_swamp",
+          "parameters": {
+            "weirdness": [
+              0.05,
+              0.267
+            ],
+            "erosion": [
+              -1.0,
+              -0.78
+            ],
+            "humidity": [
+              -1.0,
+              -0.5
+            ],
+            "temperature": [
+              -1.0,
+              1.0
+            ],
+            "continentalness": 0.0,
+            "depth": 1.0,
             "offset": 0.0
           }
         },
@@ -5603,6 +11168,30 @@
               0.05
             ],
             "erosion": [
+              0.55,
+              1.0
+            ],
+            "humidity": [
+              -1.0,
+              -0.5
+            ],
+            "temperature": [
+              -1.0,
+              1.0
+            ],
+            "continentalness": 0.0,
+            "depth": 1.0,
+            "offset": 0.0
+          }
+        },
+        {
+          "biome": "proximavis:devonian_downs",
+          "parameters": {
+            "weirdness": [
+              -0.05,
+              0.05
+            ],
+            "erosion": [
               0.45,
               0.55
             ],
@@ -5616,6 +11205,30 @@
             ],
             "continentalness": 0.0,
             "depth": 0.0,
+            "offset": 0.0
+          }
+        },
+        {
+          "biome": "proximavis:devonian_downs",
+          "parameters": {
+            "weirdness": [
+              -0.05,
+              0.05
+            ],
+            "erosion": [
+              0.45,
+              0.55
+            ],
+            "humidity": [
+              -1.0,
+              -0.5
+            ],
+            "temperature": [
+              -1.0,
+              1.0
+            ],
+            "continentalness": 0.0,
+            "depth": 1.0,
             "offset": 0.0
           }
         },
@@ -5651,8 +11264,80 @@
               0.05
             ],
             "erosion": [
+              0.05,
+              0.45
+            ],
+            "humidity": [
+              -1.0,
+              -0.5
+            ],
+            "temperature": [
+              -1.0,
+              1.0
+            ],
+            "continentalness": 0.0,
+            "depth": 1.0,
+            "offset": 0.0
+          }
+        },
+        {
+          "biome": "proximavis:river",
+          "parameters": {
+            "weirdness": [
+              -0.05,
+              0.05
+            ],
+            "erosion": [
               -0.223,
               0.05
+            ],
+            "humidity": [
+              -1.0,
+              -0.5
+            ],
+            "temperature": [
+              -1.0,
+              1.0
+            ],
+            "continentalness": 0.0,
+            "depth": 0.0,
+            "offset": 0.0
+          }
+        },
+        {
+          "biome": "proximavis:river",
+          "parameters": {
+            "weirdness": [
+              -0.05,
+              0.05
+            ],
+            "erosion": [
+              -0.223,
+              0.05
+            ],
+            "humidity": [
+              -1.0,
+              -0.5
+            ],
+            "temperature": [
+              -1.0,
+              1.0
+            ],
+            "continentalness": 0.0,
+            "depth": 1.0,
+            "offset": 0.0
+          }
+        },
+        {
+          "biome": "proximavis:river",
+          "parameters": {
+            "weirdness": [
+              -0.05,
+              0.05
+            ],
+            "erosion": [
+              -0.375,
+              -0.223
             ],
             "humidity": [
               -1.0,
@@ -5687,7 +11372,7 @@
               1.0
             ],
             "continentalness": 0.0,
-            "depth": 0.0,
+            "depth": 1.0,
             "offset": 0.0
           }
         },
@@ -5723,6 +11408,30 @@
               0.05
             ],
             "erosion": [
+              -0.78,
+              -0.375
+            ],
+            "humidity": [
+              -1.0,
+              -0.5
+            ],
+            "temperature": [
+              -1.0,
+              1.0
+            ],
+            "continentalness": 0.0,
+            "depth": 1.0,
+            "offset": 0.0
+          }
+        },
+        {
+          "biome": "proximavis:carboniferous_swamp",
+          "parameters": {
+            "weirdness": [
+              -0.05,
+              0.05
+            ],
+            "erosion": [
               -1.0,
               -0.78
             ],
@@ -5736,6 +11445,30 @@
             ],
             "continentalness": 0.0,
             "depth": 0.0,
+            "offset": 0.0
+          }
+        },
+        {
+          "biome": "proximavis:carboniferous_swamp",
+          "parameters": {
+            "weirdness": [
+              -0.05,
+              0.05
+            ],
+            "erosion": [
+              -1.0,
+              -0.78
+            ],
+            "humidity": [
+              -1.0,
+              -0.5
+            ],
+            "temperature": [
+              -1.0,
+              1.0
+            ],
+            "continentalness": 0.0,
+            "depth": 1.0,
             "offset": 0.0
           }
         },
@@ -5771,6 +11504,30 @@
               -0.05
             ],
             "erosion": [
+              0.55,
+              1.0
+            ],
+            "humidity": [
+              -1.0,
+              -0.5
+            ],
+            "temperature": [
+              -1.0,
+              1.0
+            ],
+            "continentalness": 0.0,
+            "depth": 1.0,
+            "offset": 0.0
+          }
+        },
+        {
+          "biome": "proximavis:devonian_downs",
+          "parameters": {
+            "weirdness": [
+              -0.267,
+              -0.05
+            ],
+            "erosion": [
               0.45,
               0.55
             ],
@@ -5784,6 +11541,30 @@
             ],
             "continentalness": 0.0,
             "depth": 0.0,
+            "offset": 0.0
+          }
+        },
+        {
+          "biome": "proximavis:devonian_downs",
+          "parameters": {
+            "weirdness": [
+              -0.267,
+              -0.05
+            ],
+            "erosion": [
+              0.45,
+              0.55
+            ],
+            "humidity": [
+              -1.0,
+              -0.5
+            ],
+            "temperature": [
+              -1.0,
+              1.0
+            ],
+            "continentalness": 0.0,
+            "depth": 1.0,
             "offset": 0.0
           }
         },
@@ -5819,8 +11600,80 @@
               -0.05
             ],
             "erosion": [
+              0.05,
+              0.45
+            ],
+            "humidity": [
+              -1.0,
+              -0.5
+            ],
+            "temperature": [
+              -1.0,
+              1.0
+            ],
+            "continentalness": 0.0,
+            "depth": 1.0,
+            "offset": 0.0
+          }
+        },
+        {
+          "biome": "proximavis:devonian_downs",
+          "parameters": {
+            "weirdness": [
+              -0.267,
+              -0.05
+            ],
+            "erosion": [
               -0.223,
               0.05
+            ],
+            "humidity": [
+              -1.0,
+              -0.5
+            ],
+            "temperature": [
+              -1.0,
+              1.0
+            ],
+            "continentalness": 0.0,
+            "depth": 0.0,
+            "offset": 0.0
+          }
+        },
+        {
+          "biome": "proximavis:devonian_downs",
+          "parameters": {
+            "weirdness": [
+              -0.267,
+              -0.05
+            ],
+            "erosion": [
+              -0.223,
+              0.05
+            ],
+            "humidity": [
+              -1.0,
+              -0.5
+            ],
+            "temperature": [
+              -1.0,
+              1.0
+            ],
+            "continentalness": 0.0,
+            "depth": 1.0,
+            "offset": 0.0
+          }
+        },
+        {
+          "biome": "proximavis:devonian_downs",
+          "parameters": {
+            "weirdness": [
+              -0.267,
+              -0.05
+            ],
+            "erosion": [
+              -0.375,
+              -0.223
             ],
             "humidity": [
               -1.0,
@@ -5855,7 +11708,7 @@
               1.0
             ],
             "continentalness": 0.0,
-            "depth": 0.0,
+            "depth": 1.0,
             "offset": 0.0
           }
         },
@@ -5891,6 +11744,30 @@
               -0.05
             ],
             "erosion": [
+              -0.78,
+              -0.375
+            ],
+            "humidity": [
+              -1.0,
+              -0.5
+            ],
+            "temperature": [
+              -1.0,
+              1.0
+            ],
+            "continentalness": 0.0,
+            "depth": 1.0,
+            "offset": 0.0
+          }
+        },
+        {
+          "biome": "proximavis:carboniferous_swamp",
+          "parameters": {
+            "weirdness": [
+              -0.267,
+              -0.05
+            ],
+            "erosion": [
               -1.0,
               -0.78
             ],
@@ -5904,6 +11781,30 @@
             ],
             "continentalness": 0.0,
             "depth": 0.0,
+            "offset": 0.0
+          }
+        },
+        {
+          "biome": "proximavis:carboniferous_swamp",
+          "parameters": {
+            "weirdness": [
+              -0.267,
+              -0.05
+            ],
+            "erosion": [
+              -1.0,
+              -0.78
+            ],
+            "humidity": [
+              -1.0,
+              -0.5
+            ],
+            "temperature": [
+              -1.0,
+              1.0
+            ],
+            "continentalness": 0.0,
+            "depth": 1.0,
             "offset": 0.0
           }
         },
@@ -5939,6 +11840,30 @@
               -0.267
             ],
             "erosion": [
+              0.55,
+              1.0
+            ],
+            "humidity": [
+              -1.0,
+              -0.5
+            ],
+            "temperature": [
+              -1.0,
+              1.0
+            ],
+            "continentalness": 0.0,
+            "depth": 1.0,
+            "offset": 0.0
+          }
+        },
+        {
+          "biome": "proximavis:devonian_downs",
+          "parameters": {
+            "weirdness": [
+              -0.4,
+              -0.267
+            ],
+            "erosion": [
               0.45,
               0.55
             ],
@@ -5952,6 +11877,30 @@
             ],
             "continentalness": 0.0,
             "depth": 0.0,
+            "offset": 0.0
+          }
+        },
+        {
+          "biome": "proximavis:devonian_downs",
+          "parameters": {
+            "weirdness": [
+              -0.4,
+              -0.267
+            ],
+            "erosion": [
+              0.45,
+              0.55
+            ],
+            "humidity": [
+              -1.0,
+              -0.5
+            ],
+            "temperature": [
+              -1.0,
+              1.0
+            ],
+            "continentalness": 0.0,
+            "depth": 1.0,
             "offset": 0.0
           }
         },
@@ -5987,6 +11936,30 @@
               -0.267
             ],
             "erosion": [
+              0.05,
+              0.45
+            ],
+            "humidity": [
+              -1.0,
+              -0.5
+            ],
+            "temperature": [
+              -1.0,
+              1.0
+            ],
+            "continentalness": 0.0,
+            "depth": 1.0,
+            "offset": 0.0
+          }
+        },
+        {
+          "biome": "proximavis:devonian_downs",
+          "parameters": {
+            "weirdness": [
+              -0.4,
+              -0.267
+            ],
+            "erosion": [
               -0.223,
               0.05
             ],
@@ -6011,8 +11984,80 @@
               -0.267
             ],
             "erosion": [
+              -0.223,
+              0.05
+            ],
+            "humidity": [
+              -1.0,
+              -0.5
+            ],
+            "temperature": [
+              -1.0,
+              1.0
+            ],
+            "continentalness": 0.0,
+            "depth": 1.0,
+            "offset": 0.0
+          }
+        },
+        {
+          "biome": "proximavis:devonian_downs",
+          "parameters": {
+            "weirdness": [
+              -0.4,
+              -0.267
+            ],
+            "erosion": [
               -0.375,
               -0.223
+            ],
+            "humidity": [
+              -1.0,
+              -0.5
+            ],
+            "temperature": [
+              -1.0,
+              1.0
+            ],
+            "continentalness": 0.0,
+            "depth": 0.0,
+            "offset": 0.0
+          }
+        },
+        {
+          "biome": "proximavis:devonian_downs",
+          "parameters": {
+            "weirdness": [
+              -0.4,
+              -0.267
+            ],
+            "erosion": [
+              -0.375,
+              -0.223
+            ],
+            "humidity": [
+              -1.0,
+              -0.5
+            ],
+            "temperature": [
+              -1.0,
+              1.0
+            ],
+            "continentalness": 0.0,
+            "depth": 1.0,
+            "offset": 0.0
+          }
+        },
+        {
+          "biome": "proximavis:triassic_thicket",
+          "parameters": {
+            "weirdness": [
+              -0.4,
+              -0.267
+            ],
+            "erosion": [
+              -0.78,
+              -0.375
             ],
             "humidity": [
               -1.0,
@@ -6047,7 +12092,7 @@
               1.0
             ],
             "continentalness": 0.0,
-            "depth": 0.0,
+            "depth": 1.0,
             "offset": 0.0
           }
         },
@@ -6072,6 +12117,30 @@
             ],
             "continentalness": 0.0,
             "depth": 0.0,
+            "offset": 0.0
+          }
+        },
+        {
+          "biome": "proximavis:carboniferous_swamp",
+          "parameters": {
+            "weirdness": [
+              -0.4,
+              -0.267
+            ],
+            "erosion": [
+              -1.0,
+              -0.78
+            ],
+            "humidity": [
+              -1.0,
+              -0.5
+            ],
+            "temperature": [
+              -1.0,
+              1.0
+            ],
+            "continentalness": 0.0,
+            "depth": 1.0,
             "offset": 0.0
           }
         },
@@ -6107,6 +12176,30 @@
               -0.4
             ],
             "erosion": [
+              0.55,
+              1.0
+            ],
+            "humidity": [
+              -1.0,
+              -0.5
+            ],
+            "temperature": [
+              -1.0,
+              1.0
+            ],
+            "continentalness": 0.0,
+            "depth": 1.0,
+            "offset": 0.0
+          }
+        },
+        {
+          "biome": "proximavis:cretaceous_copse",
+          "parameters": {
+            "weirdness": [
+              -0.567,
+              -0.4
+            ],
+            "erosion": [
               0.45,
               0.55
             ],
@@ -6120,6 +12213,30 @@
             ],
             "continentalness": 0.0,
             "depth": 0.0,
+            "offset": 0.0
+          }
+        },
+        {
+          "biome": "proximavis:cretaceous_copse",
+          "parameters": {
+            "weirdness": [
+              -0.567,
+              -0.4
+            ],
+            "erosion": [
+              0.45,
+              0.55
+            ],
+            "humidity": [
+              -1.0,
+              -0.5
+            ],
+            "temperature": [
+              -1.0,
+              1.0
+            ],
+            "continentalness": 0.0,
+            "depth": 1.0,
             "offset": 0.0
           }
         },
@@ -6155,6 +12272,30 @@
               -0.4
             ],
             "erosion": [
+              0.05,
+              0.45
+            ],
+            "humidity": [
+              -1.0,
+              -0.5
+            ],
+            "temperature": [
+              -1.0,
+              1.0
+            ],
+            "continentalness": 0.0,
+            "depth": 1.0,
+            "offset": 0.0
+          }
+        },
+        {
+          "biome": "proximavis:cretaceous_copse",
+          "parameters": {
+            "weirdness": [
+              -0.567,
+              -0.4
+            ],
+            "erosion": [
               -0.223,
               0.05
             ],
@@ -6179,8 +12320,80 @@
               -0.4
             ],
             "erosion": [
+              -0.223,
+              0.05
+            ],
+            "humidity": [
+              -1.0,
+              -0.5
+            ],
+            "temperature": [
+              -1.0,
+              1.0
+            ],
+            "continentalness": 0.0,
+            "depth": 1.0,
+            "offset": 0.0
+          }
+        },
+        {
+          "biome": "proximavis:cretaceous_copse",
+          "parameters": {
+            "weirdness": [
+              -0.567,
+              -0.4
+            ],
+            "erosion": [
               -0.375,
               -0.223
+            ],
+            "humidity": [
+              -1.0,
+              -0.5
+            ],
+            "temperature": [
+              -1.0,
+              1.0
+            ],
+            "continentalness": 0.0,
+            "depth": 0.0,
+            "offset": 0.0
+          }
+        },
+        {
+          "biome": "proximavis:cretaceous_copse",
+          "parameters": {
+            "weirdness": [
+              -0.567,
+              -0.4
+            ],
+            "erosion": [
+              -0.375,
+              -0.223
+            ],
+            "humidity": [
+              -1.0,
+              -0.5
+            ],
+            "temperature": [
+              -1.0,
+              1.0
+            ],
+            "continentalness": 0.0,
+            "depth": 1.0,
+            "offset": 0.0
+          }
+        },
+        {
+          "biome": "proximavis:triassic_thicket",
+          "parameters": {
+            "weirdness": [
+              -0.567,
+              -0.4
+            ],
+            "erosion": [
+              -0.78,
+              -0.375
             ],
             "humidity": [
               -1.0,
@@ -6215,7 +12428,7 @@
               1.0
             ],
             "continentalness": 0.0,
-            "depth": 0.0,
+            "depth": 1.0,
             "offset": 0.0
           }
         },
@@ -6244,6 +12457,30 @@
           }
         },
         {
+          "biome": "proximavis:jurassic_fields",
+          "parameters": {
+            "weirdness": [
+              -0.567,
+              -0.4
+            ],
+            "erosion": [
+              -1.0,
+              -0.78
+            ],
+            "humidity": [
+              -1.0,
+              -0.5
+            ],
+            "temperature": [
+              -1.0,
+              1.0
+            ],
+            "continentalness": 0.0,
+            "depth": 1.0,
+            "offset": 0.0
+          }
+        },
+        {
           "biome": "proximavis:cretaceous_copse",
           "parameters": {
             "weirdness": [
@@ -6264,6 +12501,30 @@
             ],
             "continentalness": 0.0,
             "depth": 0.0,
+            "offset": 0.0
+          }
+        },
+        {
+          "biome": "proximavis:cretaceous_copse",
+          "parameters": {
+            "weirdness": [
+              -0.676,
+              -0.567
+            ],
+            "erosion": [
+              0.55,
+              1.0
+            ],
+            "humidity": [
+              -1.0,
+              -0.5
+            ],
+            "temperature": [
+              -1.0,
+              1.0
+            ],
+            "continentalness": 0.0,
+            "depth": 1.0,
             "offset": 0.0
           }
         },
@@ -6299,6 +12560,30 @@
               -0.567
             ],
             "erosion": [
+              0.45,
+              0.55
+            ],
+            "humidity": [
+              -1.0,
+              -0.5
+            ],
+            "temperature": [
+              -1.0,
+              1.0
+            ],
+            "continentalness": 0.0,
+            "depth": 1.0,
+            "offset": 0.0
+          }
+        },
+        {
+          "biome": "proximavis:cretaceous_copse",
+          "parameters": {
+            "weirdness": [
+              -0.676,
+              -0.567
+            ],
+            "erosion": [
               0.05,
               0.45
             ],
@@ -6312,6 +12597,30 @@
             ],
             "continentalness": 0.0,
             "depth": 0.0,
+            "offset": 0.0
+          }
+        },
+        {
+          "biome": "proximavis:cretaceous_copse",
+          "parameters": {
+            "weirdness": [
+              -0.676,
+              -0.567
+            ],
+            "erosion": [
+              0.05,
+              0.45
+            ],
+            "humidity": [
+              -1.0,
+              -0.5
+            ],
+            "temperature": [
+              -1.0,
+              1.0
+            ],
+            "continentalness": 0.0,
+            "depth": 1.0,
             "offset": 0.0
           }
         },
@@ -6347,8 +12656,80 @@
               -0.567
             ],
             "erosion": [
+              -0.223,
+              0.05
+            ],
+            "humidity": [
+              -1.0,
+              -0.5
+            ],
+            "temperature": [
+              -1.0,
+              1.0
+            ],
+            "continentalness": 0.0,
+            "depth": 1.0,
+            "offset": 0.0
+          }
+        },
+        {
+          "biome": "proximavis:cretaceous_copse",
+          "parameters": {
+            "weirdness": [
+              -0.676,
+              -0.567
+            ],
+            "erosion": [
               -0.375,
               -0.223
+            ],
+            "humidity": [
+              -1.0,
+              -0.5
+            ],
+            "temperature": [
+              -1.0,
+              1.0
+            ],
+            "continentalness": 0.0,
+            "depth": 0.0,
+            "offset": 0.0
+          }
+        },
+        {
+          "biome": "proximavis:cretaceous_copse",
+          "parameters": {
+            "weirdness": [
+              -0.676,
+              -0.567
+            ],
+            "erosion": [
+              -0.375,
+              -0.223
+            ],
+            "humidity": [
+              -1.0,
+              -0.5
+            ],
+            "temperature": [
+              -1.0,
+              1.0
+            ],
+            "continentalness": 0.0,
+            "depth": 1.0,
+            "offset": 0.0
+          }
+        },
+        {
+          "biome": "proximavis:cretaceous_copse",
+          "parameters": {
+            "weirdness": [
+              -0.676,
+              -0.567
+            ],
+            "erosion": [
+              -0.78,
+              -0.375
             ],
             "humidity": [
               -1.0,
@@ -6383,7 +12764,7 @@
               1.0
             ],
             "continentalness": 0.0,
-            "depth": 0.0,
+            "depth": 1.0,
             "offset": 0.0
           }
         },
@@ -6408,6 +12789,30 @@
             ],
             "continentalness": 0.0,
             "depth": 0.0,
+            "offset": 0.0
+          }
+        },
+        {
+          "biome": "proximavis:jurassic_fields",
+          "parameters": {
+            "weirdness": [
+              -0.676,
+              -0.567
+            ],
+            "erosion": [
+              -1.0,
+              -0.78
+            ],
+            "humidity": [
+              -1.0,
+              -0.5
+            ],
+            "temperature": [
+              -1.0,
+              1.0
+            ],
+            "continentalness": 0.0,
+            "depth": 1.0,
             "offset": 0.0
           }
         },
@@ -6443,6 +12848,30 @@
               -0.767
             ],
             "erosion": [
+              0.55,
+              1.0
+            ],
+            "humidity": [
+              -1.0,
+              -0.5
+            ],
+            "temperature": [
+              -1.0,
+              1.0
+            ],
+            "continentalness": 0.0,
+            "depth": 1.0,
+            "offset": 0.0
+          }
+        },
+        {
+          "biome": "proximavis:cretaceous_copse",
+          "parameters": {
+            "weirdness": [
+              -0.933,
+              -0.767
+            ],
+            "erosion": [
               0.45,
               0.55
             ],
@@ -6456,6 +12885,30 @@
             ],
             "continentalness": 0.0,
             "depth": 0.0,
+            "offset": 0.0
+          }
+        },
+        {
+          "biome": "proximavis:cretaceous_copse",
+          "parameters": {
+            "weirdness": [
+              -0.933,
+              -0.767
+            ],
+            "erosion": [
+              0.45,
+              0.55
+            ],
+            "humidity": [
+              -1.0,
+              -0.5
+            ],
+            "temperature": [
+              -1.0,
+              1.0
+            ],
+            "continentalness": 0.0,
+            "depth": 1.0,
             "offset": 0.0
           }
         },
@@ -6491,6 +12944,30 @@
               -0.767
             ],
             "erosion": [
+              0.05,
+              0.45
+            ],
+            "humidity": [
+              -1.0,
+              -0.5
+            ],
+            "temperature": [
+              -1.0,
+              1.0
+            ],
+            "continentalness": 0.0,
+            "depth": 1.0,
+            "offset": 0.0
+          }
+        },
+        {
+          "biome": "proximavis:cretaceous_copse",
+          "parameters": {
+            "weirdness": [
+              -0.933,
+              -0.767
+            ],
+            "erosion": [
               -0.223,
               0.05
             ],
@@ -6515,8 +12992,80 @@
               -0.767
             ],
             "erosion": [
+              -0.223,
+              0.05
+            ],
+            "humidity": [
+              -1.0,
+              -0.5
+            ],
+            "temperature": [
+              -1.0,
+              1.0
+            ],
+            "continentalness": 0.0,
+            "depth": 1.0,
+            "offset": 0.0
+          }
+        },
+        {
+          "biome": "proximavis:cretaceous_copse",
+          "parameters": {
+            "weirdness": [
+              -0.933,
+              -0.767
+            ],
+            "erosion": [
               -0.375,
               -0.223
+            ],
+            "humidity": [
+              -1.0,
+              -0.5
+            ],
+            "temperature": [
+              -1.0,
+              1.0
+            ],
+            "continentalness": 0.0,
+            "depth": 0.0,
+            "offset": 0.0
+          }
+        },
+        {
+          "biome": "proximavis:cretaceous_copse",
+          "parameters": {
+            "weirdness": [
+              -0.933,
+              -0.767
+            ],
+            "erosion": [
+              -0.375,
+              -0.223
+            ],
+            "humidity": [
+              -1.0,
+              -0.5
+            ],
+            "temperature": [
+              -1.0,
+              1.0
+            ],
+            "continentalness": 0.0,
+            "depth": 1.0,
+            "offset": 0.0
+          }
+        },
+        {
+          "biome": "proximavis:cretaceous_copse",
+          "parameters": {
+            "weirdness": [
+              -0.933,
+              -0.767
+            ],
+            "erosion": [
+              -0.78,
+              -0.375
             ],
             "humidity": [
               -1.0,
@@ -6551,7 +13100,7 @@
               1.0
             ],
             "continentalness": 0.0,
-            "depth": 0.0,
+            "depth": 1.0,
             "offset": 0.0
           }
         },
@@ -6576,6 +13125,30 @@
             ],
             "continentalness": 0.0,
             "depth": 0.0,
+            "offset": 0.0
+          }
+        },
+        {
+          "biome": "proximavis:jurassic_fields",
+          "parameters": {
+            "weirdness": [
+              -0.933,
+              -0.767
+            ],
+            "erosion": [
+              -1.0,
+              -0.78
+            ],
+            "humidity": [
+              -1.0,
+              -0.5
+            ],
+            "temperature": [
+              -1.0,
+              1.0
+            ],
+            "continentalness": 0.0,
+            "depth": 1.0,
             "offset": 0.0
           }
         },
@@ -6611,6 +13184,30 @@
               -0.933
             ],
             "erosion": [
+              0.55,
+              1.0
+            ],
+            "humidity": [
+              -1.0,
+              -0.5
+            ],
+            "temperature": [
+              -1.0,
+              1.0
+            ],
+            "continentalness": 0.0,
+            "depth": 1.0,
+            "offset": 0.0
+          }
+        },
+        {
+          "biome": "proximavis:cretaceous_copse",
+          "parameters": {
+            "weirdness": [
+              -1.0,
+              -0.933
+            ],
+            "erosion": [
               0.45,
               0.55
             ],
@@ -6624,6 +13221,30 @@
             ],
             "continentalness": 0.0,
             "depth": 0.0,
+            "offset": 0.0
+          }
+        },
+        {
+          "biome": "proximavis:cretaceous_copse",
+          "parameters": {
+            "weirdness": [
+              -1.0,
+              -0.933
+            ],
+            "erosion": [
+              0.45,
+              0.55
+            ],
+            "humidity": [
+              -1.0,
+              -0.5
+            ],
+            "temperature": [
+              -1.0,
+              1.0
+            ],
+            "continentalness": 0.0,
+            "depth": 1.0,
             "offset": 0.0
           }
         },
@@ -6659,8 +13280,80 @@
               -0.933
             ],
             "erosion": [
+              0.05,
+              0.45
+            ],
+            "humidity": [
+              -1.0,
+              -0.5
+            ],
+            "temperature": [
+              -1.0,
+              1.0
+            ],
+            "continentalness": 0.0,
+            "depth": 1.0,
+            "offset": 0.0
+          }
+        },
+        {
+          "biome": "proximavis:cretaceous_copse",
+          "parameters": {
+            "weirdness": [
+              -1.0,
+              -0.933
+            ],
+            "erosion": [
               -0.223,
               0.05
+            ],
+            "humidity": [
+              -1.0,
+              -0.5
+            ],
+            "temperature": [
+              -1.0,
+              1.0
+            ],
+            "continentalness": 0.0,
+            "depth": 0.0,
+            "offset": 0.0
+          }
+        },
+        {
+          "biome": "proximavis:cretaceous_copse",
+          "parameters": {
+            "weirdness": [
+              -1.0,
+              -0.933
+            ],
+            "erosion": [
+              -0.223,
+              0.05
+            ],
+            "humidity": [
+              -1.0,
+              -0.5
+            ],
+            "temperature": [
+              -1.0,
+              1.0
+            ],
+            "continentalness": 0.0,
+            "depth": 1.0,
+            "offset": 0.0
+          }
+        },
+        {
+          "biome": "proximavis:cretaceous_copse",
+          "parameters": {
+            "weirdness": [
+              -1.0,
+              -0.933
+            ],
+            "erosion": [
+              -0.375,
+              -0.223
             ],
             "humidity": [
               -1.0,
@@ -6695,7 +13388,7 @@
               1.0
             ],
             "continentalness": 0.0,
-            "depth": 0.0,
+            "depth": 1.0,
             "offset": 0.0
           }
         },
@@ -6731,6 +13424,30 @@
               -0.933
             ],
             "erosion": [
+              -0.78,
+              -0.375
+            ],
+            "humidity": [
+              -1.0,
+              -0.5
+            ],
+            "temperature": [
+              -1.0,
+              1.0
+            ],
+            "continentalness": 0.0,
+            "depth": 1.0,
+            "offset": 0.0
+          }
+        },
+        {
+          "biome": "proximavis:carboniferous_swamp",
+          "parameters": {
+            "weirdness": [
+              -1.0,
+              -0.933
+            ],
+            "erosion": [
               -1.0,
               -0.78
             ],
@@ -6744,6 +13461,30 @@
             ],
             "continentalness": 0.0,
             "depth": 0.0,
+            "offset": 0.0
+          }
+        },
+        {
+          "biome": "proximavis:carboniferous_swamp",
+          "parameters": {
+            "weirdness": [
+              -1.0,
+              -0.933
+            ],
+            "erosion": [
+              -1.0,
+              -0.78
+            ],
+            "humidity": [
+              -1.0,
+              -0.5
+            ],
+            "temperature": [
+              -1.0,
+              1.0
+            ],
+            "continentalness": 0.0,
+            "depth": 1.0,
             "offset": 0.0
           }
         }

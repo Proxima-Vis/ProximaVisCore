@@ -141,10 +141,11 @@ dependencies {
 
     annotationProcessor 'org.spongepowered:mixin:0.8.5:processor'
 
+    // Dependencies
     implementation fg.deobf("curse.maven:alexs-caves-924854:5848216")
-    implementation fg.deobf("curse.maven:alexs-mobs-426558:5698791")
-    implementation fg.deobf("curse.maven:unusual-fish-mod-568300:7127544")
+    implementation fg.deobf("curse.maven:unusual-fish-mod-568300:8084434")
     implementation fg.deobf("curse.maven:unusual-prehistory-2-1355824:7865890")
+    implementation fg.deobf("curse.maven:fossils-223908:8217427")
 
     // Example mod dependency with JEI - using fg.deobf() ensures the dependency is remapped to your development mappings
     // The JEI API is declared for compile time use, while the full JEI artifact is used at runtime

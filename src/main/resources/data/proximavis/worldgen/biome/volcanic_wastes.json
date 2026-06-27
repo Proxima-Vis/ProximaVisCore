@@ -60,7 +60,14 @@
   "spawners": {
     "ambient": [],
     "axolotls": [],
-    "creature": [],
+    "creature": [
+      {
+        "type": "unusual_prehistory:carnotaurus",
+        "weight": 10,
+        "minCount": 1,
+        "maxCount": 1
+      }
+    ],
     "misc": [],
     "monster": [],
     "underground_water_creature": [],

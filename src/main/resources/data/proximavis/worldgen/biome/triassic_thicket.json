@@ -61,16 +61,16 @@
   "has_precipitation": true,
   "spawn_costs": {},
   "spawners": {
-    "ambient": [
+    "ambient": [],
+    "axolotls": [],
+    "creature": [
       {
-        "type": "unusual_prehistory:delitzschala",
-        "weight": 1,
+        "type": "unusual_prehistory:desmatosuchus",
+        "weight": 20,
         "minCount": 1,
-        "maxCount": 1
+        "maxCount": 3
       }
     ],
-    "axolotls": [],
-    "creature": [],
     "misc": [],
     "monster": [],
     "underground_water_creature": [],

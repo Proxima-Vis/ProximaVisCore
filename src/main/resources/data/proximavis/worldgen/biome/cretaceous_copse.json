@@ -64,7 +64,26 @@
   "spawners": {
     "ambient": [],
     "axolotls": [],
-    "creature": [],
+    "creature": [
+      {
+        "type": "unusual_prehistory:majungasaurus",
+        "weight": 10,
+        "minCount": 1,
+        "maxCount": 1
+      },
+      {
+        "type": "unusual_prehistory:pachycephalosaurus",
+        "weight": 50,
+        "minCount": 2,
+        "maxCount": 3
+      },
+      {
+        "type": "unusual_prehistory:dromaeosaurus",
+        "weight": 20,
+        "minCount": 1,
+        "maxCount": 1
+      }
+    ],
     "misc": [],
     "monster": [],
     "underground_water_creature": [],
