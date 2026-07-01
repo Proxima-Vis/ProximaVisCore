@@ -1,0 +1,18 @@
+{
+  "variants": {
+    "": [
+      {
+        "model": "pvcore:block/deep_reef_pod_1"
+      },
+      {
+        "model": "pvcore:block/deep_reef_pod_2"
+      },
+      {
+        "model": "pvcore:block/deep_reef_pod_3"
+      },
+      {
+        "model": "pvcore:block/deep_reef_pod_4"
+      }
+    ]
+  }
+}

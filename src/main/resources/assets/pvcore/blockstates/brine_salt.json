@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "pvcore:block/brine_salt"
+    }
+  }
+}
