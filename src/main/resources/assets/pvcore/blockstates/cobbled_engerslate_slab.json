@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "pvcore:block/cobbled_engerslate_slab"
+    },
+    "type=double": {
+      "model": "pvcore:block/cobbled_engerslate"
+    },
+    "type=top": {
+      "model": "pvcore:block/cobbled_engerslate_slab_top"
+    }
+  }
+}

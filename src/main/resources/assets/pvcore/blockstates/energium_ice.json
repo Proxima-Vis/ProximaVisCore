@@ -1,0 +1,9 @@
+{
+  "variants": {
+    "": [
+      {
+        "model": "pvcore:block/energium_ice"
+      }
+    ]
+  }
+}

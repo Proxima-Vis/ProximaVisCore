@@ -13,6 +13,7 @@ public class PVItemRegistry {
     public static final DeferredRegister<Item> ITEMS = DeferredRegister.create(ForgeRegistries.ITEMS, PVCore.MOD_ID);
 
     public static final RegistryObject<Item> BRINE_BUCKET = ITEMS.register("brine_bucket", () -> new BucketItem(PVFluidRegistry.BRINE_FLUID_SOURCE, new Item.Properties().craftRemainder(Items.BUCKET).stacksTo(1)));
+    public static final RegistryObject<Item> PRIMORDIAL_LAVA_BUCKET = ITEMS.register("primordial_lava_bucket", () -> new BucketItem(PVFluidRegistry.PRIMORDIAL_LAVA_FLUID_SOURCE, new Item.Properties().craftRemainder(Items.BUCKET).stacksTo(1)));
 
     private static <I extends Item> RegistryObject<I> registerItem(String name, Supplier<? extends I> supplier) {
         RegistryObject<I> item = ITEMS.register(name, supplier);

@@ -18,12 +18,12 @@ import net.tycothepug.pvcore.PVCore;
 import javax.annotation.Nullable;
 import java.util.function.Consumer;
 
-public class BrineFluidType extends FluidType {
-    public static final ResourceLocation FLUID_STILL = ResourceLocation.fromNamespaceAndPath(PVCore.MOD_ID, "block/brine_still");
-    public static final ResourceLocation FLUID_FLOWING = ResourceLocation.fromNamespaceAndPath(PVCore.MOD_ID, "block/brine_flowing");
+public class PrimordialLavaFluidType extends FluidType {
+    public static final ResourceLocation FLUID_STILL = ResourceLocation.fromNamespaceAndPath(PVCore.MOD_ID, "block/primordial_lava_still");
+    public static final ResourceLocation FLUID_FLOWING = ResourceLocation.fromNamespaceAndPath(PVCore.MOD_ID, "block/primordial_lava_flowing");
     public static final ResourceLocation OVERLAY = ResourceLocation.fromNamespaceAndPath(PVCore.MOD_ID, "textures/misc/under_brine");
 
-    public BrineFluidType(Properties properties) {
+    public PrimordialLavaFluidType(Properties properties) {
         super(properties);
     }
 

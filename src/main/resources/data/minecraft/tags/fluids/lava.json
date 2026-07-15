@@ -1,0 +1,7 @@
+{
+  "replace": false,
+  "values": [
+    "pvcore:primordial_lava",
+    "pvcore:flowing_primordial_lava"
+  ]
+}

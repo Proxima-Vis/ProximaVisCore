@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/slab",
+  "textures": {
+    "bottom": "pvcore:block/cobbled_engerslate",
+    "side": "pvcore:block/cobbled_engerslate",
+    "top": "pvcore:block/cobbled_engerslate"
+  }
+}

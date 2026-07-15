@@ -22,7 +22,15 @@ public class PVFluidRegistry {
         return new ForgeFlowingFluid.Properties(BRINE_FLUID_TYPE, BRINE_FLUID_SOURCE, BRINE_FLUID_FLOWING).bucket(PVItemRegistry.BRINE_BUCKET).block(PVBlockRegistry.BRINE);
     }
 
+    private static ForgeFlowingFluid.Properties primordialLavaProperties() {
+        return new ForgeFlowingFluid.Properties(PRIMORDIAL_LAVA_FLUID_TYPE, PRIMORDIAL_LAVA_FLUID_SOURCE, PRIMORDIAL_LAVA_FLUID_FLOWING).bucket(PVItemRegistry.PRIMORDIAL_LAVA_BUCKET).block(PVBlockRegistry.PRIMORDIAL_LAVA).slopeFindDistance(2).levelDecreasePerBlock(2).tickRate(30);
+    }
+
     public static final RegistryObject<FluidType> BRINE_FLUID_TYPE = FLUID_TYPE_DEF_REG.register("brine", () -> new BrineFluidType(FluidType.Properties.create().density(1000).viscosity(1000).pathType(BlockPathTypes.WATER).adjacentPathType(BlockPathTypes.WATER_BORDER).sound(SoundActions.BUCKET_EMPTY, SoundEvents.BUCKET_EMPTY).sound(SoundActions.BUCKET_FILL, SoundEvents.BUCKET_FILL)));
     public static final RegistryObject<FlowingFluid> BRINE_FLUID_SOURCE = FLUID_DEF_REG.register("brine", () -> new ForgeFlowingFluid.Source(brineProperties()));
     public static final RegistryObject<FlowingFluid> BRINE_FLUID_FLOWING = FLUID_DEF_REG.register("brine_flowing", () -> new ForgeFlowingFluid.Flowing(brineProperties()));
+
+    public static final RegistryObject<FluidType> PRIMORDIAL_LAVA_FLUID_TYPE = FLUID_TYPE_DEF_REG.register("primordial_lava", () -> new PrimordialLavaFluidType(FluidType.Properties.create().density(3000).viscosity(6000).pathType(BlockPathTypes.LAVA).adjacentPathType(BlockPathTypes.LAVA).sound(SoundActions.BUCKET_EMPTY, SoundEvents.BUCKET_EMPTY_LAVA).sound(SoundActions.BUCKET_FILL, SoundEvents.BUCKET_FILL_LAVA)));
+    public static final RegistryObject<FlowingFluid> PRIMORDIAL_LAVA_FLUID_SOURCE = FLUID_DEF_REG.register("primordial_lava", () -> new ForgeFlowingFluid.Source(primordialLavaProperties()));
+    public static final RegistryObject<FlowingFluid> PRIMORDIAL_LAVA_FLUID_FLOWING = FLUID_DEF_REG.register("primordial_lava_flowing", () -> new ForgeFlowingFluid.Flowing(primordialLavaProperties()));
 }
