@@ -11,6 +11,7 @@ import net.tycothepug.pvcore.server.CommonProxy;
 import net.tycothepug.pvcore.server.block.PVBlockRegistry;
 import net.tycothepug.pvcore.server.block.fluid.PVFluidRegistry;
 import net.tycothepug.pvcore.server.item.PVItemRegistry;
+import net.tycothepug.pvcore.server.misc.PVCreativeTabRegistry;
 import org.slf4j.Logger;
 
 @Mod(PVCore.MOD_ID)
@@ -28,6 +29,7 @@ public class PVCore {
         PVItemRegistry.ITEMS.register(bus);
         PVFluidRegistry.FLUID_DEF_REG.register(bus);
         PVFluidRegistry.FLUID_TYPE_DEF_REG.register(bus);
+        PVCreativeTabRegistry.TAB.register(bus);
         PROXY.commonInit();
     }
 

@@ -1,0 +1,19 @@
+{
+	"itemGroup.pvcore.proxima_vis_core": "Proxima Vis Core",
+	"block.pvcore.deep_reef_pod": "Luminary Pod",
+	"block.pvcore.brine_salt": "Brine Salt",
+	"block.pvcore.primordial_lava": "Primordial Lava",
+	"block.pvcore.energium_ice": "Energium Ice",
+	"block.pvcore.engerslate": "Engerslate",
+	"block.pvcore.engerslate_stairs": "Engerslate Stairs",
+	"block.pvcore.engerslate_slab": "Engerslate Slab",
+	"block.pvcore.engerslate_wall": "Engerslate Wall",
+	"block.pvcore.cobbled_engerslate": "Cobbled Engerslate",
+	"block.pvcore.cobbled_engerslate_stairs": "Cobbled Engerslate Stairs",
+	"block.pvcore.cobbled_engerslate_slab": "Cobbled Engerslate Slab",
+	"block.pvcore.cobbled_engerslate_wall": "Cobbled Engerslate Wall",
+	"item.pvcore.brine_bucket": "Brine Bucket",
+	"item.pvcore.primordial_lava_bucket": "Primordial Lava Bucket",
+	"fluid.pvcore.brine": "Brine",
+	"fluid.pvcore.primordial_lava": "Primordial Lava"
+}
