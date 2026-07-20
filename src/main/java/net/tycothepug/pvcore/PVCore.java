@@ -1,6 +1,7 @@
 package net.tycothepug.pvcore;
 
 import com.mojang.logging.LogUtils;
+import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.fml.DistExecutor;
 import net.minecraftforge.fml.common.Mod;
@@ -23,7 +24,7 @@ public class PVCore {
     public PVCore() {
         IEventBus bus = FMLJavaModLoadingContext.get().getModEventBus();
         bus.addListener(this::clientSetup);
-        bus.register(this);
+        MinecraftForge.EVENT_BUS.register(this);
 
         PVBlockRegistry.BLOCKS.register(bus);
         PVItemRegistry.ITEMS.register(bus);
