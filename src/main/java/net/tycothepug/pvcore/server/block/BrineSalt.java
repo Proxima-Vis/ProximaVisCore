@@ -34,7 +34,6 @@ public class BrineSalt extends Block implements SimpleWaterloggedBlock {
         return SHAPE;
     }
 
-    // Removes the physical hitbox so entities pass right through it
     @Override
     public VoxelShape getCollisionShape(BlockState state, BlockGetter level, BlockPos pos, CollisionContext context) {
         if (context instanceof EntityCollisionContext entityContext && entityContext.getEntity() != null) {

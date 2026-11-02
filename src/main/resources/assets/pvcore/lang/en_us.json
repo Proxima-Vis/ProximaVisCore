@@ -1,5 +1,10 @@
 {
 	"itemGroup.pvcore.proxima_vis_core": "Proxima Vis Core",
+	"block.pvcore.actiniar_column": "Actiniar Column",
+	"block.pvcore.pale_actiniar": "Pale Actiniar",
+	"block.pvcore.reef_actiniar": "Reef Actiniar",
+	"block.pvcore.tidal_actiniar": "Tidal Actiniar",
+	"block.pvcore.royal_actiniar": "Royal Actiniar",
 	"block.pvcore.deep_reef_pod": "Luminary Pod",
 	"block.pvcore.brine_salt": "Brine Salt",
 	"block.pvcore.primordial_lava": "Primordial Lava",

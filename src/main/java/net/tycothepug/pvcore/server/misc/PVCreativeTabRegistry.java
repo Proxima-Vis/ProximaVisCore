@@ -23,6 +23,14 @@ public class PVCreativeTabRegistry {
             .icon(() -> new ItemStack(PVBlockRegistry.DEEP_REEF_POD.get()))
             .withTabsBefore(CreativeModeTabs.SPAWN_EGGS)
             .displayItems((enabledFeatures, output) -> {
+                add(output, PVBlockRegistry.ACTINIAR_COLUMN.get());
+                add(output, PVBlockRegistry.PALE_ACTINIAR.get());
+                add(output, PVBlockRegistry.REEF_ACTINIAR.get());
+                add(output, PVBlockRegistry.TIDAL_ACTINIAR.get());
+                add(output, PVBlockRegistry.ROYAL_ACTINIAR.get());
+                add(output, PVBlockRegistry.ROYAL_ACTINIAR.get());
+                add(output, PVItemRegistry.JUDWEED_EGG.get());
+                add(output, PVBlockRegistry.DEMERSAL_JUDWEED.get());
                 add(output, PVBlockRegistry.DEEP_REEF_POD.get());
                 add(output, PVBlockRegistry.BRINE_SALT.get());
                 add(output, PVItemRegistry.BRINE_BUCKET.get());

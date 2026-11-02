@@ -1,0 +1,9 @@
+{
+	"parent": "pvcore:block/actiniar_base",
+	"textures": {
+		"interior": "pvcore:block/royal_actiniar_interior",
+		"exterior": "pvcore:block/royal_actiniar_exterior",
+		"tentacles": "pvcore:block/royal_actiniar_tentacles",
+		"particle": "pvcore:block/royal_actiniar_interior"
+	}
+}

@@ -5,6 +5,7 @@ import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
 import net.tycothepug.pvcore.PVCore;
+import net.tycothepug.pvcore.server.block.PVBlockRegistry;
 import net.tycothepug.pvcore.server.block.fluid.PVFluidRegistry;
 
 import java.util.function.Supplier;
@@ -12,6 +13,7 @@ import java.util.function.Supplier;
 public class PVItemRegistry {
     public static final DeferredRegister<Item> ITEMS = DeferredRegister.create(ForgeRegistries.ITEMS, PVCore.MOD_ID);
 
+    public static final RegistryObject<Item> JUDWEED_EGG = ITEMS.register("judweed_egg", () -> new ItemNameBlockItem(PVBlockRegistry.ROOTED_JUDWEED.get(), new Item.Properties().food(PVFoods.JUDWEED_EGG)));
     public static final RegistryObject<Item> BRINE_BUCKET = ITEMS.register("brine_bucket", () -> new BucketItem(PVFluidRegistry.BRINE_FLUID_SOURCE, new Item.Properties().craftRemainder(Items.BUCKET).stacksTo(1)));
     public static final RegistryObject<Item> PRIMORDIAL_LAVA_BUCKET = ITEMS.register("primordial_lava_bucket", () -> new BucketItem(PVFluidRegistry.PRIMORDIAL_LAVA_FLUID_SOURCE, new Item.Properties().craftRemainder(Items.BUCKET).stacksTo(1)));
 

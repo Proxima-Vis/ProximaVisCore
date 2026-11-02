@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "age=0": {
+      "model": "pvcore:block/rooted_judweed_stage0"
+    },
+    "age=1": {
+      "model": "pvcore:block/rooted_judweed_stage1"
+    }
+  }
+}

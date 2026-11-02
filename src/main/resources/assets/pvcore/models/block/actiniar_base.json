@@ -1,0 +1,140 @@
+{
+	"format_version": "1.9.0",
+	"credit": "Made with Blockbench",
+	"render_type": "cutout",
+	"textures": {
+		"interior": "pvcore:block/pale_actiniar_interior",
+		"exterior": "pvcore:block/pale_actiniar_exterior",
+		"tentacles": "pvcore:block/pale_actiniar_tentacles",
+		"particle": "pvcore:block/pale_actiniar_interior"
+	},
+	"elements": [
+		{
+			"from": [0, 0, 0],
+			"to": [16, 16, 16],
+			"faces": {
+				"north": {"uv": [0, 0, 16, 16], "texture": "#exterior"},
+				"east": {"uv": [0, 0, 16, 16], "texture": "#exterior"},
+				"south": {"uv": [0, 0, 16, 16], "texture": "#exterior"},
+				"west": {"uv": [0, 0, 16, 16], "texture": "#exterior"},
+				"up": {"uv": [0, 0, 16, 16], "texture": "#exterior"},
+				"down": {"uv": [0, 0, 16, 16], "texture": "#exterior"}
+			}
+		},
+		{
+			"from": [-9, -10, 8],
+			"to": [7, 22, 8],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 11, 7.8934]},
+			"faces": {
+				"north": {"uv": [0, 0, 8, 16], "texture": "#tentacles"},
+				"south": {"uv": [8, 0, 0, 16], "texture": "#tentacles"}
+			}
+		},
+		{
+			"from": [9, -10, 8],
+			"to": [25, 22, 8],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 11, 7.8934]},
+			"faces": {
+				"north": {"uv": [8, 0, 0, 16], "texture": "#tentacles"},
+				"south": {"uv": [0, 0, 8, 16], "texture": "#tentacles"}
+			}
+		},
+		{
+			"from": [7.92462, -10, -9.03122],
+			"to": [7.92462, 22, 6.96878],
+			"rotation": {"angle": 45, "axis": "y", "origin": [8, 11, 7.8934]},
+			"faces": {
+				"east": {"uv": [0, 0, 8, 16], "texture": "#tentacles"},
+				"west": {"uv": [8, 0, 0, 16], "texture": "#tentacles"}
+			}
+		},
+		{
+			"from": [7.92462, -10, 8.96878],
+			"to": [7.92462, 22, 24.96878],
+			"rotation": {"angle": 45, "axis": "y", "origin": [8, 11, 7.8934]},
+			"faces": {
+				"east": {"uv": [8, 0, 0, 16], "texture": "#tentacles"},
+				"west": {"uv": [0, 0, 8, 16], "texture": "#tentacles"}
+			}
+		},
+		{
+			"from": [8.92462, -10, 7.96878],
+			"to": [24.92462, 22, 7.96878],
+			"rotation": {"angle": 45, "axis": "y", "origin": [8, 11, 7.8934]},
+			"faces": {
+				"north": {"uv": [8, 0, 0, 16], "texture": "#tentacles"},
+				"south": {"uv": [0, 0, 8, 16], "texture": "#tentacles"}
+			}
+		},
+		{
+			"from": [8.1066, -10, 8.74264],
+			"to": [8.1066, 22, 24.74264],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 11, 7.8934]},
+			"faces": {
+				"east": {"uv": [8, 0, 0, 16], "texture": "#tentacles"},
+				"west": {"uv": [0, 0, 8, 16], "texture": "#tentacles"}
+			}
+		},
+		{
+			"from": [8.1066, -10, -8.95584],
+			"to": [8.1066, 22, 7.04416],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 11, 7.8934]},
+			"faces": {
+				"east": {"uv": [0, 0, 8, 16], "texture": "#tentacles"},
+				"west": {"uv": [8, 0, 0, 16], "texture": "#tentacles"}
+			}
+		},
+		{
+			"from": [-8.77386, -10, 7.96878],
+			"to": [7.22614, 22, 7.96878],
+			"rotation": {"angle": 45, "axis": "y", "origin": [8, 11, 7.8934]},
+			"faces": {
+				"north": {"uv": [0, 0, 8, 16], "texture": "#tentacles"},
+				"south": {"uv": [8, 0, 0, 16], "texture": "#tentacles"}
+			}
+		},
+		{
+			"from": [1, 1, 1],
+			"to": [15, 15, 15],
+			"faces": {
+				"north": {"uv": [1, 1, 15, 15], "texture": "#interior"},
+				"east": {"uv": [1, 1, 15, 15], "texture": "#interior"},
+				"south": {"uv": [1, 1, 15, 15], "texture": "#interior"},
+				"west": {"uv": [1, 1, 15, 15], "texture": "#interior"},
+				"up": {"uv": [1, 1, 15, 15], "texture": "#interior"},
+				"down": {"uv": [1, 1, 15, 15], "texture": "#interior"}
+			}
+		}
+	],
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [75, 45, 0],
+			"translation": [0, 2.5, 0],
+			"scale": [0.375, 0.375, 0.375]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [75, 45, 0],
+			"translation": [0, 2.5, 0],
+			"scale": [0.375, 0.375, 0.375]
+		},
+		"firstperson_righthand": {
+			"rotation": [0, 45, 0],
+			"scale": [0.4, 0.4, 0.4]
+		},
+		"firstperson_lefthand": {
+			"rotation": [0, -135, 0],
+			"scale": [0.4, 0.4, 0.4]
+		},
+		"ground": {
+			"translation": [0, 3, 0],
+			"scale": [0.25, 0.25, 0.25]
+		},
+		"gui": {
+			"rotation": [30, -135, 0],
+			"scale": [0.4, 0.4, 0.4]
+		},
+		"fixed": {
+			"scale": [0.5, 0.5, 0.5]
+		}
+	}
+}

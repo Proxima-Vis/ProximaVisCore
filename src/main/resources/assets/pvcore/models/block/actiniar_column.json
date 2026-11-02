@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "pvcore:block/actiniar_column_end",
+    "side": "pvcore:block/actiniar_column_side"
+  }
+}
