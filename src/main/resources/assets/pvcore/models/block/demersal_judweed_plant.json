@@ -2,6 +2,6 @@
   "parent": "minecraft:block/cross",
   "render_type": "cutout",
   "textures": {
-    "cross": "pvcore:block/demersal_judweed"
+    "cross": "pvcore:block/demersal_judweed_plant"
   }
 }

@@ -4,8 +4,8 @@
 	"render_type": "cutout",
 	"texture_size": [32, 32],
 	"textures": {
-		"1": "pvcore:block/rooted_judweed",
-		"particle": "pvcore:block/rooted_judweed"
+		"1": "pvcore:block/rooted_judweed_stage0",
+		"particle": "pvcore:block/rooted_judweed_stage0"
 	},
 	"elements": [
 		{
@@ -26,39 +26,5 @@
 				"west": {"uv": [8, 0, 0, 8], "texture": "#1"}
 			}
 		}
-	],
-	"display": {
-		"thirdperson_righthand": {
-			"rotation": [30, 0, 0],
-			"translation": [0, 2.25, 1.25],
-			"scale": [0.3, 0.3, 0]
-		},
-		"thirdperson_lefthand": {
-			"rotation": [30, 0, 0],
-			"translation": [0, 2.25, 1.25],
-			"scale": [0.3, 0.3, 0]
-		},
-		"firstperson_righthand": {
-			"rotation": [0, 44, 0],
-			"scale": [0, 1, 1]
-		},
-		"firstperson_lefthand": {
-			"rotation": [0, 44, 0],
-			"scale": [0, 1, 1]
-		},
-		"ground": {
-			"translation": [0, 1.5, 0],
-			"scale": [0.3, 0.3, 0]
-		},
-		"gui": {
-			"scale": [0.75, 0.75, 0]
-		},
-		"head": {
-			"translation": [0, 14.25, 0],
-			"scale": [1.25, 1, 1.25]
-		},
-		"fixed": {
-			"scale": [1, 1, 0]
-		}
-	}
+	]
 }

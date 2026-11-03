@@ -32,6 +32,7 @@ public class PVCreativeTabRegistry {
                 add(output, PVItemRegistry.JUDWEED_EGG.get());
                 add(output, PVBlockRegistry.DEMERSAL_JUDWEED.get());
                 add(output, PVBlockRegistry.DEEP_REEF_POD.get());
+                add(output, PVBlockRegistry.HYDRA_WORMS.get());
                 add(output, PVBlockRegistry.BRINE_SALT.get());
                 add(output, PVItemRegistry.BRINE_BUCKET.get());
                 add(output, PVItemRegistry.PRIMORDIAL_LAVA_BUCKET.get());

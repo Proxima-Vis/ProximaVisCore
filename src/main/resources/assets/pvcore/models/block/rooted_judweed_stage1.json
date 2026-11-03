@@ -4,8 +4,9 @@
 	"render_type": "cutout",
 	"texture_size": [32, 32],
 	"textures": {
-		"1": "pvcore:block/rooted_judweed_stage1",
-		"particle": "pvcore:block/rooted_judweed_stage1"
+		"1": "pvcore:block/judweed_egg",
+		"particle": "pvcore:block/rooted_judweed_stage1",
+		"rooted_judweed": "pvcore:block/rooted_judweed_stage1"
 	},
 	"elements": [
 		{
@@ -13,8 +14,8 @@
 			"to": [16, 16, 8],
 			"rotation": {"angle": 45, "axis": "y", "origin": [8, 8, 8]},
 			"faces": {
-				"north": {"uv": [8, 0, 16, 8], "texture": "#1"},
-				"south": {"uv": [16, 0, 8, 8], "texture": "#1"}
+				"north": {"uv": [8, 0, 16, 8], "texture": "#rooted_judweed"},
+				"south": {"uv": [16, 0, 8, 8], "texture": "#rooted_judweed"}
 			}
 		},
 		{
@@ -22,8 +23,8 @@
 			"to": [8, 16, 16],
 			"rotation": {"angle": 45, "axis": "y", "origin": [8, 8, 8]},
 			"faces": {
-				"east": {"uv": [0, 0, 8, 8], "texture": "#1"},
-				"west": {"uv": [8, 0, 0, 8], "texture": "#1"}
+				"east": {"uv": [0, 0, 8, 8], "texture": "#rooted_judweed"},
+				"west": {"uv": [8, 0, 0, 8], "texture": "#rooted_judweed"}
 			}
 		},
 		{
@@ -31,14 +32,13 @@
 			"to": [10, 17, 10],
 			"light_emission": 5,
 			"rotation": {"angle": 0, "axis": "y", "origin": [8, 5, 8]},
-			"color": 7,
 			"faces": {
-				"north": {"uv": [3, 0, 5, 1.5], "texture": "#missing"},
-				"east": {"uv": [3, 0, 5, 1.5], "texture": "#missing"},
-				"south": {"uv": [3, 0, 5, 1.5], "texture": "#missing"},
-				"west": {"uv": [3, 0, 5, 1.5], "texture": "#missing"},
-				"up": {"uv": [5, 1.5, 3, 0], "texture": "#missing"},
-				"down": {"uv": [5, 0, 3, 1.5], "texture": "#missing"}
+				"north": {"uv": [0, 8, 4, 12], "texture": "#1"},
+				"east": {"uv": [0, 4, 4, 8], "texture": "#1"},
+				"south": {"uv": [4, 4, 8, 8], "texture": "#1"},
+				"west": {"uv": [0, 0, 4, 4], "texture": "#1"},
+				"up": {"uv": [8, 4, 4, 0], "texture": "#1"},
+				"down": {"uv": [12, 0, 8, 4], "texture": "#1"}
 			}
 		}
 	]

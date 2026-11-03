@@ -32,6 +32,7 @@ public class PVBlockRegistry {
     public static final RegistryObject<Block> DEMERSAL_JUDWEED = registerBlockItem("demersal_judweed", () -> new DemersalJudweed(BlockBehaviour.Properties.copy(Blocks.KELP)));
     public static final RegistryObject<Block> DEMERSAL_JUDWEED_PLANT = registerBlockItem("demersal_judweed_plant", () -> new DemersalJudweedPlant(BlockBehaviour.Properties.copy(Blocks.KELP_PLANT)));
     public static final RegistryObject<Block> DEEP_REEF_POD = registerBlockItem("deep_reef_pod", () -> new Block(DEEP_REEF_POD_PROPERTIES));
+    public static final RegistryObject<Block> HYDRA_WORMS = registerBlockItem("hydra_worms", () -> new GluggFlora(BlockBehaviour.Properties.copy(Blocks.SEAGRASS)));
     public static final RegistryObject<Block> BRINE_SALT = registerBlockItem("brine_salt", () -> new BrineSalt(BlockBehaviour.Properties.copy(Blocks.MOSS_CARPET).noOcclusion()));
     public static final RegistryObject<Block> ENERGIUM_ICE = registerBlockItem("energium_ice", () -> new Block(ICE_PROPERTIES));
     public static final RegistryObject<Block> ENGERSLATE = registerBlockItem("engerslate", () -> new Block(ENGERSLATE_PROPERTIES));

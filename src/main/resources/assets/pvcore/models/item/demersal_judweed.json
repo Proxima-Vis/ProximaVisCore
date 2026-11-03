@@ -1,3 +1,6 @@
 {
-  "parent": "pvcore:block/demersal_judweed"
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "pvcore:item/demersal_judweed"
+  }
 }
